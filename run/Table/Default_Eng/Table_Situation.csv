@@ -1,0 +1,26 @@
+Index,Code,Ratio,Title
+0,100,100,all the time
+1,101,40,in extra time
+2,111,40,for 1 minute after starting
+3,113,30,for 3 minutes after starting
+4,115,20,for 5 minutes after starting
+5,121,40,for 1 minute from ending
+6,122,30,for 2 minutes from ending
+7,130,30,in tie score
+8,140,20,in leading the game 
+9,142,50,in leading the game with 2 or more goals 
+10,150,20,in losing the game
+11,152,50,in losing the game with 2 or more goals behind
+12,160,40,on no mark
+13,161,30,on mark
+14,162,50,on mark with 2 or more oppanent players
+15,163,50,on mark with 3 or more oppanent players
+16,171,30,in counter attack
+17,172,30,in suffered a counter attack
+18,181,50,in the short shots area
+19,182,50,in the long shots area
+20,183,50,in the cross area
+21,184,50,in the middle area
+22,185,50,in the bottom area from the half line
+23,186,50,in the offensive area
+24,187,50,in the defensive area

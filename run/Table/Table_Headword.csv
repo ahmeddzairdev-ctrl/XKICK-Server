@@ -1,0 +1,112 @@
+Code,EffectFile,SkillName,Text,Upper
+1,Miss,미쓰,Miss,MISS
+1011,Infront_Shoot,인프론트 슛,Infront shoot,INFRONT SHOOT
+1012,Powerful_Shoot,파워풀 슛,Powerful shoot,POWERFUL SHOOT
+1013,Rabona_Kick,라보나 킥,Rabona kick,RABONA KICK
+1014,Turnround_Kick,턴 라운드 킥,Turnround kick,TURNROUND KICK
+1015,Rear_Shoot,리어 슛,Rear shoot,REAR SHOOT
+1016,Cannon_Shoot,캐논 슛,Cannon shoot,CANNON SHOOT
+1017,UFO_Shoot,UFO 슛,UFO shoot,UFO SHOOT
+1051,Turn_Side_Kick,턴 사이드 킥,Turn side kick,TURN SIDE KICK
+1052,Instep_Kick,인스텝 킥,Instep kick,INSTEP KICK
+1053,Turning_Shoot,터닝 슛,Turning shoot,TURNING SHOOT
+1111,Sliding_Kick,슬라이딩 킥,Sliding kick,SLIDING KICK
+1112,Cannon_Volley_Shoot,캐논 발리슛,Cannon volley shoot,CANNON VOLLEY SHOOT
+1113,One_Touch_Volley_Shoot,원터치발리슛,One touch volley shoot,ONE TOUCH VOLLEY SHOOT
+1114,Fantasy_Star,판타지 스타,Fantasy star,FANTASY STAR
+1115,Direct_TurnKick,다이렉트 턴 킥,Direct turnkick,DIRECT TURNKICK
+1121,Slip_Down_Kick,슬립 다운 킥,Slip down kick,SLIP DOWN KICK
+1122,Power_Volley_Shoot,파워 발리슛,Power volley shoot,POWER VOLLEY SHOOT
+1132,Scissors_Kick,시저스 킥,Scissors kick,SCISSORS KICK
+1133,Rocket_Heading_Shoot,로켓 헤딩 슛,Rocket heading shoot,ROCKET HEADING SHOOT
+1134,Drop_Shot,드랍 슛,Drop shot,DROP SHOT
+1142,Edmilson_Kick,에드밀손 킥,Edmilson kick,EDMILSON KICK
+1151,Head_Trapping_Shoot,헤드 트래핑 슛,Head trapping shoot,HEAD TRAPPING SHOOT
+1161,Scorpion_Kick,스콜피온 킥,Scorpion kick,SCORPION KICK
+1162,Side_Head_Shoot,사이드 헤드 슛,Side head shoot,SIDE HEAD SHOOT
+1163,Somersault_Kick,섬머 솔트 킥,Somersault kick,SOMERSAULT KICK
+1171,Rotate_Shoot,로테이트 슛,Rotate shoot,ROTATE SHOOT
+1181,Flying_Shoot,플라잉 슛,Flying shoot,FLYING SHOOT
+1182,Back_Attack,백어택,Back attack,BACK ATTACK
+1211,Step_Over,스텝 오버,Step over,STEP OVER
+1212,Short_Step_Over,숏스텝 오버,Short step over,SHORT STEP OVER
+1221,Mexican_Jump,멕시칸 점프,Mexican jump,MEXICAN JUMP
+1222,Rabbit_Jump,래빗 점프,Rabbit jump,RABBIT JUMP
+1231,Phantom,펜텀,Phantom,PHANTOM
+1232,Marseille_Roulette,마르세이유 룰렛,Marseille roulette,MARSEILLE ROULETTE
+1233,Double_Roulette,더블 룰렛,Double roulette,DOUBLE ROULETTE
+1234,Flip_Flap,플립플랩,Flip flap,FLIP FLAP
+1235,Side_Step,사이드 스텝,Side step,SIDE STEP
+1241,Back_Dribble,백 드리블,Back dribble,BACK DRIBBLE
+1301,Steal_Cutting,스틸 커팅,Steal cutting,STEAL CUTTING
+1302,High_Steal_Cutting,하이 스틸 커팅,High steal cutting,HIGH STEAL CUTTING
+1311,Quick_Steal,퀵 스틸,Quick steal,QUICK STEAL
+1312,Rapid_Steal,래피드 스틸,Rapid steal,RAPID STEAL
+1321,Steal_Catch,스틸 캐치,Steal catch,STEAL CATCH
+1322,High_Steal_Catch,하이 스틸 캐치,High steal catch,HIGH STEAL CATCH
+1401,Tackle_Cutting,태클 커팅,Tackle cutting,TACKLE CUTTING
+1402,High_Tackle_Cutting,하이 태클 커팅,High tackle cutting,HIGH TACKLE CUTTING
+1411,Quick_Tackle,퀵 태클,Quick tackle,QUICK TACKLE
+1412,Rapid_Tackle,래피드 태클,Rapid tackle,RAPID TACKLE
+1413,Counter_Tackle,카운터 태클,Counter tackle,COUNTER TACKLE
+1414,Tackle_And_Catch,태클 앤 캐치,Tackle and catch,TACKLE AND CATCH
+1421,Tackle_Catch,태클 캐치,Tackle catch,TACKLE CATCH
+1422,High_Tackle_Catch,하이 태클 캐치,High tackle catch,HIGH TACKLE CATCH
+1511,Back_Pass,백패스,Back pass,BACK PASS
+1512,Killer_Pass,킬러패스,Killer pass,KILLER PASS
+1513,Lobbing_Pass,로빙패스,Lobbing pass,LOBBING PASS
+1514,Side_Pass,사이드패스,Side pass,SIDE PASS
+1515,Target_Short_Pass,타겟 숏패스,Target short pass,TARGET SHORT PASS
+1516,Tarket_Long_Pass,타겟 롱패스,Tarket long pass,TARKET LONG PASS
+1517,Direct_Target_Short_Pass,다이렉트 타겟 숏패스,Direct Target short pass,DIRECT TARGET SHORT PASS
+1518,Direct_Tarket_Long_Pass,다이렉트 타겟 롱패스,Direct Tarket long pass,DIRECT TARKET LONG PASS
+1519,Sliding_Short_Pass,슬라이딩 숏패스,Sliding short pass,SLIDING SHORT PASS
+1520,Sliding_Long_Pass,슬라이딩 롱패스,Sliding long pass,SLIDING LONG PASS
+1521,High_Pass,하이 패스,High pass,HIGH PASS
+1522,Flying_Pass,플라잉 패스,Flying pass,FLYING PASS
+1611,Fast_Cross,패스트 크로스,Fast cross,FAST CROSS
+1612,Fast_Low_Cross,패스트 로우 크로스,Fast low cross,FAST LOW CROSS
+1613,Power_Cross,파워 크로스,Power cross,POWER CROSS
+1614,Rabona_Cross,라보나 크로스,Rabona cross,RABONA CROSS
+1615,Hidden_Cross,히든 크로스,Hidden cross,HIDDEN CROSS
+1616,Rear_Cross,리어 크로스,Rear cross,REAR CROSS
+1617,Slliding_Cross,슬라이딩 크로스,Slliding cross,SLLIDING CROSS
+1618,Roulette_Cross,룰렛 크로스,Roulette cross,ROULETTE CROSS
+1619,Early_Cross,얼리 크로스,Early croos,EARLY CROOS
+1620,Half_Cross,하프 크로스,Half cross,HALF CROSS
+1621,Crossway_Pass,크로스웨이 패스,Crossway pass,CROSSWAY PASS
+1711,High_Clear,하이 클리어,High clear,HIGH CLEAR
+1712,Sky_Clear,스카이 클리어,Sky clear,SKY CLEAR
+1721,High_Trapping,하이 트래핑,High trapping,HIGH TRAPPING
+1722,Sky_Trapping,스카이 트래핑,Sky trapping,SKY TRAPPING
+1731,Half_Clear,하프 클리어,Half clear,HALF CLEAR
+1741,Juggling,저글링,Juggling,JUGGLING
+1911,Quick_Moving,퀵무빙,Quick moving,QUICK MOVING
+1912,Quick_Start,퀵 스타트,Quick start,QUICK START
+1913,Fast_Sprint,패스트 스프린트,Fast sprint,FAST SPRINT
+1914,Fast_Dribble,패스트 드리블,Fast dribble,FAST DRIBBLE
+1915,Perfect_Dribble,퍼펙트 드리블,Perfect dribble,PERFECT DRIBBLE
+1916,Screen,스크린,Screen,SCREEN
+1917,Fast_Screen,패스트 스크린,Fast screen,FAST SCREEN
+1918,Fast_Runnung,패스트 러닝,Fast runnung,FAST RUNNUNG
+1919,Kick_And_Run,킥앤런,Kick and Run,KICK AND RUN
+1920,Side_Kick_And_Run,사이드 킥앤런,Side Kick and Run,SIDE KICK AND RUN
+1921,Direct_Kick_And_Run,다이렉트 킥앤런,Direct Kick and Run,DIRECT KICK AND RUN
+1922,Turnaround,턴 어라운드,Turnaround,TURNAROUND
+2011,Endure,돌파버티기,Endure,ENDURE
+2012,Ironwall,아이언월,Ironwall,IRONWALL
+2021,Body_Push,바디 푸쉬,Body push,BODY PUSH
+2022,Runner_Push,런너 푸쉬,Runner push,RUNNER PUSH
+2023,Dribbler_Push,드리블러 푸쉬,Dribbler push,DRIBBLER PUSH
+2031,Body_Catch,바디 캐치,Body catch,BODY CATCH
+2032,Runner_Catch,런너 캐치,Runner catch,RUNNER CATCH
+2033,Dribbler_Catch,드리블러 캐치,Dribbler catch,DRIBBLER CATCH
+2041,Mountain_Block,마운틴 블록,Mountain block,MOUNTAIN BLOCK
+2042,Diving_Block,다이빙 블록,Diving block,DIVING BLOCK
+2051,Shoulder_Charging,숄더 차징,Shoulder charging,SHOULDER CHARGING
+2052,Rolling_Stone,롤링 스톤,Rolling stone,ROLLING STONE
+2053,Roll_Over,롤 오버,Roll over,ROLL OVER
+2061,Choicepoint,위치선정,Choicepoint,CHOICEPOINT
+2111,Fake_Turnside,페이크 턴 사이드,Fake turnside,FAKE TURNSIDE
+2112,Fake_Rabona_Cross,페이크 라보나 크로스,Fake rabona cross,FAKE RABONA CROSS
+2113,Fake_Rear_Cross,페이크 리어 크로스,Fake rear cross,FAKE REAR CROSS

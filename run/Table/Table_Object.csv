@@ -1,0 +1,12 @@
+Code,DataFile,Description
+10000,Tutorial_1_Object,튜토리얼1에 들어가는 오브젝트
+10001,Tutorial_2_Object,튜토리얼2에 들어가는 오브젝트
+10002,Crossline,크로스 라인 그리는 오브젝트
+10003,Crossline,크로스 라인 그리는 오브젝트
+10004,Tutorial_3_Object_Line,튜토리얼 107 테클라인
+10005,UI_ItemShop,케릭터 중앙에 있는 오브젝트
+10006,UI_Result,결과창에서 얼굴만 나오는 오브젝트
+10007,UI_SkillShop,스킬 샵에 스킬시연에 나오는 오브젝트
+10008,UI_CreateCharacter,케릭터 생성페이지에 나오는 오브젝트
+10009,PassDirection,패스쪽 오브젝트
+10010,Tutorial_5_Object,튜토리얼5에 들어가는 오브젝트

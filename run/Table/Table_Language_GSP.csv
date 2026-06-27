@@ -1,0 +1,586 @@
+Code,UiFile,Default_Eng
+10001,Font,Arial
+10002,Size,14
+20001,Login.ui,LOGIN
+20002,Login.ui,Account
+20003,Login.ui,Password
+30001,ChoiceTrio.ui,Game Option
+30002,ChoiceTrio.ui,Quit
+30003,ChoiceTrio.ui,The latest deleted
+30004,ChoiceTrio.ui,The latest connected
+30005,ChoiceTrio.ui,Coins
+30006,ChoiceTrio.ui,Points
+30007,ChoiceTrio.ui,Credits
+30008,ChoiceTrio.ui,"Are you sure want to delete character? \ Please, Input the password."
+40001,Choice.ui,Invite
+40002,Choice.ui,Message
+40003,Choice.ui,Position
+40004,Choice.ui,Lv.
+40005,Choice.ui,Name
+40006,Choice.ui,Comment
+50001,ChoiceClass.ui,Back
+50002,ChoiceClass.ui,Tutorial
+50003,ChoiceClass.ui,EXP
+50004,ChoiceClass.ui,"¡º%s¡», How was the match?\You are doing well!! Let's select position. It's to decide the position and characteristic.\This is the analysis for your past match."
+50005,ChoiceClass.ui,"¡º%s¡», What a nice shot!\Do you like FW position? It's the position to make the goal. Isn't nice?"
+50006,ChoiceClass.ui,"¡º%s¡», What a nice pass!\Do you lke MF position? This position involved in both Striker & Defender positions."
+50007,ChoiceClass.ui,"¡º%s¡», What a nice defense!\Do you like DF position? It's the position not to lose the goal. Isn't great?"
+50008,ChoiceClass.ui,Shooting
+50009,ChoiceClass.ui,Ball clear
+50010,ChoiceClass.ui,2nd position growth
+60001,ChoiceReplay.ui,Replay
+60002,ChoiceReplay.ui,Position
+60003,ChoiceReplay.ui,Name
+60004,ChoiceReplay.ui,Goals
+60005,ChoiceReplay.ui,Assist
+60006,ChoiceReplay.ui,Vote
+70001,ChoiceRoom.ui,Skill Shop
+70002,ChoiceRoom.ui,Information
+70003,ChoiceRoom.ui,Item Shop
+70004,ChoiceRoom.ui,Item Inventory
+70005,ChoiceRoom.ui,Quest
+70006,ChoiceRoom.ui,Whisper
+70007,ChoiceRoom.ui,Order
+70008,ChoiceRoom.ui,You didn't perform upgrading your\character position. Move to the page for\the job.
+70009,ChoiceRoom.ui,All
+70010,ChoiceRoom.ui,Normal
+70011,ChoiceRoom.ui,Waiting
+70012,ChoiceRoom.ui,Quest
+70013,ChoiceRoom.ui,Add Friend
+70014,ChoiceRoom.ui,Add Ignore
+70015,ChoiceRoom.ui,Detail
+70016,ChoiceRoom.ui,Lobby
+70017,ChoiceRoom.ui,Lucky Ball
+70018,ChoiceRoom.ui,System
+70019,ChoiceRoom.ui,Skill Inventory
+80001,CreateCharacter.ui,Style
+80002,CreateCharacter.ui,Gender
+80003,CreateCharacter.ui,Name
+80004,CreateCharacter.ui,Pants
+80005,CreateCharacter.ui,Skin 
+80006,CreateCharacter.ui,Shirts
+80007,CreateCharacter.ui,Shoes
+80008,CreateCharacter.ui,Check
+80009,CreateCharacter.ui,Running
+80010,CreateCharacter.ui,Dribbling
+80011,CreateCharacter.ui,Agility
+80012,CreateCharacter.ui,Stamina
+80013,CreateCharacter.ui,Jump
+80014,CreateCharacter.ui,Bodycheck
+80015,CreateCharacter.ui,Crossing
+80016,CreateCharacter.ui,Short Pass
+80017,CreateCharacter.ui,Long Pass
+80018,CreateCharacter.ui,Heading
+80019,CreateCharacter.ui,Short Shots
+80020,CreateCharacter.ui,Long Shots
+80021,CreateCharacter.ui,Ball Control
+80022,CreateCharacter.ui,Stealing
+80023,CreateCharacter.ui,Tackling
+80024,CreateCharacter.ui,Catching
+80025,CreateCharacter.ui,Punching
+80026,CreateCharacter.ui,Defense
+80027,CreateCharacter.ui,Ability
+80028,CreateCharacter.ui,The position to make the goals
+80029,CreateCharacter.ui,Possible to upgrade position at Lv 5
+80030,CreateCharacter.ui,Possible to upgrade position at Lv 20
+80031,CreateCharacter.ui,The position involved in both Striker & Defender positions
+80032,CreateCharacter.ui,The position not to lose the goals
+80033,CreateCharacter.ui,The position for heading & high ball
+80034,CreateCharacter.ui,The position for dribbling & field goal
+80035,CreateCharacter.ui,The position for fast dribble & crossing
+80036,CreateCharacter.ui,The position for short & long shots
+80037,CreateCharacter.ui,The position for long shots 
+80038,CreateCharacter.ui,The position for stabilized short passing
+80039,CreateCharacter.ui,The position for long passing & crossing
+80040,CreateCharacter.ui,The position for defense at the middle area
+80041,CreateCharacter.ui,The position for defense at the end
+80042,CreateCharacter.ui,The position of defense for high ball
+80043,CreateCharacter.ui,The position of defense for man to man
+80044,CreateCharacter.ui,"You select FW.\FW need to be greedy for the goal.\Now, ¡º%s¡» will grow like right graph."
+80045,CreateCharacter.ui,"You select MF.\MF need wide scope of activity.\Now, ¡º%s¡» will grow like right graph."
+80046,CreateCharacter.ui,"You select DF.\DF need stable defense ability.\Now, ¡º%s¡» will grow like right graph."
+80047,CreateCharacter.ui,One more\Will let you know the positions\for 2nd growth when become Lv 20.
+80048,CreateCharacter.ui,"Hi! Nice to meet you.\I am ARUMI\I am the manager and will be with\you until you become great player.\Let's get along.\Now, let's create character"
+80049,CreateCharacter.ui,"Decide with your style.\This character will play\the match instead of you in X-KICK\So, select with care."
+80050,CreateCharacter.ui,"It's the current ability of. ¡º%s¡»\All the abilities now is very low,\but once you grow after tutorial\the abilities will be suitable for you."
+80051,CreateCharacter.ui,"Dribbling, Short shots, Ball control"
+80052,CreateCharacter.ui,"Agility, Long shots, Stealing"
+80053,CreateCharacter.ui,"Stamina, Stealing, Tackling"
+80054,CreateCharacter.ui,The position for scoring the goals
+80055,CreateCharacter.ui,The position involved in both Attacking &\Defending positions
+80056,CreateCharacter.ui,The position not to lose the goals and obstructthe opponent players
+80057,CreateCharacter.ui,"1. Striker, having good heading & catching highball abilities\2. Overcome the weakness of agility & speed\by making goal ability."
+80058,CreateCharacter.ui,"1. Center Forward, having good dribbling skill &field goals\2. The best goal-scorer, having a ball."
+80059,CreateCharacter.ui,"1. Wing Forward, having the fasted dribbling\skill & crossing from side\2. Good scorer."
+80060,CreateCharacter.ui,"1. Shadow Striker, possible to make a goal fromanywhere\2. Good assistor & scorer but low dribbling skill &ball control."
+80061,CreateCharacter.ui,"1. Attacking Midfielder, delivering a ball to\forward also having the long shot\2. Good dribbler but low defensive ability."
+80062,CreateCharacter.ui,"1. Center Midfielder, controlling of game speedfor Attacking & Defending the both\2. The best passing player."
+80063,CreateCharacter.ui,"1. Side Midfielder, having good dribbling &\crossing\2. The speed is lower than WF, but the\Defending ability is higher."
+80064,CreateCharacter.ui,"1. Defensive Midfielder, having good stealing &tackling\2. Close to Defender, not to make a goal easy\but having good defensive skills."
+80065,CreateCharacter.ui,"1. Sweeper, the last player covering the wholearea behind a line of defenders\2. Good defender, but slow player."
+80066,CreateCharacter.ui,"1. Center back, the center of defense blockingthe opponent players with high speed\2. Good for high ball and tackling."
+80067,CreateCharacter.ui,"1. Stopper, having good man to man defense\ability\2. Low ability taking high ball but having a\special heading shot at the counter attack."
+80068,CreateCharacter.ui,"1. Goalkeeper, possible to catch the ball in thegoalkeeper to prevent the opposition from\scoring\2. The lowest field player at the out of\goalkeeper area."
+80069,CreateCharacter.ui,s match result
+80070,CreateCharacter.ui,Description of the position
+80071,CreateCharacter.ui,Automatic growth
+80072,CreateCharacter.ui,Position Tree
+80073,CreateCharacter.ui,Skill List
+80074,CreateCharacter.ui,CreateCharacter
+90001,CreateQuest.ui,Item
+90002,CreateQuest.ui,None
+90003,CreateQuest.ui,Points
+90004,CreateQuest.ui,EXP
+90005,CreateQuest.ui,Quest Detail
+90006,CreateQuest.ui,Condition :
+90007,CreateQuest.ui,Description
+90008,CreateQuest.ui,Level :
+90009,CreateQuest.ui,Player :
+90010,CreateQuest.ui,Repetition :
+90011,CreateQuest.ui,Password
+90012,CreateQuest.ui,Order
+90013,CreateQuest.ui,Not yet
+90014,CreateQuest.ui,Done
+90015,CreateQuest.ui,Level
+90016,CreateQuest.ui,Player
+90017,CreateQuest.ui,Repetition
+90018,CreateQuest.ui,Condition
+90019,CreateQuest.ui,New Quest
+90020,CreateQuest.ui,Quest Type
+100001,CreateRoom.ui,Setting
+100002,CreateRoom.ui,Set AI
+100003,CreateRoom.ui,Match type
+100004,CreateRoom.ui,Normal
+100005,CreateRoom.ui,Betting
+100006,CreateRoom.ui,Title
+100007,CreateRoom.ui,Password
+100008,CreateRoom.ui,Player
+100009,CreateRoom.ui,Goalee Only
+100010,CreateRoom.ui,All positions
+100011,CreateRoom.ui,No AI players
+100012,CreateRoom.ui,Detail
+100013,CreateRoom.ui,"Possilbe to play the betting match, when you meet the Lv.20"
+100014,CreateRoom.ui,Level
+100015,CreateRoom.ui,Betting Points
+100016,CreateRoom.ui,Points 300
+100017,CreateRoom.ui,Points 500
+100018,CreateRoom.ui,Points 1000
+100019,CreateRoom.ui,Positons
+100020,CreateRoom.ui,Ball 
+100021,CreateRoom.ui,Time
+100022,CreateRoom.ui,Weather
+100023,CreateRoom.ui,Allow changing\Time
+100024,CreateRoom.ui,Allow changing\Weather
+100025,CreateRoom.ui,Club only
+100026,CreateRoom.ui,Observer 
+100027,CreateRoom.ui,Allow Chat
+100028,CreateRoom.ui,Options
+100029,CreateRoom.ui,Sequence
+100030,CreateRoom.ui,Random
+100031,CreateRoom.ui,LEVEL ¡¾5
+100032,CreateRoom.ui,LEVEL ¡¾10
+100033,CreateRoom.ui,ALL
+100034,CreateRoom.ui,Single
+100035,CreateRoom.ui,AI card match
+100036,CreateRoom.ui,%d-%d Level
+100037,CreateRoom.ui,Play mode setting
+100038,CreateRoom.ui,AI setting
+100039,CreateRoom.ui,Select Local area
+100040,CreateRoom.ui,Unable AI
+100041,CreateRoom.ui,Enable AI
+100042,CreateRoom.ui,Saudi Arabia
+100043,CreateRoom.ui,Algeria
+100044,CreateRoom.ui,Morroco
+100045,CreateRoom.ui,Bahrain
+100046,CreateRoom.ui,Iraq
+100047,CreateRoom.ui,Lebanon
+100048,CreateRoom.ui,Syria
+100049,CreateRoom.ui,United Arab Emirates
+100050,CreateRoom.ui,Oman
+100051,CreateRoom.ui,Jordan
+100052,CreateRoom.ui,Tunisia
+100053,CreateRoom.ui,Egypt
+100054,CreateRoom.ui,Qatar
+100055,CreateRoom.ui,Palestine
+100056,CreateRoom.ui,Kuwait
+100057,CreateRoom.ui,Yemen
+100058,CreateRoom.ui,Libya
+100059,CreateRoom.ui,Sudan
+110001,GameLoading.ui,Observer 1
+110002,GameLoading.ui,Observer 2
+110003,GameLoading.ui,Observer 3
+110004,GameLoading.ui,Observer 4
+120001,GamePlay.ui,+ 100 Points
+120002,GamePlay.ui,Be sure to Win!
+120003,GamePlay.ui,Keep the victiory!
+120004,GamePlay.ui,Be sure to Win!
+120005,GamePlay.ui,TUTORIAL
+130001,GameResult.ui,Score
+130002,GameResult.ui,MVP
+130003,GameResult.ui,Team Stats
+130004,GameResult.ui,Cutting
+130005,GameResult.ui,Shots
+130006,GameResult.ui,Steals
+130007,GameResult.ui,Tackles
+130008,GameResult.ui,Possession
+130009,GameResult.ui,Promotion
+130010,GameResult.ui,Name
+130011,GameResult.ui,Reward  
+130012,GameResult.ui,Bonus Card
+130013,GameResult.ui,Quest Description
+130014,GameResult.ui,Congratulations!\Achieve Lv.10\Move to the page for upgrading your character.
+130015,GameResult.ui,GameResult
+140001,GameResult_open.ui,Game Result
+150001,ItemBag.ui,Brand
+150002,ItemBag.ui,Hit
+150003,ItemBag.ui,New
+150004,ItemBag.ui,Cart
+150005,ItemBag.ui,All
+150006,ItemBag.ui,Head
+150007,ItemBag.ui,Face
+150008,ItemBag.ui,Face Painting
+150009,ItemBag.ui,Pants
+150010,ItemBag.ui,Shirts
+150011,ItemBag.ui,Gloves
+150012,ItemBag.ui,Shoes
+150013,ItemBag.ui,Socks
+150014,ItemBag.ui,Earrings
+150015,ItemBag.ui,Glasses
+150016,ItemBag.ui,Necklaces
+150017,ItemBag.ui,Masks
+150018,ItemBag.ui,Elbow Bands
+150019,ItemBag.ui,Wrist Bands
+150020,ItemBag.ui,Knee Guards
+150021,ItemBag.ui,Cheering Tools
+150022,ItemBag.ui,Slots
+150023,ItemBag.ui,Drinks
+150024,ItemBag.ui,Bars
+150025,ItemBag.ui,All
+150026,ItemBag.ui,Skill Lv.
+150027,ItemBag.ui,Fatigue
+150028,ItemBag.ui,Level
+150029,ItemBag.ui,Rank S
+150030,ItemBag.ui,Rank A
+150031,ItemBag.ui,Rank B
+150032,ItemBag.ui,Rank C
+150033,ItemBag.ui,Rank D
+150034,ItemBag.ui,Parcel
+150035,ItemBag.ui,Muffler
+150036,ItemBag.ui,Backpack
+150037,ItemBag.ui,Attack
+150038,ItemBag.ui,Middle
+150039,ItemBag.ui,Defense
+150040,ItemBag.ui,Element
+150041,ItemBag.ui,AI Card Info
+150042,ItemBag.ui,Starting Member(s)
+150043,ItemBag.ui,MIX
+150044,ItemBag.ui,Mix Card
+150045,ItemBag.ui,Enchant
+150046,ItemBag.ui,Item name
+150047,ItemBag.ui,Take on
+150048,ItemBag.ui,Take off
+150049,ItemBag.ui,Upgrade
+150050,ItemBag.ui,NORMAL
+150051,ItemBag.ui,RARE
+150052,ItemBag.ui,SPECIAL
+150053,ItemBag.ui,Take off all
+150054,ItemBag.ui,Position
+150055,ItemBag.ui,Resell
+150056,ItemBag.ui,Enchant Item Slot
+160001,ItemDialog.ui,Buy Item
+160002,ItemDialog.ui,P
+160003,ItemDialog.ui,C
+160004,ItemDialog.ui,Your Balance
+160005,ItemDialog.ui,Item Price
+160006,ItemDialog.ui,New Balance
+160007,ItemDialog.ui,Would you like to buy the item?
+160008,ItemDialog.ui,Message
+160009,ItemDialog.ui,Find Friend
+160010,ItemDialog.ui,Would you like to gift the item?
+160011,ItemDialog.ui,Would you like to exchange the item?
+160012,ItemDialog.ui,Buy Card
+160013,ItemDialog.ui,Would you like to buy the card?
+160014,ItemDialog.ui,Order
+160015,ItemDialog.ui,Character
+160016,ItemDialog.ui,Date
+170001,ItemShop.ui,Uniform
+170002,ItemShop.ui,Number
+170003,ItemShop.ui,Foods
+170004,ItemShop.ui,The items possible to buy today.\The new items will come every 12:00am.
+170005,ItemShop.ui,All Cards
+170006,ItemShop.ui,Position
+170007,ItemShop.ui,Activity
+170008,ItemShop.ui,Congratulations! You take a D grade card
+170009,ItemShop.ui,Congratulations! You take a C grade card
+170010,ItemShop.ui,Congratulations! You take a B grade card
+170011,ItemShop.ui,Congratulations! You take a A grade card
+170012,ItemShop.ui,Congratulations! You take a S grade card
+170013,ItemShop.ui,Gift Item
+170014,ItemShop.ui,Exchange Item
+170015,ItemShop.ui,Item option(s)
+170016,ItemShop.ui,Character
+170017,ItemShop.ui,Comment
+170018,ItemShop.ui,Durability %d/%d
+170019,ItemShop.ui,Permanent
+170020,ItemShop.ui,Functionality
+170021,ItemShop.ui,Expendability
+180001,MessageBox.ui,Message
+190001,Option.ui,Game Option
+190002,Option.ui,Camera
+190003,Option.ui,Zoom
+190004,Option.ui,Names
+190005,Option.ui,Enable
+190006,Option.ui,Disable
+190007,Option.ui,Invitation
+190008,Option.ui,Effect Sound
+190009,Option.ui,BGM
+190010,Option.ui,Hide
+190011,Option.ui,All
+190012,Option.ui,Target
+190013,Option.ui,Team
+190014,Option.ui,View point\Control
+190015,Option.ui,Gamma
+190016,Option.ui,Screen Mode
+190017,Option.ui,Full
+190018,Option.ui,Window
+190019,Option.ui,Anti-Aliasing
+190020,Option.ui,Weather Effect
+190021,Option.ui,Game Effect
+190022,Option.ui,BG.Effect
+190023,Option.ui,Shadow
+190024,Option.ui,Hide
+190025,Option.ui,Visible
+190026,Option.ui,Bloom Effect
+190027,Option.ui,Game Mode
+190028,Option.ui,Normal
+190029,Option.ui,Wide
+190030,Option.ui,Low
+190031,Option.ui,Normal
+190032,Option.ui,High
+190033,Option.ui,Reflection Effect
+190034,Option.ui,Reflection Map
+190035,Option.ui,Character Light
+190036,Option.ui,PC Specification
+190037,Option.ui,Low
+190038,Option.ui,Medium
+190039,Option.ui,High
+190040,Option.ui,Controller
+190041,Option.ui,Front Move
+190042,Option.ui,Keyboard
+190043,Option.ui,Offense
+190044,Option.ui,Key setting
+190045,Option.ui,Defense
+190046,Option.ui,Fast Running
+190047,Option.ui,Fast Dribble
+190048,Option.ui,Steal
+190049,Option.ui,Skills
+190050,Option.ui,Tackle
+190051,Option.ui,Screen
+190052,Option.ui,Thru Pass
+190053,Option.ui,Direct Short pass
+190054,Option.ui,Short pass
+190055,Option.ui,Direct Long pass
+190056,Option.ui,Long pass
+190057,Option.ui,Right Direct shot
+190058,Option.ui,Right Shot
+190059,Option.ui,Left Direct Shot
+190060,Option.ui,Left Shot
+190061,Option.ui,Right Move
+190062,Option.ui,Left Move
+190063,Option.ui,Back Move
+190064,Option.ui,Fast Running2
+190065,Option.ui,Fast Dribble2
+190066,Option.ui,Track
+190067,Option.ui,Default BGM
+190068,Option.ui,User BGM
+190069,Option.ui,Retrieved File List
+190070,Option.ui,Thank you very much!
+190071,Option.ui,Default
+190072,Option.ui,Change
+190073,Option.ui,Cheer Up!
+190074,Option.ui,It's ok
+190075,Option.ui,My bad
+190076,Option.ui,Nice Try!
+190077,Option.ui,Nice Clear!
+190078,Option.ui,Nice Pass!
+190079,Option.ui,Nice Shoot!
+190080,Option.ui,Language 
+190081,Option.ui,Joystick
+190082,Option.ui,Default
+190083,Option.ui,Skill Keys
+190084,Option.ui,Default
+190085,Option.ui,User
+190086,Option.ui,Adjust
+190087,Option.ui,Full Mode
+190088,Option.ui,Wondow Mode %s
+200001,PasswordBox.ui,Password
+200002,PasswordBox.ui,Input password
+210001,PlayerInformation.ui,My Information
+210002,PlayerInformation.ui,Total
+210003,PlayerInformation.ui,Monthly
+210004,PlayerInformation.ui,Matches
+210005,PlayerInformation.ui,N of Times
+210006,PlayerInformation.ui,Ranking
+210007,PlayerInformation.ui,My trophies
+210008,PlayerInformation.ui,Play Info.
+210009,PlayerInformation.ui,Consumption
+210010,PlayerInformation.ui,Trade List
+210011,PlayerInformation.ui,Club:
+210012,PlayerInformation.ui,Level:
+210013,PlayerInformation.ui,Title:
+210014,PlayerInformation.ui,Position:
+210015,PlayerInformation.ui,Status:
+210016,PlayerInformation.ui,Name:
+210017,PlayerInformation.ui,Auto Growth
+210018,PlayerInformation.ui,Bonus Points
+210019,PlayerInformation.ui,Status
+210020,PlayerInformation.ui,Item name
+210021,PlayerInformation.ui,Effection
+210022,PlayerInformation.ui,Quantity
+210023,PlayerInformation.ui,Date
+210024,PlayerInformation.ui,Name
+210025,PlayerInformation.ui,Type
+210026,PlayerInformation.ui,Amount 
+210027,PlayerInformation.ui,Trophy 
+210028,PlayerInformation.ui,This quarter
+210029,PlayerInformation.ui,Last quarter
+210030,PlayerInformation.ui,Club member list
+210031,PlayerInformation.ui,Friend list
+210032,PlayerInformation.ui,Black list
+210033,PlayerInformation.ui,Status
+210034,PlayerInformation.ui,Club Info.
+210035,PlayerInformation.ui,Club member
+210036,PlayerInformation.ui,Club name
+210037,PlayerInformation.ui,Qty of member
+210038,PlayerInformation.ui,Captain
+210039,PlayerInformation.ui,Vice captain
+210040,PlayerInformation.ui,Club Point
+210041,PlayerInformation.ui,Avg. Vote
+210042,PlayerInformation.ui,Rnaking
+210043,PlayerInformation.ui,Match(es)
+210044,PlayerInformation.ui,Playing Time
+210045,PlayerInformation.ui,Club
+210046,PlayerInformation.ui,Number of Win
+210047,PlayerInformation.ui,Draw
+210048,PlayerInformation.ui,Pass
+210049,PlayerInformation.ui,Guard
+210050,PlayerInformation.ui,A valid pass
+210051,PlayerInformation.ui,A valid guard
+210052,PlayerInformation.ui,Record
+210053,PlayerInformation.ui,Lose a point
+210054,PlayerInformation.ui,Result
+210055,PlayerInformation.ui,List
+210056,PlayerInformation.ui,Games
+210057,PlayerInformation.ui,Win
+210058,PlayerInformation.ui,Draw
+210059,PlayerInformation.ui,Score
+210060,PlayerInformation.ui,number
+210061,PlayerInformation.ui,Total Score
+210062,PlayerInformation.ui,Valid Cutting
+210063,PlayerInformation.ui,Valid Shooting
+210064,PlayerInformation.ui,Valid Steal
+210065,PlayerInformation.ui,Valid Tackle
+210066,PlayerInformation.ui,Valid Pass
+210067,PlayerInformation.ui,Valid Guard
+210068,PlayerInformation.ui,Try Shoot
+210069,PlayerInformation.ui,Try steal
+210070,PlayerInformation.ui,Try tackle
+210071,PlayerInformation.ui,Try pass
+210072,PlayerInformation.ui,Try guard
+210073,PlayerInformation.ui,Win
+210074,PlayerInformation.ui,Victory score
+210075,PlayerInformation.ui,Cutting
+210076,PlayerInformation.ui,Average goal
+210077,PlayerInformation.ui,Average assist
+210078,PlayerInformation.ui,Average cutting
+210079,PlayerInformation.ui,Average shooting
+210080,PlayerInformation.ui,Average steal
+210081,PlayerInformation.ui,Average tackle
+210082,PlayerInformation.ui,Average pass
+210083,PlayerInformation.ui,Victory rate
+210084,PlayerInformation.ui,Shooting success rate
+210085,PlayerInformation.ui,Steal success rate
+210086,PlayerInformation.ui,Tackle success rate
+210087,PlayerInformation.ui,Pass success rate
+210088,PlayerInformation.ui,Total
+210089,PlayerInformation.ui,Quarter of a year
+210090,PlayerInformation.ui,selection
+210091,PlayerInformation.ui,ranking
+220001,SkillBag.ui,Skills
+220002,SkillBag.ui,All Skills
+220003,SkillBag.ui,Level
+220004,SkillBag.ui,Lv.
+220005,SkillBag.ui,Cool Time
+220006,SkillBag.ui,Effect
+220007,SkillBag.ui,Lv.1
+220008,SkillBag.ui,Lv.2
+220009,SkillBag.ui,Lv.3
+220010,SkillBag.ui,[Keys]
+220011,SkillBag.ui,[Description]
+220012,SkillBag.ui,Skill Points
+220013,SkillBag.ui,Empty Slot
+230001,SkillDialog.ui,Buy Skill
+230002,SkillDialog.ui,Would you like to buy the skill?
+230003,SkillDialog.ui,Would you like to buy the trainning?
+230004,SkillDialog.ui,Would you like to buy the ceremony?
+240001,SkillShop.ui,My Skills
+240002,SkillShop.ui,Buy Training
+240003,SkillShop.ui,Buy Ceremony
+250001,SkillView.ui,Preview
+260001,TutorialMain.ui,Reward:
+260002,TutorialMain.ui,Win the game with a AI player a limited time.
+260003,TutorialMain.ui,Keep the victiory with\AI team member!\Defense from opponent\AI players within given\time.
+260004,TutorialMain.ui,Be sure to win!\Win the match with\limited condition.
+260005,TutorialMain.ui,Win the game.
+260006,TutorialMain.ui,Win the opponent
+260007,TutorialMain.ui,Win the match with more than 1 goal
+260008,TutorialMain.ui, + 3000 Points
+260009,TutorialMain.ui,Trainee Quest
+270001,TutorialPlay.ui,Status
+270002,TutorialPlay.ui,Possible to change the control buttons at the key setting of Game option.
+270003,TutorialPlay.ui,Press the key again after press the key or keep pressing the key more than 1 sec
+270004,TutorialPlay.ui,Left shot: D /Right shot: F
+270005,TutorialPlay.ui,Press the key before the ball arrives
+270006,TutorialPlay.ui,Direct pass: Press S or A key before the ball arrives
+270007,TutorialPlay.ui,Tackling from the close range has an higher success rate
+270008,TutorialPlay.ui,Press the key before the ball arrives
+280001,QuestMain.ui,"It's a middle level tutorial, which have a test match with AI team before having the real match with users."
+290001,GameResult.ui,Quest No.
+300001,TutorialGuide.ui,That is for the basic abilities.\Need to know before starting!
+300002,TutorialGuide.ui,¡© Shooting
+300003,TutorialGuide.ui,¡© Short pass
+300004,TutorialGuide.ui,¡© Long pass
+300005,TutorialGuide.ui,¡© Tackle
+300006,TutorialGuide.ui,"(D Left shot, F Right shot)"
+300007,TutorialGuide.ui,Normal moving
+300008,TutorialGuide.ui,Moving with ball
+300009,TutorialGuide.ui,Quick moving
+300010,TutorialGuide.ui,Increase the time to use 'Agility' 
+300011,TutorialGuide.ui,Prior occupation for high ball
+300012,TutorialGuide.ui,Struggling against opponent player to have the ball
+300013,TutorialGuide.ui,Controlling the power of ball crossing
+300014,TutorialGuide.ui,Controlling the power of passing
+300015,TutorialGuide.ui,Controlling the power of long passing
+300016,TutorialGuide.ui,Keeping the ball
+300017,TutorialGuide.ui,Taking the ball from a opponent player
+300018,TutorialGuide.ui,Taking the ball from a opponent player by tackling
+300019,TutorialGuide.ui,Increase the accuracy of heading shot 
+300020,TutorialGuide.ui,Increase the accuracy of short shot 
+300021,TutorialGuide.ui,Increase the accuracy of long shot 
+300022,TutorialGuide.ui,¡º Learn more physical Status ¡»
+300023,TutorialGuide.ui,¡º Learn more defensive Status ¡»
+300024,TutorialGuide.ui,¡º Learn more technique Status ¡»
+300025,TutorialGuide.ui,¡º Learn more offensive Status ¡»
+300026,TutorialGuide.ui,¡º Learn more passing Status ¡»
+300027,TutorialGuide.ui,¡© Screen
+300028,TutorialGuide.ui,¡© Steal
+310001,InvenDialog.ui,Entry 1
+310002,InvenDialog.ui,Entry 2
+310003,InvenDialog.ui,Entry 3
+320001,CardDialog.ui,Card purchasing result
+330001,ReadyRoom.ui,Auto
+330002,ReadyRoom.ui,Dawn
+330003,ReadyRoom.ui,Daylight
+330004,ReadyRoom.ui,Sunset
+330005,ReadyRoom.ui,Night
+330006,ReadyRoom.ui,Random

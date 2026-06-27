@@ -1,0 +1,25 @@
+Code,Type,Team,Amount,Condition,,,Type,ARRAY_RESULT_WIN,,"= 0,",,,
+101,0,0,1,2,,,경기결과값,"ARRAY_RESULT_GOAL,",,,,,
+102,0,0,1,2,,,,"ARRAY_RESULT_ALLOW,",,,Team,,
+103,0,0,1,2,,,,"ARRAY_RESULT_ASSIST,",,,해당 팀,0,Home
+104,0,0,1,2,,,,"ARRAY_RESULT_CUT,",,,,1,Away
+105,0,0,1,2,,,,"ARRAY_RESULT_SHOOT,",,,Amount,,
+106,0,0,1,2,,,,"ARRAY_RESULT_STEAL,",,,Type결과 값,,
+107,0,0,1,2,,,,"ARRAY_RESULT_TACKLE,",,,Condition,,
+108,0,0,1,2,,,,"ARRAY_RESULT_PASS,",,,조건,0,Amount보다 크거나 같다
+109,0,0,1,2,,,,"ARRAY_RESULT_GUARD,",,,,1,Amount보다 작다
+110,0,0,1,2,,,,"ARRAY_RESULT_GOOD,",,,,2,같다
+111,0,0,1,2,,,,"ARRAY_RESULT_POSSESSION,",,,,,
+112,0,0,1,2,,,,"ARRAY_RESULT_TRYSHOOT,",,,,,
+113,0,0,1,2,,,,"ARRAY_RESULT_TRYSTEAL,",,,,,
+114,0,0,1,2,,,,"ARRAY_RESULT_TRYTACKLE,",,,,,
+115,0,0,1,2,,,,"ARRAY_RESULT_TRYPASS,",,,,,
+116,0,0,1,2,,,,"ARRAY_RESULT_TRYGUARD,"
+117,0,0,1,2,,,,"ARRAY_RESULT_MARK,"
+118,0,0,1,2,,,,ARRAY_RESULT_SIZE
+119,0,0,1,2,,,,
+120,0,0,1,2,,,,
+121,0,0,1,2,,,,
+122,0,0,1,2,,,,
+123,0,0,1,2,,,,
+124,0,0,1,2,,,,

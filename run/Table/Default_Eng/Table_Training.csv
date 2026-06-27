@@ -1,0 +1,151 @@
+Index,Code,Type,Limit,Value,Discount,Sell,Cash,Point,Name,LearnText,IconFile,Explain
+0,1001,10,5,1,100,2,400,2000,Running Training 1,Running,Training_Run,Running Training 1
+1,1002,10,10,2,100,2,800,4000,Running Training 2,Running,Training_Run,Running Training 2
+2,1003,10,15,3,100,2,1200,6000,Running Training 3,Running,Training_Run,Running Training 3
+3,1004,10,20,4,100,2,1600,8000,Running Training 4,Running,Training_Run,Running Training 4
+4,1005,10,25,5,100,2,2000,10000,Running Training 5,Running,Training_Run,Running Training 5
+5,1006,10,30,6,100,2,2400,12000,Running Training 6,Running,Training_Run,Running Training 6
+6,1007,10,35,7,100,2,2800,14000,Running Training 7,Running,Training_Run,Running Training 7
+7,1008,10,40,8,100,2,3200,16000,Running Training 8,Running,Training_Run,Running Training 8
+8,1009,10,45,9,100,2,3600,18000,Running Training 9,Running,Training_Run,Running Training 9
+9,1010,10,50,10,100,2,4000,20000,Running Training 10,Running,Training_Run,Running Training 10
+10,1101,11,5,1,100,2,400,2000,Dribbling Training 1,Dribbling,Training_Dribble,Dribbling Training 1
+11,1102,11,10,2,100,2,800,4000,Dribbling Training 2,Dribbling,Training_Dribble,Dribbling Training 2
+12,1103,11,15,3,100,2,1200,6000,Dribbling Training 3,Dribbling,Training_Dribble,Dribbling Training 3
+13,1104,11,20,4,100,2,1600,8000,Dribbling Training 4,Dribbling,Training_Dribble,Dribbling Training 4
+14,1105,11,25,5,100,2,2000,10000,Dribbling Training 5,Dribbling,Training_Dribble,Dribbling Training 5
+15,1106,11,30,6,100,2,2400,12000,Dribbling Training 6,Dribbling,Training_Dribble,Dribbling Training 6
+16,1107,11,35,7,100,2,2800,14000,Dribbling Training 7,Dribbling,Training_Dribble,Dribbling Training 7
+17,1108,11,40,8,100,2,3200,16000,Dribbling Training 8,Dribbling,Training_Dribble,Dribbling Training 8
+18,1109,11,45,9,100,2,3600,18000,Dribbling Training 9,Dribbling,Training_Dribble,Dribbling Training 9
+19,1110,11,50,10,100,2,4000,20000,Dribbling Training 10,Dribbling,Training_Dribble,Dribbling Training 10
+20,1201,12,5,1,100,2,400,2000,Agility Training 1,Agility,Training_Quick,Agility Training 1
+21,1202,12,10,2,100,2,800,4000,Agility Training 2,Agility,Training_Quick,Agility Training 2
+22,1203,12,15,3,100,2,1200,6000,Agility Training 3,Agility,Training_Quick,Agility Training 3
+23,1204,12,20,4,100,2,1600,8000,Agility Training 4,Agility,Training_Quick,Agility Training 4
+24,1205,12,25,5,100,2,2000,10000,Agility Training 5,Agility,Training_Quick,Agility Training 5
+25,1206,12,30,6,100,2,2400,12000,Agility Training 6,Agility,Training_Quick,Agility Training 6
+26,1207,12,35,7,100,2,2800,14000,Agility Training 7,Agility,Training_Quick,Agility Training 7
+27,1208,12,40,8,100,2,3200,16000,Agility Training 8,Agility,Training_Quick,Agility Training 8
+28,1209,12,45,9,100,2,3600,18000,Agility Training 9,Agility,Training_Quick,Agility Training 9
+29,1210,12,50,10,100,2,4000,20000,Agility Training 10,Agility,Training_Quick,Agility Training 10
+30,1301,13,5,1,100,2,400,2000,Stamina Training 1,Stamina,Training_Stamina,Stamina Training 1
+31,1302,13,10,2,100,2,800,4000,Stamina Training 2,Stamina,Training_Stamina,Stamina Training 2
+32,1303,13,15,3,100,2,1200,6000,Stamina Training 3,Stamina,Training_Stamina,Stamina Training 3
+33,1304,13,20,4,100,2,1600,8000,Stamina Training 4,Stamina,Training_Stamina,Stamina Training 4
+34,1305,13,25,5,100,2,2000,10000,Stamina Training 5,Stamina,Training_Stamina,Stamina Training 5
+35,1306,13,30,6,100,2,2400,12000,Stamina Training 6,Stamina,Training_Stamina,Stamina Training 6
+36,1307,13,35,7,100,2,2800,14000,Stamina Training 7,Stamina,Training_Stamina,Stamina Training 7
+37,1308,13,40,8,100,2,3200,16000,Stamina Training 8,Stamina,Training_Stamina,Stamina Training 8
+38,1309,13,45,9,100,2,3600,18000,Stamina Training 9,Stamina,Training_Stamina,Stamina Training 9
+39,1310,13,50,10,100,2,4000,20000,Stamina Training 10,Stamina,Training_Stamina,Stamina Training 10
+40,1401,14,5,1,100,2,400,2000,Jump Training 1,Jump,Training_Elasticity,Jump Training 1
+41,1402,14,10,2,100,2,800,4000,Jump Training 2,Jump,Training_Elasticity,Jump Training 2
+42,1403,14,15,3,100,2,1200,6000,Jump Training 3,Jump,Training_Elasticity,Jump Training 3
+43,1404,14,20,4,100,2,1600,8000,Jump Training 4,Jump,Training_Elasticity,Jump Training 4
+44,1405,14,25,5,100,2,2000,10000,Jump Training 5,Jump,Training_Elasticity,Jump Training 5
+45,1406,14,30,6,100,2,2400,12000,Jump Training 6,Jump,Training_Elasticity,Jump Training 6
+46,1407,14,35,7,100,2,2800,14000,Jump Training 7,Jump,Training_Elasticity,Jump Training 7
+47,1408,14,40,8,100,2,3200,16000,Jump Training 8,Jump,Training_Elasticity,Jump Training 8
+48,1409,14,45,9,100,2,3600,18000,Jump Training 9,Jump,Training_Elasticity,Jump Training 9
+49,1410,14,50,10,100,2,4000,20000,Jump Training 10,Jump,Training_Elasticity,Jump Training 10
+50,1501,15,5,1,100,2,400,2000,Bodycheck Training 1,Bodycheck,Training_Bodycheck,Bodycheck Training 1
+51,1502,15,10,2,100,2,800,4000,Bodycheck Training 2,Bodycheck,Training_Bodycheck,Bodycheck Training 2
+52,1503,15,15,3,100,2,1200,6000,Bodycheck Training 3,Bodycheck,Training_Bodycheck,Bodycheck Training 3
+53,1504,15,20,4,100,2,1600,8000,Bodycheck Training 4,Bodycheck,Training_Bodycheck,Bodycheck Training 4
+54,1505,15,25,5,100,2,2000,10000,Bodycheck Training 5,Bodycheck,Training_Bodycheck,Bodycheck Training 5
+55,1506,15,30,6,100,2,2400,12000,Bodycheck Training 6,Bodycheck,Training_Bodycheck,Bodycheck Training 6
+56,1507,15,35,7,100,2,2800,14000,Bodycheck Training 7,Bodycheck,Training_Bodycheck,Bodycheck Training 7
+57,1508,15,40,8,100,2,3200,16000,Bodycheck Training 8,Bodycheck,Training_Bodycheck,Bodycheck Training 8
+58,1509,15,45,9,100,2,3600,18000,Bodycheck Training 9,Bodycheck,Training_Bodycheck,Bodycheck Training 9
+59,1510,15,50,10,100,2,4000,20000,Bodycheck Training 10,Bodycheck,Training_Bodycheck,Bodycheck Training 10
+60,1601,16,5,1,100,2,400,2000,Cross Training 1,Cross,Training_Cross,Cross Training 1
+61,1602,16,10,2,100,2,800,4000,Cross Training 2,Cross,Training_Cross,Cross Training 2
+62,1603,16,15,3,100,2,1200,6000,Cross Training 3,Cross,Training_Cross,Cross Training 3
+63,1604,16,20,4,100,2,1600,8000,Cross Training 4,Cross,Training_Cross,Cross Training 4
+64,1605,16,25,5,100,2,2000,10000,Cross Training 5,Cross,Training_Cross,Cross Training 5
+65,1606,16,30,6,100,2,2400,12000,Cross Training 6,Cross,Training_Cross,Cross Training 6
+66,1607,16,35,7,100,2,2800,14000,Cross Training 7,Cross,Training_Cross,Cross Training 7
+67,1608,16,40,8,100,2,3200,16000,Cross Training 8,Cross,Training_Cross,Cross Training 8
+68,1609,16,45,9,100,2,3600,18000,Cross Training 9,Cross,Training_Cross,Cross Training 9
+69,1610,16,50,10,100,2,4000,20000,Cross Training 10,Cross,Training_Cross,Cross Training 10
+70,1701,17,5,1,100,2,400,2000,Short pass Training 1,Short Pass,Training_Shortpass,Short pass Training 1
+71,1702,17,10,2,100,2,800,4000,Short pass Training 2,Short Pass,Training_Shortpass,Short pass Training 2
+72,1703,17,15,3,100,2,1200,6000,Short pass Training 3,Short Pass,Training_Shortpass,Short pass Training 3
+73,1704,17,20,4,100,2,1600,8000,Short pass Training 4,Short Pass,Training_Shortpass,Short pass Training 4
+74,1705,17,25,5,100,2,2000,10000,Short pass Training 5,Short Pass,Training_Shortpass,Short pass Training 5
+75,1706,17,30,6,100,2,2400,12000,Short pass Training 6,Short Pass,Training_Shortpass,Short pass Training 6
+76,1707,17,35,7,100,2,2800,14000,Short pass Training 7,Short Pass,Training_Shortpass,Short pass Training 7
+77,1708,17,40,8,100,2,3200,16000,Short pass Training 8,Short Pass,Training_Shortpass,Short pass Training 8
+78,1709,17,45,9,100,2,3600,18000,Short pass Training 9,Short Pass,Training_Shortpass,Short pass Training 9
+79,1710,17,50,10,100,2,4000,20000,Short pass Training 10,Short Pass,Training_Shortpass,Short pass Training 10
+80,1801,18,5,1,100,2,400,2000,Long pass Training 1,Long Pass,Training_Longpass,Long pass Training 1
+81,1802,18,10,2,100,2,800,4000,Long pass Training 2,Long Pass,Training_Longpass,Long pass Training 2
+82,1803,18,15,3,100,2,1200,6000,Long pass Training 3,Long Pass,Training_Longpass,Long pass Training 3
+83,1804,18,20,4,100,2,1600,8000,Long pass Training 4,Long Pass,Training_Longpass,Long pass Training 4
+84,1805,18,25,5,100,2,2000,10000,Long pass Training 5,Long Pass,Training_Longpass,Long pass Training 5
+85,1806,18,30,6,100,2,2400,12000,Long pass Training 6,Long Pass,Training_Longpass,Long pass Training 6
+86,1807,18,35,7,100,2,2800,14000,Long pass Training 7,Long Pass,Training_Longpass,Long pass Training 7
+87,1808,18,40,8,100,2,3200,16000,Long pass Training 8,Long Pass,Training_Longpass,Long pass Training 8
+88,1809,18,45,9,100,2,3600,18000,Long pass Training 9,Long Pass,Training_Longpass,Long pass Training 9
+89,1810,18,50,10,100,2,4000,20000,Long pass Training 10,Long Pass,Training_Longpass,Long pass Training 10
+90,1901,19,5,1,100,2,400,2000,Heading Training 1,Heading,Training_Headshoot,Heading Training 1
+91,1902,19,10,2,100,2,800,4000,Heading Training 2,Heading,Training_Headshoot,Heading Training 2
+92,1903,19,15,3,100,2,1200,6000,Heading Training 3,Heading,Training_Headshoot,Heading Training 3
+93,1904,19,20,4,100,2,1600,8000,Heading Training 4,Heading,Training_Headshoot,Heading Training 4
+94,1905,19,25,5,100,2,2000,10000,Heading Training 5,Heading,Training_Headshoot,Heading Training 5
+95,1906,19,30,6,100,2,2400,12000,Heading Training 6,Heading,Training_Headshoot,Heading Training 6
+96,1907,19,35,7,100,2,2800,14000,Heading Training 7,Heading,Training_Headshoot,Heading Training 7
+97,1908,19,40,8,100,2,3200,16000,Heading Training 8,Heading,Training_Headshoot,Heading Training 8
+98,1909,19,45,9,100,2,3600,18000,Heading Training 9,Heading,Training_Headshoot,Heading Training 9
+99,1910,19,50,10,100,2,4000,20000,Heading Training 10,Heading,Training_Headshoot,Heading Training 10
+100,2001,20,5,1,100,2,400,2000,Short shots Training 1,Short Shots,Training_Shortshoot,Short shots Training 1
+101,2002,20,10,2,100,2,800,4000,Short shots Training 2,Short Shots,Training_Shortshoot,Short shots Training 2
+102,2003,20,15,3,100,2,1200,6000,Short shots Training 3,Short Shots,Training_Shortshoot,Short shots Training 3
+103,2004,20,20,4,100,2,1600,8000,Short shots Training 4,Short Shots,Training_Shortshoot,Short shots Training 4
+104,2005,20,25,5,100,2,2000,10000,Short shots Training 5,Short Shots,Training_Shortshoot,Short shots Training 5
+105,2006,20,30,6,100,2,2400,12000,Short shots Training 6,Short Shots,Training_Shortshoot,Short shots Training 6
+106,2007,20,35,7,100,2,2800,14000,Short shots Training 7,Short Shots,Training_Shortshoot,Short shots Training 7
+107,2008,20,40,8,100,2,3200,16000,Short shots Training 8,Short Shots,Training_Shortshoot,Short shots Training 8
+108,2009,20,45,9,100,2,3600,18000,Short shots Training 9,Short Shots,Training_Shortshoot,Short shots Training 9
+109,2010,20,50,10,100,2,4000,20000,Short shots Training 10,Short Shots,Training_Shortshoot,Short shots Training 10
+110,2101,21,5,1,100,2,400,2000,Long shots Training 1,Long Shots,Training_Longshoot,Long shots Training 1
+111,2102,21,10,2,100,2,800,4000,Long shots Training 2,Long Shots,Training_Longshoot,Long shots Training 2
+112,2103,21,15,3,100,2,1200,6000,Long shots Training 3,Long Shots,Training_Longshoot,Long shots Training 3
+113,2104,21,20,4,100,2,1600,8000,Long shots Training 4,Long Shots,Training_Longshoot,Long shots Training 4
+114,2105,21,25,5,100,2,2000,10000,Long shots Training 5,Long Shots,Training_Longshoot,Long shots Training 5
+115,2106,21,30,6,100,2,2400,12000,Long shots Training 6,Long Shots,Training_Longshoot,Long shots Training 6
+116,2107,21,35,7,100,2,2800,14000,Long shots Training 7,Long Shots,Training_Longshoot,Long shots Training 7
+117,2108,21,40,8,100,2,3200,16000,Long shots Training 8,Long Shots,Training_Longshoot,Long shots Training 8
+118,2109,21,45,9,100,2,3600,18000,Long shots Training 9,Long Shots,Training_Longshoot,Long shots Training 9
+119,2110,21,50,10,100,2,4000,20000,Long shots Training 10,Long Shots,Training_Longshoot,Long shots Training 10
+120,2201,22,5,1,100,2,400,2000,Ball control Training 1,Ball Ctrl,Training_Keeping,Ball control Training 1
+121,2202,22,10,2,100,2,800,4000,Ball control Training 2,Ball Ctrl,Training_Keeping,Ball control Training 2
+122,2203,22,15,3,100,2,1200,6000,Ball control Training 3,Ball Ctrl,Training_Keeping,Ball control Training 3
+123,2204,22,20,4,100,2,1600,8000,Ball control Training 4,Ball Ctrl,Training_Keeping,Ball control Training 4
+124,2205,22,25,5,100,2,2000,10000,Ball control Training 5,Ball Ctrl,Training_Keeping,Ball control Training 5
+125,2206,22,30,6,100,2,2400,12000,Ball control Training 6,Ball Ctrl,Training_Keeping,Ball control Training 6
+126,2207,22,35,7,100,2,2800,14000,Ball control Training 7,Ball Ctrl,Training_Keeping,Ball control Training 7
+127,2208,22,40,8,100,2,3200,16000,Ball control Training 8,Ball Ctrl,Training_Keeping,Ball control Training 8
+128,2209,22,45,9,100,2,3600,18000,Ball control Training 9,Ball Ctrl,Training_Keeping,Ball control Training 9
+129,2210,22,50,10,100,2,4000,20000,Ball control Training 10,Ball Ctrl,Training_Keeping,Ball control Training 10
+130,2301,23,5,1,100,2,400,2000,Steal Training 1,Steal,Training_Steal,Steal Training 1
+131,2302,23,10,2,100,2,800,4000,Steal Training 2,Steal,Training_Steal,Steal Training 2
+132,2303,23,15,3,100,2,1200,6000,Steal Training 3,Steal,Training_Steal,Steal Training 3
+133,2304,23,20,4,100,2,1600,8000,Steal Training 4,Steal,Training_Steal,Steal Training 4
+134,2305,23,25,5,100,2,2000,10000,Steal Training 5,Steal,Training_Steal,Steal Training 5
+135,2306,23,30,6,100,2,2400,12000,Steal Training 6,Steal,Training_Steal,Steal Training 6
+136,2307,23,35,7,100,2,2800,14000,Steal Training 7,Steal,Training_Steal,Steal Training 7
+137,2308,23,40,8,100,2,3200,16000,Steal Training 8,Steal,Training_Steal,Steal Training 8
+138,2309,23,45,9,100,2,3600,18000,Steal Training 9,Steal,Training_Steal,Steal Training 9
+139,2310,23,50,10,100,2,4000,20000,Steal Training 10,Steal,Training_Steal,Steal Training 10
+140,2401,24,5,1,100,2,400,2000,Tackle Training 1,Tackle,Training_Tackle,Tackle Training 1
+141,2402,24,10,2,100,2,800,4000,Tackle Training 2,Tackle,Training_Tackle,Tackle Training 2
+142,2403,24,15,3,100,2,1200,6000,Tackle Training 3,Tackle,Training_Tackle,Tackle Training 3
+143,2404,24,20,4,100,2,1600,8000,Tackle Training 4,Tackle,Training_Tackle,Tackle Training 4
+144,2405,24,25,5,100,2,2000,10000,Tackle Training 5,Tackle,Training_Tackle,Tackle Training 5
+145,2406,24,30,6,100,2,2400,12000,Tackle Training 6,Tackle,Training_Tackle,Tackle Training 6
+146,2407,24,35,7,100,2,2800,14000,Tackle Training 7,Tackle,Training_Tackle,Tackle Training 7
+147,2408,24,40,8,100,2,3200,16000,Tackle Training 8,Tackle,Training_Tackle,Tackle Training 8
+148,2409,24,45,9,100,2,3600,18000,Tackle Training 9,Tackle,Training_Tackle,Tackle Training 9
+149,2410,24,50,10,100,2,4000,20000,Tackle Training 10,Tackle,Training_Tackle,Tackle Training 10

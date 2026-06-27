@@ -1,0 +1,10 @@
+Code,Name,AttachType,AttachNode,EffectFile,Rotate,RotateNode,DestroyType,CameraFollow,FixedHeight,Type
+1,태클이펙트,1,-,Effect\Tackle_Effect.nif,1,PArray01-Emitter,0,0,-,1
+2,벽충돌이펙트,1,-,Effect\WallBound.nif,1,dongrami,0,0,-,1
+3,패스트런이펙트,2,root,Effect\Fast_Run.nif,0,-,1,0,-,1
+4,슛먼지이펙트,1,-,Effect\Kick_Effect.nif,0,kick_Emitter,0,0,-,1
+5,슛먼지이펙트,2,Scene Root,Effect\Kick_Effect.nif,0,-,0,0,-,1
+6,눈효과,1,-,Effect\Snow.nif,0,-,0,0,2,2
+7,비효과,1,-,Effect\Rain.nif,0,-,0,0,0,2
+8,태클이펙트(비),1,-,Effect\Tackle_Effect_Rain.nif,1,PArray01-Emitter,0,0,-,1
+9,슛먼지이펙트(비),2,-,Effect\Kick_Effect_Rain.nif,0,SuperSpray01-Emitter,0,0,-,1

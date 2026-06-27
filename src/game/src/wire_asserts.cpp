@@ -1,0 +1,188 @@
+// wire_asserts.cpp - compile-time verification of packet struct sizes vs binary.
+
+// === AUTO-GENERATED wire-size asserts (binary body size + 12 header). ===
+// Verifies every server->client packet struct matches the XKICK_Game1 layout.
+#include "Main.h"
+#include <cstddef>   // offsetof
+namespace {
+// Room request / GM structs - layouts verified field-by-field against XKICK_Game1
+// (CRoom::SetRoom @0809b402, CreateRoom @0809ccfe, GetRoomInfo @08099026).
+static_assert(sizeof(CCSSetRoom)    == 84,  "CCSSetRoom wire size != 84");
+static_assert(sizeof(CCSCreateRoom) == 92,  "CCSCreateRoom wire size != 92");
+static_assert(sizeof(CGMRoomInfo)   == 89,  "CGMRoomInfo wire size != 89");
+static_assert(sizeof(CReserveSeat)  == 132, "CReserveSeat size != 132");
+static_assert(offsetof(CCSSetRoom,    m_nPointCode)    == 0x49, "CCSSetRoom.m_nPointCode");
+static_assert(offsetof(CCSSetRoom,    m_nMaxCount)     == 0x53, "CCSSetRoom.m_nMaxCount");
+static_assert(offsetof(CCSCreateRoom, m_nPointCode)    == 0x45, "CCSCreateRoom.m_nPointCode");
+static_assert(offsetof(CCSCreateRoom, m_nAwayPosition) == 0x56, "CCSCreateRoom.m_nAwayPosition");
+static_assert(offsetof(CGMRoomInfo,   m_nPointCode)    == 0x53, "CGMRoomInfo.m_nPointCode");
+static_assert(offsetof(CGMRoomInfo,   m_nMaxCount)     == 0x58, "CGMRoomInfo.m_nMaxCount");
+// Item-mix request + table (5e fills), verified vs XKICK_Game1.
+static_assert(sizeof(CCSMixItem1)   == 41,  "CCSMixItem1 wire size != 41");
+static_assert(sizeof(CItemMixTable) == 116, "CItemMixTable size != 116");
+static_assert(offsetof(CCSMixItem1,   m_nItemCnt)       == 0x24, "CCSMixItem1.m_nItemCnt");
+static_assert(offsetof(CItemMixTable, m_nRewardItemCode) == 0x58, "CItemMixTable.m_nRewardItemCode");
+static_assert(offsetof(CItemMixTable, m_nOptionCode)     == 0x60, "CItemMixTable.m_nOptionCode");
+// Enchant cost row (Table_Enchant.csv), verified vs XKICK_Game1 CEnchantTable.
+static_assert(sizeof(CEnchantTable) == 16, "CEnchantTable size != 16");
+static_assert(offsetof(CEnchantTable, m_nPoint) == 0x4, "CEnchantTable.m_nPoint");
+static_assert(offsetof(CEnchantTable, m_nCash)  == 0x8, "CEnchantTable.m_nCash");
+static_assert(offsetof(CEnchantTable, m_nLimit) == 0xc, "CEnchantTable.m_nLimit");
+static_assert(sizeof(CSituationTable) == 8, "CSituationTable size != 8");
+static_assert(offsetof(CSituationTable, m_nRatio) == 0x4, "CSituationTable.m_nRatio");
+static_assert(sizeof(COptionTable) == 108, "COptionTable size != 108");
+static_assert(offsetof(COptionTable, m_nUsual)       == 0x08, "COptionTable.m_nUsual");
+static_assert(offsetof(COptionTable, m_nSpecial)     == 0x0e, "COptionTable.m_nSpecial");
+static_assert(offsetof(COptionTable, m_nNormalRatio) == 0x14, "COptionTable.m_nNormalRatio");
+static_assert(offsetof(COptionTable, m_nLegendRatio) == 0x58, "COptionTable.m_nLegendRatio");
+static_assert(sizeof(CSCPlayerInfo) == 761, "CSCPlayerInfo wire size != 761");
+static_assert(sizeof(CSCItemInfo) == 1124, "CSCItemInfo wire size != 1124");
+static_assert(sizeof(CSCSkillInfo) == 514, "CSCSkillInfo wire size != 514");
+static_assert(sizeof(CSCTrainingInfo) == 464, "CSCTrainingInfo wire size != 464");
+static_assert(sizeof(CSCCeremonyInfo) == 464, "CSCCeremonyInfo wire size != 464");
+static_assert(sizeof(CSCQuestInfo) == 154, "CSCQuestInfo wire size != 154");
+static_assert(sizeof(CSCRoomInfo) == 500, "CSCRoomInfo wire size != 500");
+static_assert(sizeof(CSCRoomList) == 1675, "CSCRoomList wire size != 1675");
+static_assert(sizeof(CSCLobbyList) == 694, "CSCLobbyList wire size != 694");
+static_assert(sizeof(CSCCreateRoom) == 13, "CSCCreateRoom wire size != 13");
+static_assert(sizeof(CSCSetRoom) == 13, "CSCSetRoom wire size != 13");
+static_assert(sizeof(CSCChoiceRoom) == 18, "CSCChoiceRoom wire size != 18");
+static_assert(sizeof(CSCQuickRoom) == 13, "CSCQuickRoom wire size != 13");
+static_assert(sizeof(CSCLeaveRoom) == 18, "CSCLeaveRoom wire size != 18");
+static_assert(sizeof(CSCChangeParent) == 41, "CSCChangeParent wire size != 41");
+static_assert(sizeof(CSCChangeJang) == 22, "CSCChangeJang wire size != 22");
+static_assert(sizeof(CSCAthleteInfo) == 1184, "CSCAthleteInfo wire size != 1184");
+static_assert(sizeof(CSCAthleteEnd) == 13, "CSCAthleteEnd wire size != 13");
+static_assert(sizeof(CSCRobotInfo) == 25, "CSCRobotInfo wire size != 25");
+static_assert(sizeof(CSCRobotEnd) == 13, "CSCRobotEnd wire size != 13");
+static_assert(sizeof(CSCChangeGround) == 21, "CSCChangeGround wire size != 21");
+static_assert(sizeof(CSCChangeBall) == 17, "CSCChangeBall wire size != 17");
+static_assert(sizeof(CSCInvitePlayer) == 158, "CSCInvitePlayer wire size != 158");
+static_assert(sizeof(CSCForceOut) == 13, "CSCForceOut wire size != 13");
+static_assert(sizeof(CSCGameReady) == 15, "CSCGameReady wire size != 15");
+static_assert(sizeof(CSCGameStart) == 68, "CSCGameStart wire size != 68");
+static_assert(sizeof(CSCGameCount) == 14, "CSCGameCount wire size != 14");
+static_assert(sizeof(CSCGameLoad) == 18, "CSCGameLoad wire size != 18");
+static_assert(sizeof(CSCGamePlay) == 13, "CSCGamePlay wire size != 13");
+static_assert(sizeof(CSCGameResult) == 1118, "CSCGameResult wire size != 1118");
+static_assert(sizeof(CSCGameEnd) == 13, "CSCGameEnd wire size != 13");
+static_assert(sizeof(CSCChangeTeam) == 416, "CSCChangeTeam wire size != 416");
+static_assert(sizeof(CSCChangePosition) == 277, "CSCChangePosition wire size != 277");
+static_assert(sizeof(CSCChangeMent) == 58, "CSCChangeMent wire size != 58");
+static_assert(sizeof(CSCGrowupCharacter) == 762, "CSCGrowupCharacter wire size != 762");
+static_assert(sizeof(CSCQuestReward) == 13, "CSCQuestReward wire size != 13");
+static_assert(sizeof(CSCMissionReward) == 13, "CSCMissionReward wire size != 13");
+static_assert(sizeof(CSCShopSkillList) == 49, "CSCShopSkillList wire size != 49");
+static_assert(sizeof(CSCUpdateSkill) == 24, "CSCUpdateSkill wire size != 24");
+static_assert(sizeof(CSCEquipSkill) == 18, "CSCEquipSkill wire size != 18");
+static_assert(sizeof(CSCDivestSkill) == 18, "CSCDivestSkill wire size != 18");
+static_assert(sizeof(CSCBuySkill) == 30, "CSCBuySkill wire size != 30");
+static_assert(sizeof(CSCShopTrainingList) == 47, "CSCShopTrainingList wire size != 47");
+static_assert(sizeof(CSCUpdateTraining) == 23, "CSCUpdateTraining wire size != 23");
+static_assert(sizeof(CSCBuyTraining) == 55, "CSCBuyTraining wire size != 55");
+static_assert(sizeof(CSCShopCeremonyList) == 47, "CSCShopCeremonyList wire size != 47");
+static_assert(sizeof(CSCUpdateCeremony) == 23, "CSCUpdateCeremony wire size != 23");
+static_assert(sizeof(CSCEquipCeremony) == 18, "CSCEquipCeremony wire size != 18");
+static_assert(sizeof(CSCDivestCeremony) == 18, "CSCDivestCeremony wire size != 18");
+static_assert(sizeof(CSCBuyCeremony) == 30, "CSCBuyCeremony wire size != 30");
+static_assert(sizeof(CSCQuestList) == 41, "CSCQuestList wire size != 41");
+static_assert(sizeof(CSCCreateQuest) == 13, "CSCCreateQuest wire size != 13");
+static_assert(sizeof(CSCSendMessage) == 154, "CSCSendMessage wire size != 154");
+static_assert(sizeof(CSCCharacterSearch) == 17, "CSCCharacterSearch wire size != 17");
+static_assert(sizeof(CSCGameExit) == 14, "CSCGameExit wire size != 14");
+static_assert(sizeof(CSCUDPConfirm) == 13, "CSCUDPConfirm wire size != 13");
+static_assert(sizeof(CSCNoticeList) == 646, "CSCNoticeList wire size != 646");
+static_assert(sizeof(CSCEventList) == 495, "CSCEventList wire size != 495");
+static_assert(sizeof(CSCCurrentWeather) == 18, "CSCCurrentWeather wire size != 18");
+static_assert(sizeof(CSCCurrentTime) == 18, "CSCCurrentTime wire size != 18");
+static_assert(sizeof(CSCCardInfo) == 704, "CSCCardInfo wire size != 704");
+static_assert(sizeof(CSCPlayerinfoEnd) == 13, "CSCPlayerinfoEnd wire size != 13");
+static_assert(sizeof(CSCSaleList) == 186, "CSCSaleList wire size != 186");
+static_assert(sizeof(CSCChangeWeather) == 17, "CSCChangeWeather wire size != 17");
+static_assert(sizeof(CSCCardbotInfo) == 38, "CSCCardbotInfo wire size != 38");
+static_assert(sizeof(CSCCardbotEnd) == 13, "CSCCardbotEnd wire size != 13");
+static_assert(sizeof(CSCBlacklistInfo) == 239, "CSCBlacklistInfo wire size != 239");
+static_assert(sizeof(CSCAddBlacklist) == 13, "CSCAddBlacklist wire size != 13");
+static_assert(sizeof(CSCDelBlacklist) == 17, "CSCDelBlacklist wire size != 17");
+static_assert(sizeof(CSCBuddyInfo) == 279, "CSCBuddyInfo wire size != 279");
+static_assert(sizeof(CSCAddBuddy) == 13, "CSCAddBuddy wire size != 13");
+static_assert(sizeof(CSCDelBuddy) == 17, "CSCDelBuddy wire size != 17");
+static_assert(sizeof(CSCWeeklyRecord) == 81, "CSCWeeklyRecord wire size != 81");
+static_assert(sizeof(CSCWeeklyRanking) == 81, "CSCWeeklyRanking wire size != 81");
+static_assert(sizeof(CSCAutopilotMode) == 18, "CSCAutopilotMode wire size != 18");
+static_assert(sizeof(CSCSynchPlayer) == 13, "CSCSynchPlayer wire size != 13");
+static_assert(sizeof(CSCGoalinTcp) == 48, "CSCGoalinTcp wire size != 48");
+static_assert(sizeof(CSCSwitchValue) == 22, "CSCSwitchValue wire size != 22");
+static_assert(sizeof(CSCExecuteQuest) == 30, "CSCExecuteQuest wire size != 30");
+static_assert(sizeof(CSCShopItemList) == 71, "CSCShopItemList wire size != 71");
+static_assert(sizeof(CSCUpdateItem) == 395, "CSCUpdateItem wire size != 395");
+static_assert(sizeof(CSCEquipItem) == 430, "CSCEquipItem wire size != 430");
+static_assert(sizeof(CSCDivestItem) == 430, "CSCDivestItem wire size != 430");
+static_assert(sizeof(CSCBuyItem) == 101, "CSCBuyItem wire size != 101");
+static_assert(sizeof(CSCGiftItem) == 48, "CSCGiftItem wire size != 48");
+static_assert(sizeof(CSCExchangeItem) == 100, "CSCExchangeItem wire size != 100");
+static_assert(sizeof(CSCPostItem) == 429, "CSCPostItem wire size != 429");
+static_assert(sizeof(CSCUpdateOption) == 425, "CSCUpdateOption wire size != 425");
+static_assert(sizeof(CSCRewardItem) == 50, "CSCRewardItem wire size != 50");
+static_assert(sizeof(CSCBuyRandomitem) == 99, "CSCBuyRandomitem wire size != 99");
+static_assert(sizeof(CSCRandomshopitemList) == 1203, "CSCRandomshopitemList wire size != 1203");
+static_assert(sizeof(CSCEnchantItem) == 29, "CSCEnchantItem wire size != 29");
+static_assert(sizeof(CSCRefreshShop) == 29, "CSCRefreshShop wire size != 29");
+static_assert(sizeof(CSCGiftList) == 1547, "CSCGiftList wire size != 1547");
+static_assert(sizeof(CSCGetGift) == 13, "CSCGetGift wire size != 13");
+static_assert(sizeof(CSCSellItem) == 37, "CSCSellItem wire size != 37");
+static_assert(sizeof(CSCRepairItem) == 37, "CSCRepairItem wire size != 37");
+static_assert(sizeof(CSCEquipCard) == 19, "CSCEquipCard wire size != 19");
+static_assert(sizeof(CSCDivestCard) == 19, "CSCDivestCard wire size != 19");
+static_assert(sizeof(CSCCreditCard) == 36, "CSCCreditCard wire size != 36");
+static_assert(sizeof(CSCBuyCardbooster) == 52, "CSCBuyCardbooster wire size != 52");
+static_assert(sizeof(CSCCardEntry) == 14, "CSCCardEntry wire size != 14");
+static_assert(sizeof(CSCRewardCard) == 36, "CSCRewardCard wire size != 36");
+static_assert(sizeof(CSCMixCard1) == 36, "CSCMixCard1 wire size != 36");
+static_assert(sizeof(CSCMixCard2) == 19, "CSCMixCard2 wire size != 19");
+static_assert(sizeof(CSCTeamInfo) == 225, "CSCTeamInfo wire size != 225");
+static_assert(sizeof(CSCChoiceTeam) == 17, "CSCChoiceTeam wire size != 17");
+static_assert(sizeof(CSCQuickTeam) == 13, "CSCQuickTeam wire size != 13");
+static_assert(sizeof(CSCTeamPosition) == 145, "CSCTeamPosition wire size != 145");
+static_assert(sizeof(CSCLeaveTeam) == 17, "CSCLeaveTeam wire size != 17");
+static_assert(sizeof(CSCChangeTeamJang) == 17, "CSCChangeTeamJang wire size != 17");
+static_assert(sizeof(CSCTeamoneInfo) == 1185, "CSCTeamoneInfo wire size != 1185");
+static_assert(sizeof(CSCTeamoneEnd) == 13, "CSCTeamoneEnd wire size != 13");
+static_assert(sizeof(CSCTeamReady) == 18, "CSCTeamReady wire size != 18");
+static_assert(sizeof(CSCApplyMatch) == 14, "CSCApplyMatch wire size != 14");
+static_assert(sizeof(CSCMatchRoom) == 14, "CSCMatchRoom wire size != 14");
+static_assert(sizeof(CSCFacultyReset) == 54, "CSCFacultyReset wire size != 54");
+static_assert(sizeof(CSCSkillSlot) == 29, "CSCSkillSlot wire size != 29");
+static_assert(sizeof(CSCCashCoupon) == 33, "CSCCashCoupon wire size != 33");
+static_assert(sizeof(CSCPointCoupon) == 33, "CSCPointCoupon wire size != 33");
+static_assert(sizeof(CSCChangeName) == 32, "CSCChangeName wire size != 32");
+static_assert(sizeof(CSCTCPPing) == 13, "CSCTCPPing wire size != 13");
+static_assert(sizeof(CSCChangeSetting) == 102, "CSCChangeSetting wire size != 102");
+static_assert(sizeof(CSCSettingInfo) == 105, "CSCSettingInfo wire size != 105");
+static_assert(sizeof(CSCUDPPing) == 12, "CSCUDPPing wire size != 12");
+}  // namespace
+
+// === Field-offset verification vs XKICK_Game1 type_inspect (athlete render path) ===
+#include <cstddef>
+namespace {
+static_assert(sizeof(CShape)   == 3,  "CShape != 3");
+static_assert(sizeof(CLevel)   == 12, "CLevel != 12");
+static_assert(sizeof(CAddress) == 24, "CAddress != 24");
+static_assert(sizeof(CFaculty) == 25, "CFaculty != 25");
+static_assert(sizeof(CSkillInfo)    == 10, "CSkillInfo != 10");
+static_assert(sizeof(CCeremonyInfo) == 9,  "CCeremonyInfo != 9");
+static_assert(offsetof(CAthleteInfo, m_nOperation)       == 0x04,  "ath m_nOperation");
+static_assert(offsetof(CAthleteInfo, m_sName)            == 0x08,  "ath m_sName");
+static_assert(offsetof(CAthleteInfo, m_sMent)            == 0x17,  "ath m_sMent");
+static_assert(offsetof(CAthleteInfo, m_cLevel)           == 0x44,  "ath m_cLevel");
+static_assert(offsetof(CAthleteInfo, m_cShape)           == 0x50,  "ath m_cShape");
+static_assert(offsetof(CAthleteInfo, m_cAddress)         == 0x53,  "ath m_cAddress");
+static_assert(offsetof(CAthleteInfo, m_cBaseFaculty)     == 0x6b,  "ath m_cBaseFaculty");
+static_assert(offsetof(CAthleteInfo, m_cTrainingFaculty) == 0x9d,  "ath m_cTrainingFaculty");
+static_assert(offsetof(CAthleteInfo, m_nEquipWear)       == 0xb6,  "ath m_nEquipWear");
+static_assert(offsetof(CAthleteInfo, m_nHomeWear)        == 0xfa,  "ath m_nHomeWear");
+static_assert(offsetof(CAthleteInfo, m_nAwayWear)        == 0x10a, "ath m_nAwayWear");
+static_assert(offsetof(CAthleteInfo, m_cSkillInfo)       == 0x11a, "ath m_cSkillInfo");
+static_assert(offsetof(CAthleteInfo, m_cCeremonyInfo)    == 0x30e, "ath m_cCeremonyInfo");
+static_assert(offsetof(CAthleteInfo, m_cItemOption)      == 0x33b, "ath m_cItemOption");
+}

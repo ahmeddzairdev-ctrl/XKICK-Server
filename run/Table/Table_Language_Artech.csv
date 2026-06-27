@@ -1,0 +1,586 @@
+Code,UiFile,Korean,Default_Eng
+10001,Font,굴림체,Arial
+10002,Size,12,14
+20001,Login.ui,로그인,LOGIN
+20002,Login.ui,아이디,Account
+20003,Login.ui,패스워드,Password
+30001,ChoiceTrio.ui,게임옵션,Game Option
+30002,ChoiceTrio.ui,게임종료,Quit
+30003,ChoiceTrio.ui,최종 삭제일,The latest deleted
+30004,ChoiceTrio.ui,최근 접속일,The latest connected
+30005,ChoiceTrio.ui,코인,Coins
+30006,ChoiceTrio.ui,포인트,Points
+30007,ChoiceTrio.ui,크레딧,Credits
+30008,ChoiceTrio.ui,캐릭터를 삭제 하시겠습니니까?\주민번호 뒷자리(7자리)를 입력하여주세요,"Are you sure want to delete character? \ Please, Input the password."
+40001,Choice.ui,초대 하기,Invite
+40002,Choice.ui,메시지 입력,Message
+40003,Choice.ui,포지션,Position
+40004,Choice.ui,레벨,Lv.
+40005,Choice.ui,캐릭터명,Name
+40006,Choice.ui,멘트,Comment
+50001,ChoiceClass.ui,이전화면,Back
+50002,ChoiceClass.ui,튜토리얼,Tutorial
+50003,ChoiceClass.ui,Exp,EXP
+50004,ChoiceClass.ui,『%s』님 경기는 어땠나요?\옆에서 지켜보니 정말 멋있게 해내던데요!! 이제 전직을 해보도록 해요.\자신의 포지션과 특성을 결정하는 일이죠. 제가 지난 경기 분석을 가져왔어요.,"『%s』, How was the match?\You are doing well!! Let's select position. It's to decide the position and characteristic.\This is the analysis for your past match."
+50005,ChoiceClass.ui,『%s』님은 슛에 일가견이 있으시네요!\FW 포지션이 어떠신가요? 공격을 전담해서 골을 기록하는 포지션이죠. 멋지지 않나요?,"『%s』, What a nice shot!\Do you like FW position? It's the position to make the goal. Isn't nice?"
+50006,ChoiceClass.ui,『%s』님은 패스에 일가견이 있으시네요!\MF 포지션이 어떠신가요? 팀의 공격과 수비 모두에 관여하는 똑똑한 살림꾼 역할이죠?,"『%s』, What a nice pass!\Do you lke MF position? This position involved in both Striker & Defender positions."
+50007,ChoiceClass.ui,『%s』님은 수비 능력이 뛰어나세요!\DF 포지션이 어떠신가요? 팀을 실점의 위기에서 구해내는 포지션이죠. 신나지 않나요?,"『%s』, What a nice defense!\Do you like DF position? It's the position not to lose the goal. Isn't great?"
+50008,ChoiceClass.ui,슈팅,Shooting
+50009,ChoiceClass.ui,클리어,Ball clear
+50010,ChoiceClass.ui,2차 전직하기,2nd position growth
+60001,ChoiceReplay.ui,리플레이,Replay
+60002,ChoiceReplay.ui,포지션,Position
+60003,ChoiceReplay.ui,캐릭터이름,Name
+60004,ChoiceReplay.ui,득점,Goals
+60005,ChoiceReplay.ui,어시스트,Assist
+60006,ChoiceReplay.ui,평점,Vote
+70001,ChoiceRoom.ui,스킬샵,Skill Shop
+70002,ChoiceRoom.ui,유저정보,Information
+70003,ChoiceRoom.ui,아이템샵,Item Shop
+70004,ChoiceRoom.ui,아이템 인벤,Item Inventory
+70005,ChoiceRoom.ui,퀘스트,Quest
+70006,ChoiceRoom.ui,귓속말,Whisper
+70007,ChoiceRoom.ui,방정렬,Order
+70008,ChoiceRoom.ui,전직을 수행하지 않았습니다.\전직창으로 이동합니다.,You didn't perform upgrading your\character position. Move to the page for\the job.
+70009,ChoiceRoom.ui,모두,All
+70010,ChoiceRoom.ui,일반전,Normal
+70011,ChoiceRoom.ui,대기방,Waiting
+70012,ChoiceRoom.ui,퀘스트,Quest
+70013,ChoiceRoom.ui,친구추가,Add Friend
+70014,ChoiceRoom.ui,차단추가,Add Ignore
+70015,ChoiceRoom.ui,정보보기,Detail
+70016,ChoiceRoom.ui,로비,Lobby
+70017,ChoiceRoom.ui,럭키볼,Lucky Ball
+70018,ChoiceRoom.ui,시스템 ,System
+70019,ChoiceRoom.ui,스킬 인벤,Skill Inventory
+80001,CreateCharacter.ui,스타일,Style
+80002,CreateCharacter.ui,성  별,Gender
+80003,CreateCharacter.ui,캐릭터 이름,Name
+80004,CreateCharacter.ui,하  의,Pants
+80005,CreateCharacter.ui,피부색,Skin 
+80006,CreateCharacter.ui,상  의,Shirts
+80007,CreateCharacter.ui,신  발,Shoes
+80008,CreateCharacter.ui,중복체크 버튼을 눌러주세요.,Check
+80009,CreateCharacter.ui,달리기,Running
+80010,CreateCharacter.ui,드리블,Dribbling
+80011,CreateCharacter.ui,순발력,Agility
+80012,CreateCharacter.ui,근  력,Stamina
+80013,CreateCharacter.ui,탄  력,Jump
+80014,CreateCharacter.ui,몸싸움,Bodycheck
+80015,CreateCharacter.ui,크로스,Crossing
+80016,CreateCharacter.ui,숏패스,Short Pass
+80017,CreateCharacter.ui,롱패스,Long Pass
+80018,CreateCharacter.ui,헤딩 슛,Heading
+80019,CreateCharacter.ui,단거리 슛,Short Shots
+80020,CreateCharacter.ui,중거리 슛,Long Shots
+80021,CreateCharacter.ui,키  핑,Ball Control
+80022,CreateCharacter.ui,스  틸,Stealing
+80023,CreateCharacter.ui,태  클,Tackling
+80024,CreateCharacter.ui,캐  칭,Catching
+80025,CreateCharacter.ui,펀  칭,Punching
+80026,CreateCharacter.ui,방  어,Defense
+80027,CreateCharacter.ui,능력치,Ability
+80028,CreateCharacter.ui,팀의 득점을 책임지는 포지션,The position to make the goals
+80029,CreateCharacter.ui,5 레벨시 전직가능,Possible to upgrade position at Lv 5
+80030,CreateCharacter.ui,20 레벨시 전직가능 포지션,Possible to upgrade position at Lv 20
+80031,CreateCharacter.ui,팀의 공/수에 관여하는 포지션,The position involved in both Striker & Defender positions
+80032,CreateCharacter.ui,팀의 실점을 방어하는 포지션,The position not to lose the goals
+80033,CreateCharacter.ui,헤딩슛과 골 결정력이 좋은 포지션,The position for heading & high ball
+80034,CreateCharacter.ui,드리블과 필드골이 뛰어난 포지션,The position for dribbling & field goal
+80035,CreateCharacter.ui,빠른 드리블과 크로스가 가능한 포지션,The position for fast dribble & crossing
+80036,CreateCharacter.ui,단거리 슛과 중거리 슛 모두 가능한 포지션,The position for short & long shots
+80037,CreateCharacter.ui,중거리 슛팅이 뛰어난 포지션,The position for long shots 
+80038,CreateCharacter.ui,안정적인 패스가 좋은 포지션,The position for stabilized short passing
+80039,CreateCharacter.ui,원거리 크로스가 가능한 포지션,The position for long passing & crossing
+80040,CreateCharacter.ui,상대 공격을 1차 저지하는 포지션,The position for defense at the middle area
+80041,CreateCharacter.ui,팀의 최후방을 지키는 포지션,The position for defense at the end
+80042,CreateCharacter.ui,수비 제공권이 돋보이는 포지션,The position of defense for high ball
+80043,CreateCharacter.ui,대인 마크에 빛을 발하는 포지션,The position of defense for man to man
+80044,CreateCharacter.ui,FW 를 선택하셨네요.\FW는 골에 대한 욕심이 필요하죠.\이제 『%s』님의 특성치는 오른쪽\그래프처럼 성장하게 될 거에요.,"You select FW.\FW need to be greedy for the goal.\Now, 『%s』 will grow like right graph."
+80045,CreateCharacter.ui,MF 를 선택하셨네요.\MF는 많은 활동량을 필요로 하죠.\이제 『%s』님의 특성치는 오른쪽\그래프처럼 성장하게 될 거에요.,"You select MF.\MF need wide scope of activity.\Now, 『%s』 will grow like right graph."
+80046,CreateCharacter.ui,DF 를 선택하셨네요.\DF에게 안정적인 수비력은 필수죠.\이제 『%s』님의 특성치는 오른쪽\그래프처럼 성장하게 될 거에요.,"You select DF.\DF need stable defense ability.\Now, 『%s』 will grow like right graph."
+80047,CreateCharacter.ui,마지막으로 하나 더.\20레벨이 되어서 2차 전직 때\할 수 있는 포지션을 알려주도록 할께요,One more\Will let you know the positions\for 2nd growth when become Lv 20.
+80048,CreateCharacter.ui,안녕? 반가워요\난 아르미 라고 해요.\여러분이 X-KICK 에서 멋진 선수가 될 때까지\항상 옆에서 도와줄 매니져랍니다.\앞으로 잘 부탁해요.\그럼 우선 캐릭터부터 생성해볼까요?,"Hi! Nice to meet you.\I am ARUMI\I am the manager and will be with\you until you become great player.\Let's get along.\Now, let's create character"
+80049,CreateCharacter.ui,원하는 스타일을 결정하도록 하죠.\앞으로 X-KICK 에서\자신을 대신하는 캐릭터가 되는 것이니\신중하게 선택하도록 해요.,"Decide with your style.\This character will play\the match instead of you in X-KICK\So, select with care."
+80050,CreateCharacter.ui,지금 『%s』님이 가지고 있는 능력치에요.\지금은 아주 낮고 모든 능력치가 같지만\튜토리얼 이후에 전직을 하게 되면\당신에게 맞는 능력치로 변하게 될 꺼에요.,"It's the current ability of. 『%s』\All the abilities now is very low,\but once you grow after tutorial\the abilities will be suitable for you."
+80051,CreateCharacter.ui,"드리블, 단거리 슛, 키핑","Dribbling, Short shots, Ball control"
+80052,CreateCharacter.ui,"순발력, 중거리 슛, 스틸","Agility, Long shots, Stealing"
+80053,CreateCharacter.ui,"근력, 스틸, 태클","Stamina, Stealing, Tackling"
+80054,CreateCharacter.ui,팀의 공격을 맡아 득점을 책임지는 포지션,The position for scoring the goals
+80055,CreateCharacter.ui,공/수 양면 모두 참여하여 팀원을 돕는 멀티 포지션,The position involved in both Attacking &\Defending positions
+80056,CreateCharacter.ui,팀의 최후방에서 실점을 막고 상대의 공격을 방해하는 포지션,The position not to lose the goals and obstructthe opponent players
+80057,CreateCharacter.ui,"득점력과 뛰어난 제공권 등을 바탕으로 팀의 모든 공격을 마무리 하는 포지션\항상 골대에 매우 가깝게 위치하며 상대 수비를 따돌리거나 무너뜨리는 역할 수행에도 적합하다.\누구보다 많은 헤딩 스킬은 ST를 더욱 돋보이게 한다.\클로제, 반 니스텔루이, 트레제게와 같은 킬러 본능이 있는 당신에게 최적의 포지션.","1. Striker, having good heading & catching highball abilities\2. Overcome the weakness of agility & speed\by making goal ability."
+80058,CreateCharacter.ui,"상대 수비 빈 공간을 파고 들어가 다이렉트로 슈팅을 연결하거나\공을 소유한 상태로 안정적인 드리블로 상대 수비를 돌파하는 중앙 공격수.\누구보다 강력한 슈팅 능력 및 스킬은 부족한 어시스트 능력을 채우기에 충분하다.\루니, 테베즈, 다비드 비야 등. 더 이상 무슨 설명이 필요할까?","1. Center Forward, having good dribbling skill &field goals\2. The best goal-scorer, having a ball."
+80059,CreateCharacter.ui,"빠르고 다양한 드리블 스킬과 수준 높은 크로스, 약간의 득점력을 겸비한 포지션.\측면 미드필더보다 공격에 더 중점을 두어 크로스가 1차적인 목표이지만\때때로 득점을 노리기도 한다.\크리스티아누 호날두와 같은 빠른 스피드로 상대를 공략하며,\아르옌 로벤과 같은 득점력을 겸비했다면 이미 경계 대상 1호.","1. Wing Forward, having the fasted dribbling\skill & crossing from side\2. Good scorer."
+80060,CreateCharacter.ui,"최고의 테크닉과 센스 있는 득점력을 갖춘 “공격수와 미드필더를 오가는” 포지션.\다른 포지션에 비해 활동량은 적지만,\언제 어디서든 득점이 가능하고 정확한 어시스트까지 가능하여 상대방에게 가장 위협적인 공격수.\지단이나 토티, 베르캄프 등 유명한 스타 플레이어가 가장 많은 포지션.","1. Shadow Striker, possible to make a goal fromanywhere\2. Good assistor & scorer but low dribbling skill &ball control."
+80061,CreateCharacter.ui,"폭 넓은 시야와 빠른 판단력으로 팀 공격의 주축이 되는 포지션.\능숙한 볼 터치와 빼어난 중거리 슛, 어시스트 등 기술적인 능력은 물론이고\상대 수비를 붕괴하는 과감한 패스 능력으로 직, 간접적 찬스 메이커라 할 수 있는 미드필더.\카카, 이니에스타 등 팀에서 간판 선수라 내세울 수 있는 공격적인 포지션.","1. Attacking Midfielder, delivering a ball to\forward also having the long shot\2. Good dribbler but low defensive ability."
+80062,CreateCharacter.ui,"팀에 따라 여러 가지 역할을 수행할 수 있어야 하는 유틸리티한 포지션.\공격과 수비를 연결하며, 상대가 볼을 소유하고 있을 시에는 수비도 해야 한다.\경기장 전체를 둘러볼 수 있고, 팀의 경기를 주도하는 사령관 역할을 하는 경우가 많다.\챠비, 피를로 등과 같이 패스 능력과 함께 힘과 수비 능력을 적절히 갖춘 균형 잡힌 선수이다.","1. Center Midfielder, controlling of game speedfor Attacking & Defending the both\2. The best passing player."
+80063,CreateCharacter.ui,"정확도 높은 크로스를 구사하는 것으로 유명한 데이비드 베컴이 대표적인 SM이다.\돌파보다는 상대적으로 먼 거리에서도 빠르고 정확하게 크로스를 하는 것이 주요 임무이며\사이드 라인의 이점을 살린 공격 작업 이외에도, 측면 수비를 돕는 역할을 수행한다.","1. Side Midfielder, having good dribbling &\crossing\2. The speed is lower than WF, but the\Defending ability is higher."
+80064,CreateCharacter.ui,"상대 공격의 흐름을 일차적으로 차단하여 수비를 더욱 탄탄하게 만들어 주면서\같은 편 선수들의 수비 부담을 줄여주는 포지션.\김남일, 로이 킨, 비에이라와 같은 강한 카리스마는\그가 있다는 사실만으로도 상대에게 압박을 주기에 충분하다.\스틸, 태클 등의 수비 능력이 준수한 수비수에 가까운 포지션","1. Defensive Midfielder, having good stealing &tackling\2. Close to Defender, not to make a goal easy\but having good defensive skills."
+80065,CreateCharacter.ui,"팀의 최후방에서 상대 편의 볼을 쓸어내는 역할을 맡으며\일반적으로 다른 수비수보다 수비 능력이 뛰어나 대부분 수비 지향적인 플레이를 펼친다.\네스타, 홍명보와 같이 수비뿐만 아니라 팀의 정신적인 지주가 되어보자.","1. Sweeper, the last player covering the wholearea behind a line of defenders\2. Good defender, but slow player."
+80066,CreateCharacter.ui,"상대적으로 빠른 스피드로 특정 지역을 전담하는 지역 방어에 유리한 포지션.\헤딩과 태클에 능하여 크로스 차단 뿐만 아니라, 상대의 돌파도 방어해낼 수 있다.\칸나바로, 존 테리처럼 든든한 벽이 될 자신이 있는 당신에게 적합한 포지션.","1. Center back, the center of defense blockingthe opponent players with high speed\2. Good for high ball and tackling."
+80067,CreateCharacter.ui,Stopper의 약자로 상대방 돌파를 저지하는 역할을 주로 수행하는 대인 방어에 특화된 포지션.\상대를 방어하기에 충분한 많은 수비 능력과 함께 오버랩 하기에 충분한 피지컬은 \SP 포지션만의 장점이라 할 수 있겠다.\수비만 해서 답답하다고 생각되는 당신에게는 공격 작업까지 할 수 있는 최적의 포지션.,"1. Stopper, having good man to man defense\ability\2. Low ability taking high ball but having a\special heading shot at the counter attack."
+80068,CreateCharacter.ui,1. 경기 중 유일하게 손을 쓸 수 있는 포지션\2. 골키퍼 보호구역을 벗어나면 다른 필드플레이어에 비해 운동 능력치는 떨어진다,"1. Goalkeeper, possible to catch the ball in thegoalkeeper to prevent the opposition from\scoring\2. The lowest field player at the out of\goalkeeper area."
+80069,CreateCharacter.ui,님의 경기 결과에요,s match result
+80070,CreateCharacter.ui,포지션 설명,Description of the position
+80071,CreateCharacter.ui,자동 성장,Automatic growth
+80072,CreateCharacter.ui,전직 보기,Position Tree
+80073,CreateCharacter.ui,스킬 리스트,Skill List
+80074,CreateCharacter.ui,캐릭터생성,CreateCharacter
+90001,CreateQuest.ui,보상 아이템,Item
+90002,CreateQuest.ui,없음,None
+90003,CreateQuest.ui,포인트,Points
+90004,CreateQuest.ui,경험치,EXP
+90005,CreateQuest.ui,퀘스트 상세보기,Quest Detail
+90006,CreateQuest.ui,수행조건 :,Condition :
+90007,CreateQuest.ui,퀘스트 설명,Description
+90008,CreateQuest.ui,레벨제한 :,Level :
+90009,CreateQuest.ui,참여인원 :,Player :
+90010,CreateQuest.ui,반복여부 :,Repetition :
+90011,CreateQuest.ui,비밀번호 설정,Password
+90012,CreateQuest.ui,정렬,Order
+90013,CreateQuest.ui,미완료,Not yet
+90014,CreateQuest.ui,완료,Done
+90015,CreateQuest.ui,레벨 제한,Level
+90016,CreateQuest.ui,참여 인원,Player
+90017,CreateQuest.ui,반복 여부,Repetition
+90018,CreateQuest.ui,수행 조건,Condition
+90019,CreateQuest.ui,퀘스트 만들기,New Quest
+90020,CreateQuest.ui,퀘스트 종류,Quest Type
+100001,CreateRoom.ui,방 만들기,Setting
+100002,CreateRoom.ui,인공지능 설정,Set AI
+100003,CreateRoom.ui,방식 설정,Match type
+100004,CreateRoom.ui,일반방,Normal
+100005,CreateRoom.ui,내기방,Betting
+100006,CreateRoom.ui,방제목,Title
+100007,CreateRoom.ui,비밀번호,Password
+100008,CreateRoom.ui,인원 설정,Player
+100009,CreateRoom.ui,키퍼만허용,Goalee Only
+100010,CreateRoom.ui,전포지션허용,All positions
+100011,CreateRoom.ui,전포지션불가,No AI players
+100012,CreateRoom.ui,세부설정 표시,Detail
+100013,CreateRoom.ui,20레벨 이상부터 Point 내기경기가 가능합니다,"Possilbe to play the betting match, when you meet the Lv.20"
+100014,CreateRoom.ui,레벨 설정,Level
+100015,CreateRoom.ui,포인트 설정,Betting Points
+100016,CreateRoom.ui,300 포인트,Points 300
+100017,CreateRoom.ui,500 포인트,Points 500
+100018,CreateRoom.ui,1000 포인트,Points 1000
+100019,CreateRoom.ui,포지션 설정,Positons
+100020,CreateRoom.ui,선공 설정,Ball 
+100021,CreateRoom.ui,시간 설정,Time
+100022,CreateRoom.ui,날씨 설정,Weather
+100023,CreateRoom.ui,시간변화허용,Allow changing\Time
+100024,CreateRoom.ui,날씨변화허용,Allow changing\Weather
+100025,CreateRoom.ui,클럽전용,Club only
+100026,CreateRoom.ui,관전허용,Observer 
+100027,CreateRoom.ui,관전자채팅허용,Allow Chat
+100028,CreateRoom.ui,옵션 설정,Options
+100029,CreateRoom.ui,격번제,Sequence
+100030,CreateRoom.ui,랜덤제,Random
+100031,CreateRoom.ui,± 5레벨,LEVEL ±5
+100032,CreateRoom.ui,± 10레벨,LEVEL ±10
+100033,CreateRoom.ui,전체,ALL
+100034,CreateRoom.ui,싱글,Single
+100035,CreateRoom.ui,AI 카드 대전,AI card match
+100036,CreateRoom.ui,%d-%d Level,%d-%d Level
+100037,CreateRoom.ui,플레이모드,Play mode setting
+100038,CreateRoom.ui,AI 설정,AI setting
+100039,CreateRoom.ui,지역 설정,Select Local area
+100040,CreateRoom.ui,AI 비허용,Unable AI
+100041,CreateRoom.ui,AI 허용,Enable AI
+100042,CreateRoom.ui,사우디아라비아,Saudi Arabia
+100043,CreateRoom.ui,알제리아,Algeria
+100044,CreateRoom.ui,모로코,Morroco
+100045,CreateRoom.ui,바레인,Bahrain
+100046,CreateRoom.ui,아랍,Iraq
+100047,CreateRoom.ui,레바논,Lebanon
+100048,CreateRoom.ui,시리아,Syria
+100049,CreateRoom.ui,아랍에미리트,United Arab Emirates
+100050,CreateRoom.ui,오만,Oman
+100051,CreateRoom.ui,조르단,Jordan
+100052,CreateRoom.ui,튀니지,Tunisia
+100053,CreateRoom.ui,이집트,Egypt
+100054,CreateRoom.ui,카타르,Qatar
+100055,CreateRoom.ui,팔레스타인,Palestine
+100056,CreateRoom.ui,쿠웨이트,Kuwait
+100057,CreateRoom.ui,예맨,Yemen
+100058,CreateRoom.ui,리비아,Libya
+100059,CreateRoom.ui,수단,Sudan
+110001,GameLoading.ui,관전자 1,Observer 1
+110002,GameLoading.ui,관전자 2,Observer 2
+110003,GameLoading.ui,관전자 3,Observer 3
+110004,GameLoading.ui,관전자 4,Observer 4
+120001,GamePlay.ui,+ 100 포인트,+ 100 Points
+120002,GamePlay.ui,경기에서 승리하라!,Be sure to Win!
+120003,GamePlay.ui,승리를 지켜라!,Keep the victiory!
+120004,GamePlay.ui,반드시 승리하라!,Be sure to Win!
+120005,GamePlay.ui,튜토리얼,TUTORIAL
+130001,GameResult.ui,점수,Score
+130002,GameResult.ui,MVP,MVP
+130003,GameResult.ui,팀성적,Team Stats
+130004,GameResult.ui,컷팅,Cutting
+130005,GameResult.ui,유효슈팅,Shots
+130006,GameResult.ui,유효스틸,Steals
+130007,GameResult.ui,유효태클,Tackles
+130008,GameResult.ui,점유율,Possession
+130009,GameResult.ui,프로모션,Promotion
+130010,GameResult.ui,이름,Name
+130011,GameResult.ui,보상내역,Reward  
+130012,GameResult.ui,보너스 카드내역,Bonus Card
+130013,GameResult.ui,퀘스트 설명,Quest Description
+130014,GameResult.ui,축하합니다.!\레벨 10을 달성 하였습니다.\전직창으로 이동합니다.,Congratulations!\Achieve Lv.10\Move to the page for upgrading your character.
+130015,GameResult.ui,게임결과,GameResult
+140001,GameResult_open.ui,결과보기,Game Result
+150001,ItemBag.ui,브랜드,Brand
+150002,ItemBag.ui,히트,Hit
+150003,ItemBag.ui,신규,New
+150004,ItemBag.ui,카트,Cart
+150005,ItemBag.ui,전체,All
+150006,ItemBag.ui,머리,Head
+150007,ItemBag.ui,얼굴,Face
+150008,ItemBag.ui,얼굴 페인트,Face Painting
+150009,ItemBag.ui,하의,Pants
+150010,ItemBag.ui,상의,Shirts
+150011,ItemBag.ui,장갑,Gloves
+150012,ItemBag.ui,신발,Shoes
+150013,ItemBag.ui,양말,Socks
+150014,ItemBag.ui,귀걸이,Earrings
+150015,ItemBag.ui,안경,Glasses
+150016,ItemBag.ui,목걸이,Necklaces
+150017,ItemBag.ui,마스크,Masks
+150018,ItemBag.ui,팔목보호대,Elbow Bands
+150019,ItemBag.ui,손목보호대,Wrist Bands
+150020,ItemBag.ui,무릅보호대,Knee Guards
+150021,ItemBag.ui,응원도구,Cheering Tools
+150022,ItemBag.ui,슬롯,Slots
+150023,ItemBag.ui,드링크,Drinks
+150024,ItemBag.ui,바,Bars
+150025,ItemBag.ui,전체,All
+150026,ItemBag.ui,스킬 레벨,Skill Lv.
+150027,ItemBag.ui,피로도,Fatigue
+150028,ItemBag.ui,레벨,Level
+150029,ItemBag.ui,S랭크,Rank S
+150030,ItemBag.ui,A랭크,Rank A
+150031,ItemBag.ui,B랭크,Rank B
+150032,ItemBag.ui,C랭크,Rank C
+150033,ItemBag.ui,D랭크,Rank D
+150034,ItemBag.ui,소포,Parcel
+150035,ItemBag.ui,머플러,Muffler
+150036,ItemBag.ui,가방,Backpack
+150037,ItemBag.ui,공격,Attack
+150038,ItemBag.ui,미들,Middle
+150039,ItemBag.ui,수비,Defense
+150040,ItemBag.ui,재료,Element
+150041,ItemBag.ui,AI카드 정보,AI Card Info
+150042,ItemBag.ui,엔트리 등록,Starting Member(s)
+150043,ItemBag.ui,조합,MIX
+150044,ItemBag.ui,조합할 카드,Mix Card
+150045,ItemBag.ui,인첸트,Enchant
+150046,ItemBag.ui,아이템 이름,Item name
+150047,ItemBag.ui,착용,Take on
+150048,ItemBag.ui,해제,Take off
+150049,ItemBag.ui,강화,Upgrade
+150050,ItemBag.ui,일반,NORMAL
+150051,ItemBag.ui,레어,RARE
+150052,ItemBag.ui,스페셜,SPECIAL
+150053,ItemBag.ui,모두해제,Take off all
+150054,ItemBag.ui,전직카드,Position
+150055,ItemBag.ui,되팔기,Resell
+150056,ItemBag.ui,강화 아이템 슬롯,Enchant Item Slot
+160001,ItemDialog.ui,아이템 구매,Buy Item
+160002,ItemDialog.ui,P,P
+160003,ItemDialog.ui,C,C
+160004,ItemDialog.ui,보유 포인트,Your Balance
+160005,ItemDialog.ui,구입 포인트,Item Price
+160006,ItemDialog.ui,구매후 남은 포인트,New Balance
+160007,ItemDialog.ui,아이템을 구매 하시겠습니까?,Would you like to buy the item?
+160008,ItemDialog.ui,메세지를 입력해주세요.,Message
+160009,ItemDialog.ui,등록된 친구찾기,Find Friend
+160010,ItemDialog.ui,아이템을 선물 하시겠습니까?,Would you like to gift the item?
+160011,ItemDialog.ui,아이템을 교환 하시겠습니까?,Would you like to exchange the item?
+160012,ItemDialog.ui,카드 구매,Buy Card
+160013,ItemDialog.ui,카드를 구매 하시겠습니까?,Would you like to buy the card?
+160014,ItemDialog.ui,순서,Order
+160015,ItemDialog.ui,보낸사람,Character
+160016,ItemDialog.ui,일자,Date
+170001,ItemShop.ui,유니폼,Uniform
+170002,ItemShop.ui,숫자,Number
+170003,ItemShop.ui,음식,Foods
+170004,ItemShop.ui,오늘 구매 가능한 상품입니다.\새 상품 도착 시간 : 매일 밤 12시,The items possible to buy today.\The new items will come every 12:00am.
+170005,ItemShop.ui,모든카드,All Cards
+170006,ItemShop.ui,포지션별,Position
+170007,ItemShop.ui,행동유형,Activity
+170008,ItemShop.ui,무난한 D등급. 흠.... ,Congratulations! You take a D grade card
+170009,ItemShop.ui,C등급. 그래도 성능은 좋아요 ^^,Congratulations! You take a C grade card
+170010,ItemShop.ui,와우! B등급? 이 정도면 중박?,Congratulations! You take a B grade card
+170011,ItemShop.ui,축하합니다~ A등급을 획득하셨네요,Congratulations! You take a A grade card
+170012,ItemShop.ui,대박~! S등급이에요!!!,Congratulations! You take a S grade card
+170013,ItemShop.ui,선물하기,Gift Item
+170014,ItemShop.ui,교환하기,Exchange Item
+170015,ItemShop.ui,아이템옵션,Item option(s)
+170016,ItemShop.ui,받는사람,Character
+170017,ItemShop.ui,내용,Comment
+170018,ItemShop.ui,내구도 %d/%d,Durability %d/%d
+170019,ItemShop.ui,영구사용,Permanent
+170020,ItemShop.ui,기능성,Functionality
+170021,ItemShop.ui,소모성,Expendability
+180001,MessageBox.ui,메시지,Message
+190001,Option.ui,게임 옵션,Game Option
+190002,Option.ui,카메라,Camera
+190003,Option.ui,줌인 / 아웃,Zoom
+190004,Option.ui,이름표시,Names
+190005,Option.ui,허용,Enable
+190006,Option.ui,거부,Disable
+190007,Option.ui,초대,Invitation
+190008,Option.ui,효과음,Effect Sound
+190009,Option.ui,배경음,BGM
+190010,Option.ui,없음,Hide
+190011,Option.ui,모두,All
+190012,Option.ui,타겟,Target
+190013,Option.ui,팀,Team
+190014,Option.ui,각도조절,View point\Control
+190015,Option.ui,감마,Gamma
+190016,Option.ui,게임 화면,Screen Mode
+190017,Option.ui,풀화면,Full
+190018,Option.ui,윈도우,Window
+190019,Option.ui,안티앨리애싱,Anti-Aliasing
+190020,Option.ui,날씨 효과,Weather Effect
+190021,Option.ui,게임 효과,Game Effect
+190022,Option.ui,배경 효과,BG.Effect
+190023,Option.ui,그림자,Shadow
+190024,Option.ui,끄기,Hide
+190025,Option.ui,켜기,Visible
+190026,Option.ui,블룸 효과,Bloom Effect
+190027,Option.ui,게임 모드,Game Mode
+190028,Option.ui,노멀,Normal
+190029,Option.ui,와이드,Wide
+190030,Option.ui,낮음,Low
+190031,Option.ui,보통,Normal
+190032,Option.ui,높음,High
+190033,Option.ui,반사 효과,Reflection Effect
+190034,Option.ui,반사 맵,Reflection Map
+190035,Option.ui,캐릭터 광원,Character Light
+190036,Option.ui,사양 선택,PC Specification
+190037,Option.ui,저사양,Low
+190038,Option.ui,중사양,Medium
+190039,Option.ui,고사양,High
+190040,Option.ui,컨트롤러 선택,Controller
+190041,Option.ui,상 이동,Front Move
+190042,Option.ui,키보드,Keyboard
+190043,Option.ui,공격시,Offense
+190044,Option.ui,키설정,Key setting
+190045,Option.ui,수비시,Defense
+190046,Option.ui,빠른 달리기,Fast Running
+190047,Option.ui,빠른 드리블,Fast Dribble
+190048,Option.ui,스틸,Steal
+190049,Option.ui,개인기,Skills
+190050,Option.ui,태클,Tackle
+190051,Option.ui,스크린,Screen
+190052,Option.ui,스루 패스,Thru Pass
+190053,Option.ui,다이렉트 숏패스,Direct Short pass
+190054,Option.ui,숏 패스,Short pass
+190055,Option.ui,다이렉트 롱패스,Direct Long pass
+190056,Option.ui,롱 패스,Long pass
+190057,Option.ui,다이렉트 우측슈팅,Right Direct shot
+190058,Option.ui,우측 슈팅,Right Shot
+190059,Option.ui,다이렉트 좌측슈팅,Left Direct Shot
+190060,Option.ui,좌측 슈팅,Left Shot
+190061,Option.ui,우 이동,Right Move
+190062,Option.ui,좌 이동,Left Move
+190063,Option.ui,하 이동,Back Move
+190064,Option.ui,빠른 달리기2,Fast Running2
+190065,Option.ui,빠른 드리블2,Fast Dribble2
+190066,Option.ui,음악 트랙수,Track
+190067,Option.ui,기본 BGM,Default BGM
+190068,Option.ui,사용자 BGM,User BGM
+190069,Option.ui,검색된 파일 리스트,Retrieved File List
+190070,Option.ui,수고하셨습니다!,Thank you very much!
+190071,Option.ui,기본,Default
+190072,Option.ui,설정,Change
+190073,Option.ui,화이팅!,Cheer Up!
+190074,Option.ui,괜찮아요,It's ok
+190075,Option.ui,미안해요,My bad
+190076,Option.ui,나이스 트라이!,Nice Try!
+190077,Option.ui,나이스 클리어!,Nice Clear!
+190078,Option.ui,나이스 패스!,Nice Pass!
+190079,Option.ui,나이스 슛!,Nice Shoot!
+190080,Option.ui,언어 선택,Language 
+190081,Option.ui,조이스틱,Joystick
+190082,Option.ui,기본설정,Default
+190083,Option.ui,스킬설정,Skill Keys
+190084,Option.ui,기본값,Default
+190085,Option.ui,설정값,User
+190086,Option.ui,적용,Adjust
+190087,Option.ui,전체모드,Full Mode
+190088,Option.ui,창모드 %s,Wondow Mode %s
+200001,PasswordBox.ui,비밀번호,Password
+200002,PasswordBox.ui,비밀번호를 입력해주세요.,Input password
+210001,PlayerInformation.ui,내 정보,My Information
+210002,PlayerInformation.ui,통산,Total
+210003,PlayerInformation.ui,월별,Monthly
+210004,PlayerInformation.ui,출전,Matches
+210005,PlayerInformation.ui,횟수,N of Times
+210006,PlayerInformation.ui,순위,Ranking
+210007,PlayerInformation.ui,수상내역,My trophies
+210008,PlayerInformation.ui,기본정보,Play Info.
+210009,PlayerInformation.ui,소비아이템,Consumption
+210010,PlayerInformation.ui,거래내역,Trade List
+210011,PlayerInformation.ui,클  럽 :,Club:
+210012,PlayerInformation.ui,레  벨 :,Level:
+210013,PlayerInformation.ui,호  칭 :,Title:
+210014,PlayerInformation.ui,포지션 :,Position:
+210015,PlayerInformation.ui,상  태 :,Status:
+210016,PlayerInformation.ui,이  름 :,Name:
+210017,PlayerInformation.ui,자동성장,Auto Growth
+210018,PlayerInformation.ui,남은 능력치,Bonus Points
+210019,PlayerInformation.ui,사용,Status
+210020,PlayerInformation.ui,아이템명,Item name
+210021,PlayerInformation.ui,효과,Effection
+210022,PlayerInformation.ui,개수,Quantity
+210023,PlayerInformation.ui,날짜,Date
+210024,PlayerInformation.ui,품명,Name
+210025,PlayerInformation.ui,형태,Type
+210026,PlayerInformation.ui,금액,Amount 
+210027,PlayerInformation.ui,상패,Trophy 
+210028,PlayerInformation.ui,이번분기내역,This quarter
+210029,PlayerInformation.ui,지난분기내역,Last quarter
+210030,PlayerInformation.ui,클럽원 리스트,Club member list
+210031,PlayerInformation.ui,친구 리스트,Friend list
+210032,PlayerInformation.ui,차단 리스트,Black list
+210033,PlayerInformation.ui,상태,Status
+210034,PlayerInformation.ui,클럽 정보,Club Info.
+210035,PlayerInformation.ui,클럽원,Club member
+210036,PlayerInformation.ui,클럽명,Club name
+210037,PlayerInformation.ui,회원수,Qty of member
+210038,PlayerInformation.ui,클럽장,Captain
+210039,PlayerInformation.ui,부클럽장,Vice captain
+210040,PlayerInformation.ui,클럽포인트,Club Point
+210041,PlayerInformation.ui,평균평점,Avg. Vote
+210042,PlayerInformation.ui,랭킹,Rnaking
+210043,PlayerInformation.ui,경기수,Match(es)
+210044,PlayerInformation.ui,출전시간,Playing Time
+210045,PlayerInformation.ui,클럽,Club
+210046,PlayerInformation.ui,승리수,Number of Win
+210047,PlayerInformation.ui,무승부,Draw
+210048,PlayerInformation.ui,패스,Pass
+210049,PlayerInformation.ui,가드,Guard
+210050,PlayerInformation.ui,유효패스,A valid pass
+210051,PlayerInformation.ui,유효가드,A valid guard
+210052,PlayerInformation.ui,기록,Record
+210053,PlayerInformation.ui,실점,Lose a point
+210054,PlayerInformation.ui,결과,Result
+210055,PlayerInformation.ui,항목,List
+210056,PlayerInformation.ui,경기,Games
+210057,PlayerInformation.ui,승,Win
+210058,PlayerInformation.ui,무,Draw
+210059,PlayerInformation.ui,점,Score
+210060,PlayerInformation.ui,회,number
+210061,PlayerInformation.ui,종합 점수,Total Score
+210062,PlayerInformation.ui,컷팅 유효,Valid Cutting
+210063,PlayerInformation.ui,슈팅 유효,Valid Shooting
+210064,PlayerInformation.ui,스틸 유효,Valid Steal
+210065,PlayerInformation.ui,태클 유효,Valid Tackle
+210066,PlayerInformation.ui,패스 유효,Valid Pass
+210067,PlayerInformation.ui,가드 유효,Valid Guard
+210068,PlayerInformation.ui,슈팅 시도,Try Shoot
+210069,PlayerInformation.ui,스틸 시도,Try steal
+210070,PlayerInformation.ui,태클 시도,Try tackle
+210071,PlayerInformation.ui,패스 시도,Try pass
+210072,PlayerInformation.ui,가드 시도,Try guard
+210073,PlayerInformation.ui,다승,Win
+210074,PlayerInformation.ui,승점,Victory score
+210075,PlayerInformation.ui,커팅,Cutting
+210076,PlayerInformation.ui,평균 득점,Average goal
+210077,PlayerInformation.ui,평균 어시스트,Average assist
+210078,PlayerInformation.ui,평균 커팅,Average cutting
+210079,PlayerInformation.ui,평균 슈팅,Average shooting
+210080,PlayerInformation.ui,평균 스틸,Average steal
+210081,PlayerInformation.ui,평균 태클,Average tackle
+210082,PlayerInformation.ui,평균 패스,Average pass
+210083,PlayerInformation.ui,승률,Victory rate
+210084,PlayerInformation.ui,슈팅 성공률,Shooting success rate
+210085,PlayerInformation.ui,스틸 성공률,Steal success rate
+210086,PlayerInformation.ui,태클 성공률,Tackle success rate
+210087,PlayerInformation.ui,패스 성공률,Pass success rate
+210088,PlayerInformation.ui,통산,Total
+210089,PlayerInformation.ui,분기,Quarter of a year
+210090,PlayerInformation.ui,선택,selection
+210091,PlayerInformation.ui,위,ranking
+220001,SkillBag.ui,보유스킬,Skills
+220002,SkillBag.ui,전체스킬,All Skills
+220003,SkillBag.ui,스킬레벨,Level
+220004,SkillBag.ui,Lv,Lv.
+220005,SkillBag.ui,쿨타임,Cool Time
+220006,SkillBag.ui,적    용,Effect
+220007,SkillBag.ui,1 레벨,Lv.1
+220008,SkillBag.ui,2 레벨,Lv.2
+220009,SkillBag.ui,3 레벨,Lv.3
+220010,SkillBag.ui,[사용키],[Keys]
+220011,SkillBag.ui,[설 명],[Description]
+220012,SkillBag.ui,남은 스킬치,Skill Points
+220013,SkillBag.ui,보유 슬롯,Empty Slot
+230001,SkillDialog.ui,스킬 구매,Buy Skill
+230002,SkillDialog.ui,스킬을 구매 하시겠습니까?,Would you like to buy the skill?
+230003,SkillDialog.ui,트레이닝을 구매 하시겠습니까?,Would you like to buy the trainning?
+230004,SkillDialog.ui,세레모니를 구매 하시겟습니까?,Would you like to buy the ceremony?
+240001,SkillShop.ui,나의스킬,My Skills
+240002,SkillShop.ui,트레이닝 구매,Buy Training
+240003,SkillShop.ui,세레모니 구매,Buy Ceremony
+250001,SkillView.ui,미리 보기,Preview
+260001,TutorialMain.ui,보상품:,Reward:
+260002,TutorialMain.ui,상대 GK AI를 상대로 AI 3명과 함께 공격하여 제한 시간내에 경기에서 승리하라,Win the game with a AI player a limited time.
+260003,TutorialMain.ui,GK AI와 협동하여\제한 시간 내에\상대 AI들의 공격을\방어하라.,Keep the victiory with\AI team member!\Defense from opponent\AI players within given\time.
+260004,TutorialMain.ui,제한 시간 내에 경기를\진행하여\반드시 승리하라.,Be sure to win!\Win the match with\limited condition.
+260005,TutorialMain.ui,경기에서 승리!,Win the game.
+260006,TutorialMain.ui,상대팀을 이겨라,Win the opponent
+260007,TutorialMain.ui,1골차 이상으로 승리,Win the match with more than 1 goal
+260008,TutorialMain.ui,+ 3000 포인트, + 3000 Points
+260009,TutorialMain.ui,연습생 퀘스트,Trainee Quest
+270001,TutorialPlay.ui,튜토리얼 진행사항,Status
+270002,TutorialPlay.ui,"키보드 설정은 서버 접속 후 게임옵션의 ""키설정""에서 변경 가능 합니다.",Possible to change the control buttons at the key setting of Game option.
+270003,TutorialPlay.ui,해당 키 입력 후 재 입력 또는 해당 키 1초 이상 누름.,Press the key again after press the key or keep pressing the key more than 1 sec
+270004,TutorialPlay.ui,왼쪽 방향 슈팅 : D / 오른쪽 방향 슈팅 : F,Left shot: D /Right shot: F
+270005,TutorialPlay.ui,공을 소유하기 전 미리 키 입력 (연타),Press the key before the ball arrives
+270006,TutorialPlay.ui,다이렉트 패스 방법 : 공 소유 전 미리 입력 (연타),Direct pass: Press S or A key before the ball arrives
+270007,TutorialPlay.ui,공을 소유한 캐릭터와의 거리가 가까울수록 성공 확률 증가.,Tackling from the close range has an higher success rate
+270008,TutorialPlay.ui,공을 소유 하기 전 미리 키 입력 (연타),Press the key before the ball arrives
+280001,QuestMain.ui,유저들과의 경기를 치루기 이전에 AI들로 구성된 팀과 미리 경기를 수행해봄으로써 게임의 재미를 느끼게 하는 중간 튜토리얼 과정이다.,"It's a middle level tutorial, which have a test match with AI team before having the real match with users."
+290001,GameResult.ui,퀘스트 No.,Quest No.
+300001,TutorialGuide.ui,캐릭터 능력치에 대한 내용입니다\알고 시작하면 좋겠죠?,That is for the basic abilities.\Need to know before starting!
+300002,TutorialGuide.ui,­ 슈   팅,­ Shooting
+300003,TutorialGuide.ui,­ 숏 패스,­ Short pass
+300004,TutorialGuide.ui,­ 롱 패스,­ Long pass
+300005,TutorialGuide.ui,­ 태   클,­ Tackle
+300006,TutorialGuide.ui,(D 왼쪽 슛\F 오른쪽 슛),"(D Left shot, F Right shot)"
+300007,TutorialGuide.ui,일반 이동 능력,Normal moving
+300008,TutorialGuide.ui,공 소유 상태 이동 능력,Moving with ball
+300009,TutorialGuide.ui,빠른 이동 능력,Quick moving
+300010,TutorialGuide.ui,빠른 이동의 지속 능력,Increase the time to use 'Agility' 
+300011,TutorialGuide.ui,공에 대한 선점 능력,Prior occupation for high ball
+300012,TutorialGuide.ui,상대와 부딪혀 이길 능력,Struggling against opponent player to have the ball
+300013,TutorialGuide.ui,크로스의 세기 + 해당 공을 슛팅 성공 가능성,Controlling the power of ball crossing
+300014,TutorialGuide.ui,숏 패스의 세기 + 해당 공을 슛팅 성공 가능성,Controlling the power of passing
+300015,TutorialGuide.ui,롱 패스의 세기 + 해당 공을 슛팅 성공 가능성,Controlling the power of long passing
+300016,TutorialGuide.ui,공 소유 능력,Keeping the ball
+300017,TutorialGuide.ui,빠르게 공을 빼앗는 능력,Taking the ball from a opponent player
+300018,TutorialGuide.ui,강력하게 공을 빼앗는 능력,Taking the ball from a opponent player by tackling
+300019,TutorialGuide.ui,헤딩 슛팅의 성공 가능성,Increase the accuracy of heading shot 
+300020,TutorialGuide.ui,단거리 슛팅 가능 지역 내 슛팅의 성공 가능성,Increase the accuracy of short shot 
+300021,TutorialGuide.ui,중거리 슛팅 가능 지역 내 슛팅의 성공 가능성,Increase the accuracy of long shot 
+300022,TutorialGuide.ui,『 체력 관련 특성치 자세히 보기 』,『 Learn more physical Status 』
+300023,TutorialGuide.ui,『 방어 관련 특성치 자세히 보기 』,『 Learn more defensive Status 』
+300024,TutorialGuide.ui,『 개인기 관련 특성치 자세히 보기 』,『 Learn more technique Status 』
+300025,TutorialGuide.ui,『 공격 관련 특성치 자세히 보기 』,『 Learn more offensive Status 』
+300026,TutorialGuide.ui,『 패스 관련 특성치 자세히 보기 』,『 Learn more passing Status 』
+300027,TutorialGuide.ui,­ 스 크 린,­ Screen
+300028,TutorialGuide.ui,­ 스   틸,­ Steal
+310001,InvenDialog.ui,엔트리 1,Entry 1
+310002,InvenDialog.ui,엔트리 2,Entry 2
+310003,InvenDialog.ui,엔트리 3,Entry 3
+320001,CardDialog.ui,카드 구매 결과,Card purchasing result
+330001,ReadyRoom.ui,자동,Auto
+330002,ReadyRoom.ui,새벽,Dawn
+330003,ReadyRoom.ui,낮,Daylight
+330004,ReadyRoom.ui,저녁,Sunset
+330005,ReadyRoom.ui,밤,Night
+330006,ReadyRoom.ui,랜덤,Random

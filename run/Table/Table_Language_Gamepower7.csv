@@ -1,0 +1,592 @@
+Code,UiFile,Dubai_Arb
+10001,Font,Arial
+10002,Size,14
+20001,Login.ui,ÏÎæá
+20002,Login.ui,ÇáÍÓÇÈ
+20003,Login.ui,ßáãÉ ÇáÓÑ
+30001,ChoiceTrio.ui,ÎíÇÑÇÊ ÇááÚÈÉ
+30002,ChoiceTrio.ui,ÎÑæÌ
+30003,ChoiceTrio.ui,ÇÎÑ ÔíÁ Êã ÍĞİå
+30004,ChoiceTrio.ui,ÇÎÑ ÇÊÕÇá Êã
+30005,ChoiceTrio.ui,æÍÏÇÊ
+30006,ChoiceTrio.ui,äŞÇØ
+30007,ChoiceTrio.ui,ÇáÑÕíÏ
+30008,ChoiceTrio.ui,åá ÇäÊ ãÊÃßÏ ãä ÑÛÈÊß ÈÍĞİ ÇáÔÎÕíÉ ¿ ÑÌÇÁ ÇÏÎá ßáãÉ ÇáÓÑ áÊÃßíÏ ÇáÚãáíÉ
+40001,Choice.ui,ÏÚæÉ
+40002,Choice.ui,ÑÓÇáÉ
+40003,Choice.ui,ãÑßÒ
+40004,Choice.ui,Lv. ãÓÊæì
+40005,Choice.ui,ÇáÇÓã
+40006,Choice.ui,ÊÚáíŞ
+50001,ChoiceClass.ui,Îáİ
+50002,ChoiceClass.ui,Ïáíá ÊÚáíãí
+50003,ChoiceClass.ui,EXP
+50004,ChoiceClass.ui,%s ßíİ ßÇäÊ ÇáãÈÇÑÇÉ ¿ ÃäÊ ÊÕäÚ ÌíÏÇ  ÍÓäÇ ÏÚäÇ äÎÊÇÑ ãÑßÒÇ áß \ İí åĞå ÇáäŞØÉ ÊÎÊÇÑ ãÑßÒÇ áÔÎÕíÊß æåĞÇ ÊÍáíá áãÈÇÑÇÊß ÇáÓÇÈŞÉ
+50005,ChoiceClass.ui,%s ÊÓÏíÏÉ ÌíÏÉ åá ÊÍÈ ãÑßÒ ÇáåÌæã¿ Çäå ÇáãÑßÒ áÕäÚ ÇáÃåÏÇİ ÑÇÆÚ ÃáíÓ ßĞáß ¿
+50006,ChoiceClass.ui,%s ÊãÑíÑÉ ÌíÏÉ åá ÊÍÈ ãÑßÒ ÇáæÓØ ¿ Çäå ÇáãÑßÒ ÇáãÊÎÕÕ İí ÇáåÌæã æÇáÏİÇÚ ãÚÇ ÑÇÆÚ ÃáíÓ ßĞáß ¿
+50007,ChoiceClass.ui,"%s ,ÏİÇÚ ÌíÏ åá ÊÍÈ ãÑßÒ ÇáÏİÇÚ¿ Çäå ÇáãÑßÒ ÇáãÊÎÕÕ İí ÚÏã ÎÓÇÑÉ åÏİ ÑÇÆÚ ÃáíÓ ßĞáß ¿"
+50008,ChoiceClass.ui,ÇáÊÓÏíÏ
+50009,ChoiceClass.ui,ÇáßÑÉ ÍÑÉ
+50010,ChoiceClass.ui,ÌÏæá ÇáÇÎÊÕÇÕ ÇáËÇäí
+60001,ChoiceReplay.ui,ÇÚÇÏÉ
+60002,ChoiceReplay.ui,ÇáãÑßÒ
+60003,ChoiceReplay.ui,ÇáÇÓã
+60004,ChoiceReplay.ui,ÇáÃåÏÇİ
+60005,ChoiceReplay.ui,ãÓÇÚÏÉ
+60006,ChoiceReplay.ui,ÇáÊÕæíÊ
+70001,ChoiceRoom.ui,ãÊÌÑ ÇáãåÇÑÉ
+70002,ChoiceRoom.ui,ÇáãÚáæãÇÊ
+70003,ChoiceRoom.ui,ãÊÌÑ ÇáÃÏæÇÊ
+70004,ChoiceRoom.ui,ãÎÒä ÇáÃÏæÇÊ
+70005,ChoiceRoom.ui,ÇáãåãÉ
+70006,ChoiceRoom.ui,ÇåãÓ
+70007,ChoiceRoom.ui,ÇáØáÈ
+70008,ChoiceRoom.ui,ÇäÊ áã ÊŞã ÈÊØæíÑ ãÑßÒ ÇáÔÎÕíÉ ÇäÊŞá ááÕİÍÉ ãä ÃÌá ÇáÚãá
+70009,ChoiceRoom.ui,Çáßá
+70010,ChoiceRoom.ui,ÚÇÏí
+70011,ChoiceRoom.ui,ÇäÊÙÇÑ
+70012,ChoiceRoom.ui,ÇáãåãÉ
+70013,ChoiceRoom.ui,ÇÖÇİÉ ÕÏíŞ
+70014,ChoiceRoom.ui,ÇÖÇİÉ ÊÌÇåá
+70015,ChoiceRoom.ui,ÇáÊİÇÕíá
+70016,ChoiceRoom.ui,ÑÏåÉ
+70017,ChoiceRoom.ui,ŞÏÑÉ ÚÔæÇÆíÉ 
+70018,ChoiceRoom.ui,ÇáäÙÇã
+70019,ChoiceRoom.ui,ãÎÒä ÇáãåÇÑÉ
+80001,CreateCharacter.ui,ÇáäãØ
+80002,CreateCharacter.ui,ÇáÌäÓ
+80003,CreateCharacter.ui,ÇáÇÓã
+80004,CreateCharacter.ui,ÇáÈäØÇá
+80005,CreateCharacter.ui,ÇáÈÔÑÉ
+80006,CreateCharacter.ui,ÇáŞãÕÇä
+80007,CreateCharacter.ui,ÇáÃÍĞíÉ
+80008,CreateCharacter.ui,ÊÃßÏ
+80009,CreateCharacter.ui,ÌÑí
+80010,CreateCharacter.ui,ãÑÇæÛÉ
+80011,CreateCharacter.ui,ÎİÉ ÇáÍÑßÉ
+80012,CreateCharacter.ui,ÇáŞÏÑÉ Úáì ÇáÊÍãá
+80013,CreateCharacter.ui,ŞİÒ
+80014,CreateCharacter.ui,ÇÎÊÑÇŞ
+80015,CreateCharacter.ui,ÊŞÇØÚ
+80016,CreateCharacter.ui,ÊãÑíÑÉ ŞÕíÑÉ
+80017,CreateCharacter.ui,ÊãÑíÑÉ ØæíáÉ
+80018,CreateCharacter.ui,ÑÃÓíÉ
+80019,CreateCharacter.ui,ÊÓÏíÏÇÊ ŞÕíÑÉ
+80020,CreateCharacter.ui,ÊÓÏíÏÇÊ ØæíáÉ
+80021,CreateCharacter.ui,ÊÍßã ÈÇáßÑÉ
+80022,CreateCharacter.ui,ÇáÎØİ
+80023,CreateCharacter.ui,ÚÑŞáÉ
+80024,CreateCharacter.ui,íãÓß
+80025,CreateCharacter.ui,áßãÉ
+80026,CreateCharacter.ui,ÇáÏİÇÚ 
+80027,CreateCharacter.ui,ÇáŞÏÑÉ
+80028,CreateCharacter.ui,ãÑßÒ ÕÇäÚ ÇáÇåÏÇİ
+80029,CreateCharacter.ui,íãßäß ÊØæíÑ ÇáãÑßÒ ÚäÏ ÇáãÓÊæì 5
+80030,CreateCharacter.ui,íãßäß ÊØæíÑ ÇáãÑßÒ ÚäÏ ÇáãÓÊæì 20
+80031,CreateCharacter.ui,åĞÇ ÇáãÑßÒ íÊÚáŞ ÈãÑßÒí ÇáåÌæã æ ÇáÏİÇÚ
+80032,CreateCharacter.ui,åĞÇ ÇáãÑßÒ áßí áÇ ÊÎÓÑ ÇáÇåÏÇİ
+80033,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÑÃÓíÉ æ ÇáßÑÉ ÇáÚÇáíÉ
+80034,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááãÑÇæÛÉ æ ÇåÏÇİ ÇáãáÚÈ
+80035,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááãÑÇæÛÉ ÇáÓÑíÚÉ æ ÇáÊŞÇØÚ
+80036,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÊÓÏíÏÇÊ ÇáŞÕíÑÉ æ ÇáØæíáÉ
+80037,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÊÓÏíÏÇÊ ÇáØæíáÉ
+80038,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÊãÑíÑÉ ÇáŞÕíÑÉ ÇáãÑßÒÉ
+80039,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÊãÑíÑÇÊ ÇáØæíáÉ æ ÇáÊŞÇØÚ
+80040,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÏİÇÚ İí ãäØŞÉ ÇáæÓØ
+80041,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÏİÇÚ İí ÇáäåÇíÉ
+80042,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÏİÇÚ ãä ßÑÉ ÚÇáíÉ
+80043,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ááÏİÇÚ ãä ÑÌá áÑÌá
+80044,CreateCharacter.ui,áŞÏ ÇÎÊÑÊ ÇáåÌæã åĞÇ ÇáãÑßÒ íÍÊã Úáíß Ãä Êßæä ãÊÚØÔÇ ááÃåÏÇİ ÇáÇä%sÓÊÕÈÍ ßÇáÌÏæá ÇáÈíÇäí Çáíãíäí
+80045,CreateCharacter.ui,áŞÏ ÇÎÊÑÊ ÎØ ÇáæÓØ åĞÇ ÇáãÑßÒ íÚÊã Úáíß äÔÇØÇÊ ãÊÚÏÏÉ  ÇáÇä %s ÓÊÕÈÍ ßÇáÌÏæá ÇáÈíÇäí Çáíãíäí
+80046,CreateCharacter.ui,áŞÏ ÇÎÊÑÊ ÇáÏİÇÚ åĞÇ ÇáãÑßÒ íãäÍß ãåÇÑÇÊ ÏİÇÚ ÚÇáíÉ ÇáÇä %s ÓÊÕÈÍ ßÇáÌÏæá ÇáÈíÇäí Çáíãíäí 
+80047,CreateCharacter.ui,ãÑÉ ÇÎÑì ÓÊÎÊÇÑ ãÑßÒ ãÊÎÕÕ ÇßËÑ ÚäÏãÇ ÊÕÈÍ İí ÇáãÓÊæì 20
+80048,CreateCharacter.ui,ãÑÍÈÇ ÓÚíÏ ÈáŞÇÆß ÇäÇ ÇÓãí Èíáíå æ ÇäÇ ÇáãÏíÑ æÓÃÈŞì ãÚß Çáì Çä ÊÕÈÍ áÇÚÈ ããÊÇÒ ÇáÇä ÏÚäÇ äÎÊÇÑ ÔÎÕíÉ áß 
+80049,CreateCharacter.ui,ŞÑÑ Ôßá ÔÎÕíÊÊß åĞå ÇáÔÎÕíÉ ÓÊáÚÈ ÇáãÈÇÑÇÉ ÚæÖÇ Úäß İí X-Kick áĞáß ÇÎÊÑåÇ ÈÚäÇíÉ
+80050,CreateCharacter.ui,ÇäåÇ ÇáãåÇÑÉ ÇáÍÇáíÉ áÜ %s ßá ÇáãåÇÑÇÊ áÏíß ãäÎİÖÉ ÇáÇä æáßä ÈãÌÑÏ ÇäÊåÇÆß ãä ÇáÊÏÑíÈ ÌãíÚ ÇáãåÇÑÇÊ ÓÊÕÈÍ ãäÇÓÈÉ áß
+80051,CreateCharacter.ui,"ãÑÇæÛÉ,ÊÓÏíÏÇÊ ŞÕíÑÉ,ÊÍßã ÈÇáßÑÉ"
+80052,CreateCharacter.ui,"ÎİÉ ÇáÍÑßÉ,ÊÓÏíÏÇÊ ØæíáÉ,ÎØİ"
+80053,CreateCharacter.ui,"ÇáŞÏÑÉ Úáì ÇáÊÍãá,ÎØİ,ÚÑŞáÉ"
+80054,CreateCharacter.ui,ÔÌÑÉ ÇáãÑÇßÒ áÊÓÌíá ÇáÇåÏÇİ
+80055,CreateCharacter.ui,åĞÇ ÇáãÑßÒ ãÊÎÕÕ ÈÇáåÌæã æÇáÏİÇÚ ãÚÇ
+80056,CreateCharacter.ui,åĞÇ ÇáãÑßÒ åæ áÚÑŞáÉ ÇáÇÚÈíä ÇáÎÕã æÚÏã ÎÓÇÑÉ åÏİ
+80057,CreateCharacter.ui,"ST ""“Striker ãåÇÌã ÔÑÓ: åĞÇ ÇáãÑßÒ åæ ãåÇÌã İí ÇáÎØ ÇáÇæá æ íÊáŞì ÇáßÑÇÊ ÈÓåæáÉ \ Úáì ÇáãåÇÌã ÇáÔÑÓ Çä íÊÎĞ ÇáŞÑÇÑÇÊ ÈÔßá ÓÑíÚ ÚäÏãÇ ÊÓäÍ áå ÇáİÑÕÉ, æ ÇáÊÍÑß İí ÇÑÖ ÇáãáÚÈ ÈÔßá æÇÓÚ áßí íãÑÑ áÇÚÈí ÎØ ÇáæÓØ æ ÇáÏİÇÚ áå ÈÓåæáÉ \ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: ÎİÉ ÇáÍÑßÉ, ÑÃÓíÉ, ÊÓÏíÏÇÊ İÕíÑÉ \ ÇáãåÇÑÇÊ: ÊÓÏíÏÉ ØÇÆÑÉ, ÊÓÏíÏÉ ÑÃÓíÉ ÕÇÑæÎíÉ"
+80058,CreateCharacter.ui,"CF “Center Forward” ãåÇÌã ÈÇÑÚ: \ åĞå ÇáãÑßÒ áÏíå ãŞÏÑÉ ãÑÇæÛÉ ÌíÏÉ æ ãåÇÑÉ İí ÊÓÌíá ÇáÇåÏÇİ, æ ÊÑÊİÚ äÓÈÉ ÊÓÌíá ÇáåÏİ ÚäÏãÇ íßæä ãÓíØÑÇ Úáì ÇáßÑÉ \ æ áÏíå ãåÇÑÉ ãÑÇæÛÉ æ ÊÓÌíá ÇåÏÇİ ããÊÇÒÉ  ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: \ ÇáãÑÇæÛÉ, ÊÓÏíÏÇÊ ÇáŞÕíÑÉ, ÇáÊÍßã ÈÇáßÑÉ ÇáãåÇÑÇÊ: \ ÊÓÏíÏÉ ãäÎİÖÉ, ÇáÑßáÉ ÇáÌÇäÈíÉ ÇáãáÊİÉ"
+80059,CreateCharacter.ui," “Wing forward” WFãåÇÌã ãÑÇæÛ: \ åĞÇ ÇáãÑßÒ ãÊÎÕÕ ÈÇáãÑÇæÛÉ ÇáÓÑíÚÉ æ ÇáÚÈæÑ ÇáããÊÇÒ ãÑßÒ ÇáãåÇÌã ÇáãÑÇæÛ ãÑßÒ ããíÒ ãÎÊÕ ÈÊãÑíÑ ÇáßÑÉ ááãåÇÌãíä ÇáãÊæÇÌÏíä İí ÇáæÓØ \ æ ÚäÏãÇ ÊÓäÍ áåã Çí İÑÕÉ íãßäåã ÇÍÑÇÒ åÏİ ãÚ ãÑÇæÛÉ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: \ ãÑÇæÛÉ, ÎİÉ ÇáÍÑßÉ, ÊÓÏíÏÇÊ ÇáŞÕíÑÉ ÇáãåÇÑÇÊ: ÊãÑíÑÉ ÓÑíÚÉ ãäÎİÖÉ, ÚÈæÑ ãäÒáŞ"
+80060,CreateCharacter.ui,"SS “Shadow Striker” ÕÇäÚ ÇááÚÈÉ: \ åĞÇ ÇáãÑßÒ áÏíå ÇáŞÏÑÉ Úáì ÊÓÌíá ÇáÇåÏÇİ ãä Çí ãßÇä, íÚÊãÏ åĞÇ ÇáãÑßÒ Úáì ÇááÚÈ ÇáÌãÇÚí æ ÇÍÑÇÒ ÇáÇåÏÇİ \ áĞáß åĞÇ ÇáãäÕÈ íÔßá ÊåÏíÏ ááİÑíŞ ÇáÎÕã ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: \ ÇáŞÏÑÉ Úáì ÇáÊÍãá, ÇáÊÓÏíÏÇÊ ÇáŞÕíÑÉ, ÇáÊÓÏíÇÊ ÇáØæíáÉ ÇáãåÇÑÇÊ: \ ÑßáÉ áÇİæäÇ, ÊÓÏíÏÉ ÇíÏãáÓæä, ÊãÑíÑÉ ŞÕíÑÉ ááåÏİ"
+80061,CreateCharacter.ui,"AM “Attack Midfielder” áÇÚÈ ÎØ ÇáæÓØ ÇáåÌæãí \  åĞå ÇáãÑßÒ íÚÊãÏ Úáì ÇáÊÓÏíÏÇÊ ÇáØæíáÉ ÇáäÇÌÍÉ æ ÇáãÓÇÚÏÉ İí ÇÍÑÇÒ ÇáÇåÏÇİ. æ ÇíÖÇ áÏíå ŞæÉ ÇáåÌæã ßãÑßÒ ÇáãåÇÌã ÊãÇãÇ \ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: ÇáãÑÇæÛÉ, ÇáÊÓÏíÏÇÊ ÇáØæíáÉ, ÇáÊÍßã ÈÇáßÑÉ \ ÇáãåÇÑÇÊ ÑßáÉ ÈæÌå ÇáŞÏã, ÑæáíÊ ãÒÏæÌÉ, ÊãÑíÑÉ ŞÕíÑÉ ãÓÊåÏİÉ ãÈÇÔÑÉ"
+80062,CreateCharacter.ui,"CM “Center Midfielder” áÇÚÈ ÎØ æÓØ ãÍæÑí \ åĞÇ ÇáãÑßÒ íÊÍßã ÈÇáãÈÇÑÉ æ áå ÏæÑ ßÈíÑ ÌÏÇğ İí ÇáÑÈØ Èíä ÎØí ÇáÏİÇÚ æÇáåÌæã
+æ áÏíå äÙÑÉ æÇÓÚÉ áãÌÑíÇÊ ÇááÚÈÉ æ ÈÇãßÇäå ÇáÇÓÊÍæÇĞ Úáì ÇáßÑÉ ÇáÖÇÆÚÉ æ ŞØÚ ÇáÊãÑíÑÇÊ \ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: ÇáŞÏÑÉ Úáì ÇáÊÍãá, ÇáÊÓÏíÏÇÊ ÇáØæíáÉ, ÇáÇÎÊØÇİ  ÇáãåÇÑÇÊ ÇáÇáÊŞÇØ ÇáÎÇØİ, ÇáÚÈæÑ ÇáäÕİí
+"
+80063,CreateCharacter.ui,"SM “Side Midfielder” áÇÚÈ ÎØ æÓØ ÌÇäÈí \ áÇÚÈí åĞÇ ÇáãÑßÒ åã ÎáíØ ãÇ Èíä ÇáåÌæã æ ÇáÏİÇÚ¡ íáÚÈæä Èİä æÈÌÏíÉ æíÊãíÒæä ÈÇáÏŞÉ æ ÊÌÇæÒ ÇáÓÑíÚ áãÓÇİÇÊ ÈÚíÏÉ \ æ åã íÚÊÈÑæä ÇáãÍÑß ÇáÇÓÇÓí ááİÑíŞ æ åæ ãÑßÒ ÇáæÕá Èíä ÎØ ÇáæÓØ æ ÇáåÌæã ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: \ ÇáãÑÇæÛÉ, ÇáÊÓÏíÏÇÊ ÇáØæíáÉ, ÇáÇÎÊØÇİ ÇáãåÇÑÇÊ ÚÈæÑ Îáİí, ÊãÑíÑÉ ØæíáÉ ãäÒáŞÉ"
+80064,CreateCharacter.ui,"DM “Defense Midfielder” áÇÚÈ æÓØ ÇáãÏÇİÚ \ åĞå ÇáãÑßÒ íÚÊãÏ Úáì ÇáÇÎÊØÇİ æ ÇáÚÑŞáÉ, æ ÊÃãíä ÇáÏİÇÚ æÅÚØÇÁ ÒãáÇÆå ÇááÇÚÈíä ÍÑíÉ ÇáÊŞÏã ááÃãÇã Ïæä ŞáŞ \ ãåãÉ åĞÇ ÇááÇÚÈ ÇáÇÎÊØÇİ æ ÇáÚÑŞáÉ æ åæ ãÓÄæá Úä ÕÏ ÇáÊÓÏíÏÇÊ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí:
+ÇáŞÏÑÉ Úáì ÇáÊÍãá, ÇáÇÎÊØÇİ, ÇáÊÕÏí \ ÇáãåÇÑÇÊ ÊãÑíÑÉ ãŞØæÚÉ, æÖæÍ äÕİí
+"
+80065,CreateCharacter.ui,"SW “Sweeper” ãÏÇİÚ ŞÔÇÔ: \ åĞÇ ÇáãÑßÒ ãÓÄæá Úä ÇáÍãÇíÉ ÇáåÏİ ãä ÇáãåÇÌãíä æ áÏíå ŞÏÑÉ ÏİÇÚ İÚÇáÉ İí ÇááÚÈÉ ÈÇáÇÖÇİÉ áãåÇÑÇÊ ÇáÇÎÊØÇİ æ ÇáÚÑŞáÉ æ ÇáÑÃÓíÉ ÇáããíÒÉ \ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: ÎİÉ ÇáÍÑßÉ, ÇáŞİÒ, ÇáÚÑŞáÉ ÇáãåÇÑÇÊ: \ ÏİÚ ÇáÑÇßÖ, æÖæÍ ÍÓí, æåãí ÓãÇÆí, æåãí ÚÇáí"
+80066,CreateCharacter.ui,"CB “Central Back” ŞáÈ ÏİÇÚ: \ åĞÇ ÇáãÑßÒ áÏíå ÓÑÚÉ ÌíÏÉ ááÏİÇÚ ãä ÇáÎÕã ãäÕÈí SW æ CB ãÊÔÇÈåíä ßËíÑÇ æ áßä ãÑßÒ CB ãÑßÒ áå ØÇÈÚ åÌæãí ÇßËÑ \ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: ÎİÉ ÇáÍÑßÉ, ÇáÇÎÊÑÇŞ, ÇáÚÑŞáÉ ÇáãåÇÑÇÊ: \ ÚÑŞá æ ÇáÊŞØ, ÏİÚ ÇáãÑÇæÛ, ÊãÑíÑ Øæíá æÇÖÍ"
+80067,CreateCharacter.ui,"SP “Stopper” ãÏÇİÚ ÔÑÓ: \ åĞÇ ÇáãÑßÒ ãÊÎÕÕ ÈÇáÏİÇÚ ãä ÑÌá áÑÌá æ áÏíå ãåÇÑÇÊ ÌíÏÉ İí ÇÎÊØÇİ ÇáßÑÉ æ ÚÑŞáÉ ÇááÇÚÈíä \ 
+Çåã äŞØÉ íÌÈ Çä íÑÇÚíåÇ ÇáãÏÇİÚ ÇáÔÑÓ Çä íßæä ãÊÃßÏÇ ãä Çä ÇáİÑíŞ íåÇÌã ÈÔßá ÓáÓ \ ÇáãŞÏÇÑÊ ÇáÊí ÊÊØæÑ ÈÔßá ÊáŞÇÆí: ÎİÉ ÇáÍÑßÉ, ÇáŞÏÑÉ Úáì ÇáÊÍãá, ÇáÚÑŞáÉ \ ÇáãåÇÑÇÊ: åÌæã Îáİí, ÇáÊŞÇØ ÇáÌÓÏ, ÏİÚ ÇáÌÓÏ
+"
+80068,CreateCharacter.ui,1ÍÇÑÓ ÇáãÑãì áÏíå ŞÏÑÉ İí ÇáÊŞÇØ ÇáßÑÉ Öãä ãÑÈÚ ÇáÍÑÇÓÉ áãäÚ ÇáÎÕã ãä ÊÓÌíá ÇáåÏİ 2 ãåÇÑÇÊå áíÓÊ ßÇáÇÎÑíä ÎÇÑÌ ãÑÈÚ ÇáÍÑÇÓÉ
+80069,CreateCharacter.ui,äÊÇÆÌ ãÈÇÑíÇÊå
+80070,CreateCharacter.ui,æÕİ ÇáãÑßÒ
+80071,CreateCharacter.ui,ÇáÊØæÑ ÇáÊáŞÇÆí
+80072,CreateCharacter.ui,ÔÌÑÉ ÇáãäÇÕÈ
+80073,CreateCharacter.ui,ŞÇÆãÉ ÇáãåÇÑÇÊ
+80074,CreateCharacter.ui,ÅäÔÇÁ ÔÎÕíÉ
+90001,CreateQuest.ui,ÇáÃÏÇÉ
+90002,CreateQuest.ui,ÈáÇ
+90003,CreateQuest.ui,ÇáäŞÇØ
+90004,CreateQuest.ui,EXP
+90005,CreateQuest.ui,ÊİÇÕíá ÇáãåãÉ
+90006,CreateQuest.ui,ÇáÍÇáÉ:
+90007,CreateQuest.ui,ÇáæÕİ
+90008,CreateQuest.ui,ÇáãÓÊæì:
+90009,CreateQuest.ui,ÇááÇÚÈ:
+90010,CreateQuest.ui,ÇáÓãÚÉ: 
+90011,CreateQuest.ui,ßáãÉ ÇáÓÑ
+90012,CreateQuest.ui,ÇáØáÈ
+90013,CreateQuest.ui,áíÓ ÈÚÏ
+90014,CreateQuest.ui,Êã
+90015,CreateQuest.ui,ÇáãÓÊæì  
+90016,CreateQuest.ui,ÇááÇÚÈ
+90017,CreateQuest.ui,ÇáÓãÚÉ
+90018,CreateQuest.ui,ÇáÍÇáÉ   
+90019,CreateQuest.ui,ãåãÉ ÌÏÈÏÉ
+90020,CreateQuest.ui,äæÚ ÇáãåãÉ
+100001,CreateRoom.ui,ÇáÅÚÏÇÏ
+100002,CreateRoom.ui,ÎÕÕ ÇáßãÈíæÊÑ
+100003,CreateRoom.ui,äæÚ ÇáãÈÇÑÉ
+100004,CreateRoom.ui,ÚÇÏí
+100005,CreateRoom.ui,ÇáÑåÇä
+100006,CreateRoom.ui,ÇááŞÈ
+100007,CreateRoom.ui,ßáãÉ ÇáÓÑ
+100008,CreateRoom.ui,ÇááÇÚÈ
+100009,CreateRoom.ui,ÍÇÑÓ ãÑãì İŞØ
+100010,CreateRoom.ui,ßÇİÉ ÇáãÑÇßÒ
+100011,CreateRoom.ui,ÈÏæä áÇÚÈíä ßãÈíæÊÑ
+100012,CreateRoom.ui,ÇáÊİÕíá
+100013,CreateRoom.ui,"íãßäß áÚÈ ãÈÇÑÉ ÇáÑåÇä,ÚäÏãÇ ÊÕÈÍ ÇáãÓÊæì 20"
+100014,CreateRoom.ui,ÇáãÓÊæì
+100015,CreateRoom.ui,äŞÇØ ÇáÑåÇä
+100016,CreateRoom.ui,300 äŞØÉ
+100017,CreateRoom.ui,500 äŞØÉ
+100018,CreateRoom.ui,1000 äŞØÉ
+100019,CreateRoom.ui,ÇáãÑÇßÒ
+100020,CreateRoom.ui,ÇáßÑÉ
+100021,CreateRoom.ui,ÇáæŞÊ
+100022,CreateRoom.ui,ÇáØŞÓ
+100023,CreateRoom.ui,ÓãÇÍ ÈÊÛíÑ ÇáæŞÊ
+100024,CreateRoom.ui,ÓãÇÍ ÈÊÛíÑ ÇáØŞÓ
+100025,CreateRoom.ui,İŞØ ÇáäÇÏí
+100026,CreateRoom.ui,ÇáãÔÇåÏ
+100027,CreateRoom.ui,ÇáÓãÇÍ ÈÇáãÍÇÏËÉ
+100028,CreateRoom.ui,ÇáÎíÇÑÇÊ
+100029,CreateRoom.ui,ÇáÓáÓáÉ
+100030,CreateRoom.ui,ÚÔæÇÆí
+100031,CreateRoom.ui,ÇáãÓÊæì ±5
+100032,CreateRoom.ui,ÇáãÓÊæì ±10 
+100033,CreateRoom.ui,Çáßá
+100034,CreateRoom.ui,ãäİÑÏ
+100035,CreateRoom.ui,ãÈÇÑÇÉ ÈØÇŞÉ ÇáßãÈíæÊÑ
+100036,CreateRoom.ui,ãÓÊæì %d-%d
+100037,CreateRoom.ui,ÎíÇÑÇÊ ÇááÚÈ
+100038,CreateRoom.ui,ÇÚÏÇÏÇÊ ÇáßãÈíæÊÑ
+100039,CreateRoom.ui,ÇÎÊÑ ÇáãäØŞÉ
+100040,CreateRoom.ui,ÈÏæä ßãÈíæÊÑ
+100041,CreateRoom.ui,ãÚ ßãÈíæÊÑ
+100042,CreateRoom.ui,ÇáÓÚæÏíÉ
+100043,CreateRoom.ui,ÇáÌÒÇÆÑ
+100044,CreateRoom.ui,ÇáãÛÑÈ
+100045,CreateRoom.ui,ÇáÈÍÑíä
+100046,CreateRoom.ui,ÚÑÇŞ
+100047,CreateRoom.ui,áÈäÇä
+100048,CreateRoom.ui,ÓæÑíÇ
+100049,CreateRoom.ui,ÇáÇãÇÑÇÊ ÇáÚÑÈíÉ ÇáãÊÍÏÉ
+100050,CreateRoom.ui,ÚãÇä
+100051,CreateRoom.ui,ÇáÇÑÏä
+100052,CreateRoom.ui,ÊæäÓ
+100053,CreateRoom.ui,ãÕÑ
+100054,CreateRoom.ui,ŞØÑ
+100055,CreateRoom.ui,İáÓØíä
+100056,CreateRoom.ui,ÇáßæíÊ
+100057,CreateRoom.ui,Çáíãä
+100058,CreateRoom.ui,áíÈíÇ
+100059,CreateRoom.ui,ÇáÓæÏÇä
+110001,GameLoading.ui,ãÔÇåÏ 1
+110002,GameLoading.ui,ãÔÇåÏ 2
+110003,GameLoading.ui,ãÔÇåÏ 3
+110004,GameLoading.ui,ãÔÇåÏ 4
+120001,GamePlay.ui,+ 100 äŞØÉ
+120002,GamePlay.ui,ßä ãÊÃßÏ ãä ÇáİæÒ
+120003,GamePlay.ui,ÇÍÊİÙ ÈÇáİæÒ
+120004,GamePlay.ui,ßä ãÊÃßÏ ãä ÇáİæÒ
+120005,GamePlay.ui,Ïáíá ÊÚáíãí
+130001,GameResult.ui,ÇáäÊíÌÉ
+130002,GameResult.ui,äÌã ÇáãÈÇÑÉ
+130003,GameResult.ui,ÇÍÕÇÆíÇÊ ÇáİÑíŞ
+130004,GameResult.ui,ŞØÚ   
+130005,GameResult.ui,ÇáÊÓÏíÏ
+130006,GameResult.ui,íÎØİ 
+130007,GameResult.ui,íÚÑŞá
+130008,GameResult.ui,ããÊáßÇÊ
+130009,GameResult.ui,ÊÑŞíÉ
+130010,GameResult.ui,ÇáÇÓã
+130011,GameResult.ui,ÇáãßÇİÆÉ
+130012,GameResult.ui,ÈØÇŞÉ ÇÖÇİíÉ
+130013,GameResult.ui,æÕİ ÇáãåãÉ
+130014,GameResult.ui,ãÈÑæßáŞÏ ÈáÛÊ ÇáãÓÊæì 10ÇäÊŞá ááÕİÍÉ áÊØæíÑ ÔÎÕíÊß
+130015,GameResult.ui,äÊíÌÉ ÇááÚÈÉ
+140001,GameResult_open.ui,äÊíÌÉ ÇááÚÈÉ
+150001,ItemBag.ui,ãÇÑßÉ
+150002,ItemBag.ui,ããíÒ
+150003,ItemBag.ui,ÌÏíÏ
+150004,ItemBag.ui,ÓáÉ ÇáãÔÊÑíÇÊ
+150005,ItemBag.ui,Çáßá
+150006,ItemBag.ui,ÇáÑÃÓ
+150007,ItemBag.ui,ÇáæÌå
+150008,ItemBag.ui,ØáÇÁ ÇáæÌå
+150009,ItemBag.ui,ÇáÈäØÇá
+150010,ItemBag.ui,ÇáŞãÕÇä
+150011,ItemBag.ui,ÇáŞİÇÒÇÊ
+150012,ItemBag.ui,ÇáÇÍĞíÉ
+150013,ItemBag.ui,ÇáÌæÇÑÈ
+150014,ItemBag.ui,ÇáÃŞÑÇØ
+150015,ItemBag.ui,ÇáäÙÇÑÇÊ
+150016,ItemBag.ui,ÇáŞáÇÏÇÊ
+150017,ItemBag.ui,ÇáÃŞäÚÉ
+150018,ItemBag.ui,ÑÈØÉ ÇáíÏ
+150019,ItemBag.ui,ÑÈØÉ ÇáãÚÕã
+150020,ItemBag.ui,ÑÈØÉ ÇáÑßÈÉ
+150021,ItemBag.ui,ÃÏæÇÊ ÇáÊÔÌíÚ
+150022,ItemBag.ui,ÇáÎÇäÇÊ
+150023,ItemBag.ui,ÇáãÔÑæÈÇÊ
+150024,ItemBag.ui,ÔæßæáÇ
+150025,ItemBag.ui,Çáßá
+150026,ItemBag.ui,ÇáãåÇÑÉ Lv.
+150027,ItemBag.ui,ÇáÅÌåÇÏ
+150028,ItemBag.ui,ÇáãÓÊæì
+150029,ItemBag.ui,ÇáãÑÊÈÉ S
+150030,ItemBag.ui,ÇáãÑÊÈÉ A
+150031,ItemBag.ui,ÇáãÑÊÈÉ B
+150032,ItemBag.ui,ÇáãÑÊÈÉ C
+150033,ItemBag.ui,ÇáãÑÊÈÉ D
+150034,ItemBag.ui,ÍÒãÉ
+150035,ItemBag.ui,ßÇÊã ÇáÕæÊ
+150036,ItemBag.ui,ÍŞíÈÉ ÇáÙåÑ
+150037,ItemBag.ui,ÇáåÌæã
+150038,ItemBag.ui,ÇáæÓØ
+150039,ItemBag.ui,ÇáÏİÇÚ 
+150040,ItemBag.ui,ÇáÚäÕÑ
+150041,ItemBag.ui,ãÚáæãÇÊ ÈØÇŞÉ ÇáßãÈíæÊÑ
+150042,ItemBag.ui,ÇáÚÖæ ÇáãÈÊÏÃ
+150043,ItemBag.ui,ãÒÌ
+150044,ItemBag.ui,ÈØÇŞÉ ÇáãÒÌ
+150045,ItemBag.ui,ÊØæíÑ
+150046,ItemBag.ui,ÇÓã ÇáÇÏÇÉ
+150047,ItemBag.ui,æÖÚ
+150048,ItemBag.ui,ÇÒÇáÉ
+150049,ItemBag.ui,ÊØæíÑ
+150050,ItemBag.ui,ÚÇÏí
+150051,ItemBag.ui,äÇÏÑ
+150052,ItemBag.ui,ããíÒ
+150053,ItemBag.ui,ÇÒÇáÉ Çáßá
+150054,ItemBag.ui,ãÑßÒ
+150055,ItemBag.ui,ÇÚÇÏÉ ÈíÚ
+150056,ItemBag.ui,ÊØæíÑ ÇáÃÏÇÉ
+160001,ItemDialog.ui,ÔÑÇÁ ÃÏÇÉ
+160002,ItemDialog.ui,P
+160003,ItemDialog.ui,C
+160004,ItemDialog.ui,ÑÕíÏß
+160005,ItemDialog.ui,ÓÚÑ ÇáÃÏÇÉ
+160006,ItemDialog.ui,ÑÕíÏ ÌÏíÏ
+160007,ItemDialog.ui,åá ÊÑÛÈ ÈÔÑÇÁ ÇáÃÏÇÉ¿
+160008,ItemDialog.ui,ÑÓÇáÉ
+160009,ItemDialog.ui,ÅíÌÇÏ ÕÏíŞ
+160010,ItemDialog.ui,åá ÊÑÛÈ İí ÅåÏÇÁ ÇáÃÏÇÉ¿
+160011,ItemDialog.ui,åá ÊÑÛÈ İí ÊÈÏíá ÇáÇÏÇÉ¿
+160012,ItemDialog.ui,ÔÑÇÁ ÈØÇŞÉ
+160013,ItemDialog.ui,åá ÊÑíÏ ÔÑÇÁ ÇáÈØÇŞÉ
+160014,ItemDialog.ui,Order
+160015,ItemDialog.ui,Character
+160016,ItemDialog.ui,Date
+170001,ItemShop.ui,ÇááÈÇÓ
+170002,ItemShop.ui,ÇáÑŞã
+170003,ItemShop.ui,ÛĞÇÁ
+170004,ItemShop.ui,ÇáÇÏæÇÊ ÇáÊí íãßä ÔÑÇÆåÇ Çáíæã ... íÊã ÇÖÇİÉ ÇÏæÇÊ ßá íæã ÇáÓÇÚÉ 12 ÕÈÇÍÇ
+170005,ItemShop.ui,ÈØÇŞÇÊ ÇáßãÈíæÊÑ
+170006,ItemShop.ui,ÇáãÑßÒ
+170007,ItemShop.ui,äãØ ÇáÊÍßã
+170008,ItemShop.ui,ãÈÑæß áŞÏ ÍÕáÊ Úáì ÈØÇŞÉ ãÓÊæì D
+170009,ItemShop.ui,ãÈÑæß áŞÏ ÍÕáÊ Úáì ÈØÇŞÉ ãÓÊæì C
+170010,ItemShop.ui,ãÈÑæß áŞÏ ÍÕáÊ Úáì ÈØÇŞÉ ãÓÊæì B
+170011,ItemShop.ui,ãÈÑæß áŞÏ ÍÕáÊ Úáì ÈØÇŞÉ ãÓÊæì A
+170012,ItemShop.ui,ãÈÑæß áŞÏ ÍÕáÊ Úáì ÈØÇŞÉ ãÓÊæì S
+170013,ItemShop.ui,ÇÏÇÉ åÏíÉ
+170014,ItemShop.ui,ÇÏÇÉ ãÈÇÏáÉ
+170015,ItemShop.ui,ÎíÇÑÇÊ ÇááÚÈÉ
+170016,ItemShop.ui,ÇáÔÎÕíÉ
+170017,ItemShop.ui,ÊÚáíŞ
+170018,ItemShop.ui,æŞÊ ÇáÇÓÊÎÏÇã %d/%d
+170019,ItemShop.ui,ÏÇÆã
+170020,ItemShop.ui,æÙÇÆİí
+170021,ItemShop.ui,ŞÇÈá ááÊØæíÑ
+180001,MessageBox.ui,ÑÓÇáÉ
+190001,Option.ui,ÎíÇÑ ÇááÚÈÉ
+190002,Option.ui,ÇáßÇãíÑÇ
+190003,Option.ui,Òææã
+190004,Option.ui,ÇÓãÇÁ
+190005,Option.ui,ÊİÚíá
+190006,Option.ui,ÅáÛÇÁ
+190007,Option.ui,ÏÚæÉ
+190008,Option.ui,ÊÃËíÑÇÊ ÇáÕæÊ
+190009,Option.ui,ãæÓíŞì ÇáÎáİíÉ
+190010,Option.ui,ÅÎİÇÁ
+190011,Option.ui,Çáßá
+190012,Option.ui,ÇáåÏİ
+190013,Option.ui,ÇáİÑíŞ
+190014,Option.ui,äŞØÉ ÇáÚÑÖ  ÇáÊÍßã
+190015,Option.ui,Gamma
+190016,Option.ui,æÖÚ ÇáÔÇÔÉ
+190017,Option.ui,ßÇãá
+190018,Option.ui,äÇİĞÉ
+190019,Option.ui,Anti-Aliasing
+190020,Option.ui,ÊÃËíÑÇÊ ÇáØŞÓ
+190021,Option.ui,ÊÃËíÑÇÊ ÇááÚÈÉ
+190022,Option.ui,ÊÃËíÑÇÊ ÇáÎáİíÉ
+190023,Option.ui,ÇáÙá
+190024,Option.ui,ÅÎİÇÁ
+190025,Option.ui,ÅÙåÇÑ
+190026,Option.ui,ÊÃËíÑ Bloom
+190027,Option.ui,æÖÚ ÇááÚÈÉ
+190028,Option.ui,ÚÇÏí
+190029,Option.ui,ÚÑíÖ
+190030,Option.ui,ãäÎİÖ
+190031,Option.ui,ÚÇÏí
+190032,Option.ui,ÚÇáí
+190033,Option.ui,ÊÃËíÑ ÇáÃäÚßÇÓ
+190034,Option.ui,ÃäÚßÇÓ ÇáÎÑíØÉ
+190035,Option.ui,ÓØæÚ ÇáÔÎÕíÇÊ
+190036,Option.ui,ãæÇÕİÇÊ ÌåÇÒ ÇáßãÈíæÊÑ
+190037,Option.ui,ãäÎİÖ
+190038,Option.ui,ãÊæÓØ
+190039,Option.ui,ÚÇáí
+190040,Option.ui,ÇáÊÍßã
+190041,Option.ui,ÍÑßÉ ááÃãÇã
+190042,Option.ui,áæÍÉ ÇáãİÇÊíÍ
+190043,Option.ui,åÌæã
+190044,Option.ui, ÃÚÏÇÏÇÊ ÇáÊÍßã
+190045,Option.ui,ÇáÏİÇÚ 
+190046,Option.ui,ÑßÖ ÓÑíÚ
+190047,Option.ui,ãÑÇæÛÉ ÓÑíÚÉ
+190048,Option.ui,ÎØİ
+190049,Option.ui,ÇáãåÇÑÇÊ
+190050,Option.ui,ÚÑŞáÉ
+190051,Option.ui,ÍÌÈ
+190052,Option.ui,ÊãÑíÑÉ ãä Èíä ÇáŞÏãíä
+190053,Option.ui,ÊãÑíÑÉ ŞÕíÑÉ ãÈÇÔÑÉ
+190054,Option.ui,ÊãÑíÑÉ ŞÕíÑÉ
+190055,Option.ui,ÊãÑíÑÉ ÈÚíÏÉ ãÈÇÔÑÉ
+190056,Option.ui,ÊãÑíÑÉ ØæíáÉ
+190057,Option.ui,ÖÑÈÉ ãÈÇÔÑå íãíäíÉ
+190058,Option.ui,ÖÑÈÉ íãíäíÉ
+190059,Option.ui,ÖÑÈå ãÈÇÔÑå íÓÇÑíÉ
+190060,Option.ui,ÖÑÈÉ íÓÇÑíÉ
+190061,Option.ui,ÍÑßÉ ááíãíä
+190062,Option.ui,ÍÑßÉ ááíÓÇÑ
+190063,Option.ui,ÍÑßÉ ááÎáİ
+190064,Option.ui,ÑßÖ ÓÑíÚ 2
+190065,Option.ui,ãÑÇæÛÉ ÓÑíÚÉ 2
+190066,Option.ui,ãÓÇÑ
+190067,Option.ui,ãæÓíŞì ÇİÊÑÇÖíÉ
+190068,Option.ui,ãæÓíŞì ÇáãÓÊÎÏã
+190069,Option.ui,ÇÓÊÑÌÇÚ ŞÇÆãÉ ÇáÊÔÛíá
+190070,Option.ui,ÔßÑÃ ÌÒíáÇğ áß
+190071,Option.ui,ÃİÊÑÇÖí
+190072,Option.ui,ÊÛíÑ
+190073,Option.ui,ÇÈÊåÌ
+190074,Option.ui,ÍÓäÇğ
+190075,Option.ui,íÇ ÎÓÇÑÉ
+190076,Option.ui,ãÍÇæáÉ ÌíÏÉ
+190077,Option.ui,ÇÎáÇÁ ÌíÏ
+190078,Option.ui,ÊãÑíÑÉ ÌíÏÉ
+190079,Option.ui,ÊÓÏíÏå ÌíÏÉ
+190080,Option.ui,ÇááÛÉ
+190081,Option.ui,ÌæíÓÊß
+190082,Option.ui,ÇİÊÑÇÖí
+190083,Option.ui,ãİÇÊíÍ ÇáãåÇÑÉ
+190084,Option.ui,ÇİÊÑÇÖí
+190085,Option.ui,ÇáãÓÊÎÏã
+190086,Option.ui,ÖÈØ
+190087,Option.ui,æÖÚ ßÇãá
+190088,Option.ui,æÖÚ äÇİĞå %s
+200001,PasswordBox.ui,ßáãÉ ÇáÓÑ
+200002,PasswordBox.ui,ÃÏÎá ßáãÉ ÇáÓÑ
+210001,PlayerInformation.ui,ãÚáæãÇÊí
+210002,PlayerInformation.ui,ÇáãÌãæÚ
+210003,PlayerInformation.ui,ÔåÑí
+210004,PlayerInformation.ui,ÇáãÈÇÑíÇÊ
+210005,PlayerInformation.ui,ÚÏÏ ÇáãÑÇÊ
+210006,PlayerInformation.ui,ÇáÊŞííã
+210007,PlayerInformation.ui,ÌæÇÆÒí
+210008,PlayerInformation.ui,ãÚáæãÇÊ ÇááÚÈÉ
+210009,PlayerInformation.ui,ÇáÇÓÊåáÇß
+210010,PlayerInformation.ui,ŞÇÆãÉ ÇáãÊÇÌÑÉ
+210011,PlayerInformation.ui,ÇáäÇÏí
+210012,PlayerInformation.ui,ÇáãÓÊæì
+210013,PlayerInformation.ui,ÇááŞÈ
+210014,PlayerInformation.ui,ÇáãÑßÒ
+210015,PlayerInformation.ui,ÇáÍÇáÉ
+210016,PlayerInformation.ui,ÇáÇÓã
+210017,PlayerInformation.ui,ÇáÊØæÑ ÇáÊáŞÇÆí
+210018,PlayerInformation.ui,ÇáäŞÇØ ÇáÇÖÇİíÉ
+210019,PlayerInformation.ui,ÇáÍÇáÉ
+210020,PlayerInformation.ui,ÇÓã ÇáÇÏÇÉ
+210021,PlayerInformation.ui,ÇáÊÃËíÑ
+210022,PlayerInformation.ui,ÇáÚÏÏ
+210023,PlayerInformation.ui,ÇáÊÇÑíÎ
+210024,PlayerInformation.ui,ÇáÇÓã
+210025,PlayerInformation.ui,ÇáäæÚ
+210026,PlayerInformation.ui,ÇáßãíÉ
+210027,PlayerInformation.ui,ÇáßÃÓ
+210028,PlayerInformation.ui,åĞÇ ÇáÑÈÚ
+210029,PlayerInformation.ui,ÇáÑÈÚ ÇáÃÎíÑ
+210030,PlayerInformation.ui,ŞÇÆãÉ ÇÚÖÇÁ ÇáäÇÏí
+210031,PlayerInformation.ui,ŞÇÆãÉ ÇáÇÕÏŞÇÁ
+210032,PlayerInformation.ui,ÇáŞÇÆãÉ ÇáÓæÏÇÁ
+210033,PlayerInformation.ui,ÇáÍÇáÉ
+210034,PlayerInformation.ui,ãÚáæãÇÊ ÇáäÇÏí
+210035,PlayerInformation.ui,ÃÚÖÇÁ ÇáäÇÏí
+210036,PlayerInformation.ui,ÃÓã ÇáäÇÏí
+210037,PlayerInformation.ui,ÚÏÏ ÇáÇÚÖÇÁ
+210038,PlayerInformation.ui,ŞÇÆÏ
+210039,PlayerInformation.ui,äÇÆÈ ÇáßÇÈÊä
+210040,PlayerInformation.ui,äŞÇØ ÇáäÇÏí
+210041,PlayerInformation.ui,ãÊæÓØ ÇáÊÕæíÊ
+210042,PlayerInformation.ui,ÇáÊÕäíİ
+210043,PlayerInformation.ui,ÇáãÈÇÑíÇÊ
+210044,PlayerInformation.ui,æŞÊ ÇááÚÈ
+210045,PlayerInformation.ui,ÇáäÇÏí
+210046,PlayerInformation.ui,ÚÏÏ ãÑÇÊ ÇáİæÒ
+210047,PlayerInformation.ui,ÊÚÇÏá
+210048,PlayerInformation.ui,ÊãÑíÑÉ
+210049,PlayerInformation.ui,ÕÏ
+210050,PlayerInformation.ui,ÇÚÏÇÏ ÇáÊãÑíÑÇÊ ÇáÕÍíÍÉ
+210051,PlayerInformation.ui,ÇÚÏÇÏ ÇáÕÏ ÇáÕÍíÍÉ
+210052,PlayerInformation.ui,ÊÓÌíá
+210053,PlayerInformation.ui,ÇÎÓÑ äŞØÉ
+210054,PlayerInformation.ui,äÊíÌÉ
+210055,PlayerInformation.ui,ÇáŞÇÆãÉ
+210056,PlayerInformation.ui,ÇáÚÇÈ
+210057,PlayerInformation.ui,ÇáÑÈÍ
+210058,PlayerInformation.ui,ÊÚÇÏá
+210059,PlayerInformation.ui,ÇáäÊíÌÉ
+210060,PlayerInformation.ui,ÑŞã
+210061,PlayerInformation.ui,ãÌãæÚ ÇáäÊíÌÉ
+210062,PlayerInformation.ui,ŞØÚ ÕÍíÍ
+210063,PlayerInformation.ui,ÊÓÏíÏ ÕÍíÍ
+210064,PlayerInformation.ui,ÎØİ ÕÍíÍ
+210065,PlayerInformation.ui,ÚÑŞáÉ ÕÍíÍÉ
+210066,PlayerInformation.ui,ÊãÑíÑÉ ÕÍíÍÉ
+210067,PlayerInformation.ui,ÕÏ ÕÍíÍ
+210068,PlayerInformation.ui,ãÍÇæáÉ ÊÓÏíÏ
+210069,PlayerInformation.ui,ãÍÇæáÉ ÎØİ
+210070,PlayerInformation.ui,ãÍÇæáÉ ÚÑŞáÉ
+210071,PlayerInformation.ui,ãÍÇæáÉ ÊãÑíÑ
+210072,PlayerInformation.ui,ãÍÇæáÉ ÕÏ
+210073,PlayerInformation.ui,İæÒ
+210074,PlayerInformation.ui,äÊíÌÉ ÇáİæÒ
+210075,PlayerInformation.ui,ŞØÚ
+210076,PlayerInformation.ui,äÓÈÉ ÇåÏÇİ æÓØíÉ
+210077,PlayerInformation.ui,äÓÈÉ ãÓÇäÏÉ æÓØíÉ
+210078,PlayerInformation.ui,äÓÈÉ ŞØÚ æÓØíÉ
+210079,PlayerInformation.ui,äÓÈÉ ÊÓÏíÏ æÓØíÉ
+210080,PlayerInformation.ui,äÓÈÉ ÎØİ æÓØíÉ
+210081,PlayerInformation.ui,äÓÈÉ ÚÑŞáÉ æÓØíÉ
+210082,PlayerInformation.ui,äÓÈÉ ÊãÑíÑ æÓØíÉ
+210083,PlayerInformation.ui,äÓÈÉ äÌÇÍ ÇáİæÒ
+210084,PlayerInformation.ui,äÓÈÉ äÌÇÍ ÇáÊÓÏíÏ
+210085,PlayerInformation.ui,äÓÈÉ äÌÇÍ ÇáÎØİ
+210086,PlayerInformation.ui,äÓÈÉ äÌÇÍ ÇáÚÑŞáÉ
+210087,PlayerInformation.ui,äÓÈÉ äÌÇÍ ÇáÊãÑíÑ
+210088,PlayerInformation.ui,ÇáãÌãæÚ
+210089,PlayerInformation.ui,ÑÈÚ ÇáÓäÉ
+210090,PlayerInformation.ui,ÇÎÊíÇÑ
+210091,PlayerInformation.ui,ÊÑÊíÈ
+220001,SkillBag.ui,ÇáãåÇÑÇÊ
+220002,SkillBag.ui,ÃÎÑæä
+220003,SkillBag.ui,ÇáãÓÊæì
+220004,SkillBag.ui,Lv.  
+220005,SkillBag.ui,æŞÊ ÇáÊÍãíÉ
+220006,SkillBag.ui,ÊÃËíÑ
+220007,SkillBag.ui,Lv.1
+220008,SkillBag.ui,Lv.2
+220009,SkillBag.ui,Lv.3
+220010,SkillBag.ui,[ãİÇÊíÍ ]
+220011,SkillBag.ui,[ÇáæÕİ]
+220012,SkillBag.ui,äİÇØ ÇáãåÇÑÉ
+220013,SkillBag.ui,ãßÇä İÇÑÛ
+230001,SkillDialog.ui,ÔÑÇÁ ÇáãåÇÑÉ
+230002,SkillDialog.ui,åá ÊÑÛÈ ÈÔÑÇÁ ÇáãåÇÑÉ¿
+230003,SkillDialog.ui,åá ÊÑÛÈ ÈÔÑÇÁ ÇáÊÏÑíÈ¿
+230004,SkillDialog.ui,åá ÊÑÛÈ ÈÔÑÇÁ ÇáÇÍÊİÇá¿
+240001,SkillShop.ui,ãåÇÑÇÊí
+240002,SkillShop.ui,ÔÑÇÁ ÊÏÑíÈ
+240003,SkillShop.ui,ÔÑÇÁ ÇÍÊİÇá
+250001,SkillView.ui,ÇáãÚÇíäÉ
+260001,TutorialMain.ui,ÇáãßÇİÃÊ:
+260002,TutorialMain.ui,İæÒ ÈåĞå ÇááÚÈÉ ãÚ áÇÚÈíä ßãÈíæÊÑ Öãä æŞÊ ãÍÏÏ
+260003,TutorialMain.ui,ÍÇİÙ Úáì ÇáİæÒ ãÚ áÇÚÈíä ÇáßãÈíæÊÑ! \ ÏÇİÚ ãä ÇáÇÚÈíä ÇáÎÕã \ ÎáÇá ÇáæŞÊ ÇáãÊÇÍ
+260004,TutorialMain.ui,ßä ãÊÃßÏ ãä ÇáİæÒ! ÇÑÈÍ ÇáãÈÇÑÉ ãÚ ÇáÔÑØ ÇáãÍÏÏ
+260005,TutorialMain.ui,İæÒ ÈåĞå ÇááÚÈÉ
+260006,TutorialMain.ui,áÇ ÊÎÓÑ ÇßËÑ ãä åÏİíä
+260007,TutorialMain.ui,İæÒ ÈÇáãÈÇÑÉ ÈÃßËÑ ãä åÏİ æÇÍÏ
+260008,TutorialMain.ui, + 3000 äŞØÉ
+260009,TutorialMain.ui,ãåãÉ ãÊÏÑÈ
+270001,TutorialPlay.ui,ÇáÍÇáÉ
+270002,TutorialPlay.ui,íãßä ÊÚÏíá ÃÒÑÇÑ ÇáÊÍßã ãä ÎíÇÑÇÊ ÊÍßã ÃÒÑÇÑ ÇááÚÈÉ 
+270003,TutorialPlay.ui,ÃÖÛØ ÇáÒÑ ãÑÉ ÃÎÑì ÈÚÏ ÖÛØ ÇáÒÑ Ãæ ÇÓÊãÑ ÈÇáÖÛØ ÇáÒÑ
+270004,TutorialPlay.ui, D :ÊÓÏíÏå íÓÇÑíÉ F :ÊÓÏíÏå íãíäíÉ 
+270005,TutorialPlay.ui,ÃÖÛØ ÇáÒÑ ŞÈá æÕæá ÇáßÑÉ
+270006,TutorialPlay.ui,ÇáÊãÑíÑÉ ÇáãÈÇÔÑÉ: ÃÖÛØ S Çæ A ŞÈá æÕæá ÇáßÑÉ.
+270007,TutorialPlay.ui,ÇáÚÑŞáÉ ãä ãÓÇİÉ ŞÑíÈÉ áåÇ ãÚÏá äÌÇÍ ÚÇáí.
+270008,TutorialPlay.ui,ÃÖÛØ ÇáÒÑ ŞÈá æÕæá ÇáßÑÉ
+280001,QuestMain.ui,"åĞå ÇáãÑÍáÉ ÇáãÊæÓØÉ ãä ÇáÊÏÑíÈ ,, íÌÈ Úáíß Çä ÊáÚÈ ÖÏ İÑíŞ ŞÈá ÇäÊ ÊáÚÈ ãÚ ÇÔÎÇÕ ÍŞíŞíä"
+290001,GameResult.ui,ÑŞã ÇáãåãÉ.
+300001,TutorialGuide.ui,åĞÇ ãä ÇÌá ÇáŞÏÑÇÊ ÇáÇÓÇÓíÉ.. íÌÈ Çä ÊÊŞäåÇ ŞÈá ÇáÈÏÇíÉ
+300002,TutorialGuide.ui,- ÊÓÏíÏ 
+300003,TutorialGuide.ui,- ÊãÑíÑÉ ŞÕíÑÉ
+300004,TutorialGuide.ui,- ÊãÑíÑÉ ØæíáÉ
+300005,TutorialGuide.ui,- ÚÑŞáÉ
+300006,TutorialGuide.ui,(D ÊÓÏíÏÉ íÓÇÑíÉ\F ÊÓÏíÏÉ íãíäíÉ)
+300007,TutorialGuide.ui,ÊÍÑß ÇáØÈíÚí
+300008,TutorialGuide.ui,ÊÍÑß ãÚ ÇáßÑÉ
+300009,TutorialGuide.ui,ÇáÊÍÑß ÇáÓÑíÚ
+300010,TutorialGuide.ui,"ÒíÇÏÉ ÇáæŞÊ áÇÓÊÎÏÇã ""ÇáÑÔÇŞÉ"""
+300011,TutorialGuide.ui,ŞÈá ÇáÓíØÑÉ Úáì ÇáßÑÉ ÚÇáíÉ
+300012,TutorialGuide.ui,ÇÎÊÑÇŞ ÇááÇÚÈ ÇáÎÕã ááÇÓÊíáÇÁ Úáì ÇáßÑÉ
+300013,TutorialGuide.ui,ÇáÊÍßã ÈØÇŞÉ ÊŞÇØÚ ÇáßÑÉ
+300014,TutorialGuide.ui,ÇáÊÍßã ÈØÇŞÉ ÇáÊãÑíÑ
+300015,TutorialGuide.ui,ÇáÊÍßã ÈØÇŞÉ ÇáÊãÑíÑÉ ÇáØæíáÉ
+300016,TutorialGuide.ui,ÇáÇÍÊİÇÙ ÈÇáßÑÉ
+300017,TutorialGuide.ui,ÃÎĞ ÇáßÑÉ ãä ÇááÇÚÈ ÇáÎÕã
+300018,TutorialGuide.ui,ÃÎĞ ÇáßÑÉ ãä ÇááÇÚÈ ÇáÎÕã ÈÇáÚÑŞáÉ
+300019,TutorialGuide.ui,ÒíÇÏÉ ÏŞÉ ÇáÖÑÈÉ ÇáÑÃÓíÉ
+300020,TutorialGuide.ui,ÒíÇÏÉ ÏŞÉ ÇáÊÓÏíÏÉ ÇáŞÕíÑÉ
+300021,TutorialGuide.ui,ÒíÇÏÉ ÏŞÉ ÇáÊÓÏíÏÉ ÇáØæíáÉ
+300022,TutorialGuide.ui, ÊÚáã ÇáãÒíÏ Úä ÇáÍÇáÉ ÇáİíÒíÇÆíÉ
+300023,TutorialGuide.ui, ÊÚáã ÇáãÒíÏ Úä ÇáÍÇáÉ ÇáÏİÇÚíÉ
+300024,TutorialGuide.ui, ÊÚáã ÇáãÒíÏ Úä ÇáÍÇáÉ ÇáÊŞäíÉ
+300025,TutorialGuide.ui, ÊÚáã ÇáãÒíÏ Úä ÇáÍÇáÉ ÇáåÌæãíÉ
+300026,TutorialGuide.ui, ÊÚáã ÇáãÒíÏ Úä ÇáÍÇáÉ ÇáÊãÑíÑíÉ
+300027,TutorialGuide.ui,- ÍÌÈ
+300028,TutorialGuide.ui,- ÎØİ
+310001,InvenDialog.ui,ãÔÇÑßÉ 1
+310002,InvenDialog.ui,ãÔÇÑßÉ 2
+310003,InvenDialog.ui,ãÔÇÑßÉ 3
+320001,CardDialog.ui,ÇáäÊíÌÉ
+330001,ReadyRoom.ui,ÊáŞÇÆí
+330002,ReadyRoom.ui,ÇáİÌÑ
+330003,ReadyRoom.ui,æÖÍ ÇáäåÇÑ
+330004,ReadyRoom.ui,æŞÊ ÇáÛÑæÈ
+330005,ReadyRoom.ui,Çááíá
+330006,ReadyRoom.ui,ÚÔæÇÆí

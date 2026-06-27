@@ -1,0 +1,5 @@
+Code,CompanyCode,Company,LanguageCode,LanguageName,LangFolder
+10000,100,Artech,0,Korean,Korean
+10001,100,Artech,1,English,Default_Eng
+20000,200,Gamepower7,0,Arabic,Dubai_Arb
+90000,900,GSP,0,English,Default_Eng

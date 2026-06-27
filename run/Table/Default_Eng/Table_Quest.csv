@@ -1,0 +1,21 @@
+Index,Code,Position,StartLevel,EndLevel,Scale,Limit,Join,Repeat,Condition,Kind1,GiftCode1,Amount1,Kind2,GiftCode2,Amount2,Kind3,GiftCode3,Amount3,Home1,Home2,Home3,Home4,Home5,Home6,Away1,Away2,Away3,Away4,Away5,Away6,Title,IconFile,Kind,Explain
+0,100,0,0,0,0,0,0,0,0,12,0,1450,15,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+1,101,0,0,0,0,0,0,0,0,12,0,1450,15,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+2,102,0,0,0,0,0,0,0,0,12,0,1450,15,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+3,103,0,0,0,0,0,0,0,0,12,0,1450,15,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+4,104,0,0,0,0,0,0,0,0,12,0,1450,15,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+5,105,0,0,0,0,0,0,0,0,12,0,1450,15,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+6,106,0,0,0,0,0,0,0,0,12,0,2500,15,0,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-,-,0,-
+7,1000,50,1,10,5,1,1,1,0,12,0,250,15,0,400,0,0,0,1,20,0,0,0,0,0,0,0,0,0,40,My characteristic,PositionIcon_ALL,0,Let¡¯s check 15 kinds of ability options before starting\the game.
+8,1001,50,1,10,5,1,1,1,0,12,0,300,15,0,400,0,0,0,1,20,0,0,0,0,0,0,0,0,0,40,Power control,PositionIcon_ALL,1,"Let's practice the controlling of power gauge\with A,D,F keys"
+9,1002,50,1,10,5,1,1,1,0,12,0,300,15,0,400,0,0,0,1,0,0,0,0,0,0,0,0,0,0,40,Accurate Shot,PositionIcon_ALL,1,Let's practice shooting with D(Left shot) and\F(Right shot) keys.
+10,1003,50,1,10,5,1,1,1,0,12,0,300,15,0,400,0,0,0,1,20,0,0,0,0,0,0,0,0,0,40,Dynamic direct shot,PositionIcon_ALL,1,Practice direct shot with D(Left shot) and\F(Right shot) keys.
+11,1004,50,1,10,5,1,1,1,0,12,0,450,15,0,400,0,0,0,1,20,20,30,0,0,0,0,0,0,0,40,Score the goal,PositionIcon_ALL,1,Make more than 1 goal with help of your AI\team members as much as you could within\3 minutes.
+12,1005,50,1,10,5,1,1,1,0,12,0,300,15,0,400,0,0,0,1,20,20,0,0,0,0,0,0,0,0,40,Passing play,PositionIcon_ALL,1,Pass the ball to AI team member with\A(Long pass) or S(Short pass).
+13,1006,50,1,10,5,1,1,1,0,12,0,300,15,0,500,0,0,0,1,0,0,0,0,40,10,0,0,0,0,0,Wild tackle,PositionIcon_ALL,1,Take the ball with Q(Tackle) from opponents player dribbling. 
+14,1007,50,1,10,5,1,1,1,0,12,0,300,15,0,600,0,0,0,1,0,0,0,0,40,10,20,0,0,0,0,Iron Wall,PositionIcon_ALL,1,"Get the ball away with A, D or F keys at the\defense area."
+15,1008,50,1,10,5,1,1,1,0,12,0,450,15,0,600,0,0,0,1,30,0,0,0,40,10,10,20,30,0,40,Keep the victory,PositionIcon_ALL,1,Defense with your AI team members from\opponent AI players within 2 and half minutes.
+16,1009,50,1,10,5,1,1,1,0,12,0,450,15,0,600,0,0,0,1,10,20,30,0,40,10,20,30,0,0,40,Be sure to win I,PositionIcon_ALL,1,Your team is leading the game as 2:0.\Win the match with AI team members within 3 minutes.
+17,1010,50,1,10,5,1,3,1,0,12,0,450,15,0,600,0,0,0,1,1,1,30,0,40,10,20,30,0,0,40,Be sure to win II,PositionIcon_ALL,2,Your team is leading the game as 3:1.\Win the match with 1 or 2 human players\+ AI team members within 3 minutes.
+18,1011,1,10,50,5,1,2,1,0,12,0,800,15,0,600,0,0,0,1,1,0,0,0,40,10,10,20,30,0,40,Keep the victory ¥³,PositionIcon_ALL,2,Defense with 1 human player + AI team\members within 2 minutes.
+19,1012,1,10,50,5,1,2,1,0,12,0,800,15,0,600,0,0,0,1,1,0,0,0,40,10,20,30,0,0,40,Be sure to win ¥´,PositionIcon_ALL,2,The game score is 1:1. Win the match with\1 human player + AI team members within\2 and half minutes.

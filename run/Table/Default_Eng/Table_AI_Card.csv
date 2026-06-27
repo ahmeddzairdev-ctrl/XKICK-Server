@@ -1,0 +1,17 @@
+Index,Code,Name,TypeText,Type,Position,Area,Point,Cash
+0,100,Basic position Card,All Cards,10,0,0,100,100
+1,210,Forward Card,Position,20,10,0,500,500
+2,220,Midfielder Card,Position,20,20,0,500,500
+3,230,Defender Card,Position,20,30,0,500,500
+4,301,Goal-getter Card,Activity,30,0,1,1000,800
+5,302,Second-striker Card,Activity,30,0,2,1000,800
+6,303,Goal-assistor Card,Activity,30,0,3,1000,800
+7,304,Dribbler type Card,Activity,30,0,4,1000,800
+8,305,Center-midfielder Card,Activity,30,0,5,1000,800
+9,306,Free-roll Card,Activity,30,0,6,1000,800
+10,307,Stopper Card,Activity,30,0,7,1000,800
+11,308,Holding-player Card,Activity,30,0,8,1000,800
+12,309,Center-defenlder Card,Activity,30,0,9,1000,800
+13,310,Side-back Card,Activity,30,0,10,1000,800
+14,311,Side-winger Card,Activity,30,0,11,1000,800
+15,312,Side-midfierder Card,Activity,30,0,12,1000,800

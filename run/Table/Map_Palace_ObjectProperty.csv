@@ -1,0 +1,9 @@
+ObjectName,AlphaProperty,AlphaValue,ZBufferWrite,ZBufferWriteValue,ZBufferTest,ZBufferTestValue
+Pannel_0:0,OK,0,NO,1,NO,1
+Pannel_0:1,OK,0,NO,1,NO,1
+Pannel_Wall:0,OK,0,NO,1,NO,1
+Pannel_Wall:1,OK,0,NO,1,NO,1
+Effect_Alltime_fire_001_01-Emitter,NO,0,OK,0,OK,1
+Effect_Alltime_fire_001_02-Emitter,NO,0,OK,0,OK,1
+Effect_Alltime_fire_001_03-Emitter,NO,0,OK,0,OK,1
+Effect_Alltime_fire_001_04-Emitter,NO,0,OK,0,OK,1
