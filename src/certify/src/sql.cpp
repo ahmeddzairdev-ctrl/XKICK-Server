@@ -531,7 +531,7 @@ int CSql::CreateCharacter(CMember* pMember, CCSCreateCharacter* pCreate)
         "INSERT INTO tb_game_player  (player_seq, member_seq, player_order, player_name, "
         "player_gender, player_skin,  player_face, player_hair, player_shirts, player_pants, "
         "player_shoes, player_createdate, player_faculty)  "
-        "VALUES ('', %d, %d, '%s', '%d', %d, %d, %d, %d, %d, %d, now(), 2)",
+        "VALUES (NULL, %d, %d, '%s', '%d', %d, %d, %d, %d, %d, %d, now(), 2)",
         pMember->m_nMemberSeq, i, pCreate->m_sName,
         (int)pCreate->m_cShape.m_nGender, (int)pCreate->m_cShape.m_nSkin,
         pCreate->m_nEquip[0], pCreate->m_nEquip[1], pCreate->m_nEquip[2],
@@ -882,8 +882,8 @@ int CSql::InsertMemberField(const char* sID, const char* sPass)
 
     MYSQL* hDB = Execute(
         "INSERT INTO tb_mst_member SET member_id = '%s', member_pass = '%s', member_createdate=NOW(), "
-        "member_logindate='0000-00-00 00:00:00', member_deletedate='0000-00-00 00:00:00', "
-        "member_blockdate='0000-00-00 00:00:00', member_releasedate='0000-00-00 00:00:00'",
+        "member_logindate='2000-01-01 00:00:00', member_deletedate='2000-01-01 00:00:00', "
+        "member_blockdate='2000-01-01 00:00:00', member_releasedate='2000-01-01 00:00:00'",
         sID, sPass);
     if (hDB == NULL) return -1;
 

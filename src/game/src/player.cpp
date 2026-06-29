@@ -270,20 +270,34 @@ int CPlayer::CheckPlayerUDP()
 // ---------------------------------------------------------------------------
 int CPlayer::InitBaseFaculty()
 {
-    int hPos = g_Load.GetPositionTable();   // position row keyed by m_nPosition
-    const char* pRow = (const char*)Table_GetData(hPos, m_nPosition, -1);
+    // The binary keys the position table by its Code column (CLoad::GetPositionTable is a
+    // std::map<int,CPositionTable*> lookup), NOT by CSV row index. A fresh character has
+    // m_nPosition=0 (the position is chosen later, in the scout-test, via CM_GROWUP_CHARACTER);
+    // no row has Code 0, so GetPositionTable returns NULL and the base faculty stays ZERO.
+    // The old code used m_nPosition as a raw row index, so position 0 read the dummy row 0
+    // (Code -1, placeholder "???") -> garbage base faculties that hung the scout-test client.
+    int hPos = g_Load.GetPositionTable();
+    int row = -1;
+    for (int i = 0; ; ++i)
+    {
+        tvar_t* code = Table_GetData(hPos, i, "Code");
+        if (code == 0) break;
+        if (FieldToValue(code) == (int)m_nPosition) { row = i; break; }
+    }
+
+    const char* pRow = (row >= 0) ? (const char*)Table_GetData(hPos, row, -1) : 0;
     if (pRow == 0)
     {
-        LOGOUT_ERROR("InitBaseFaculty: no position row (%d)\n", m_nPosition);
+        memset(m_cBaseFaculty.m_nFaculty, 0, ARRAY_FACULTY_SIZE);   // unset/unknown position
         return 0;
     }
 
     memcpy(m_cBaseFaculty.m_nFaculty, pRow + 9, 0x12);   // 18 base-faculty bytes
 
-    // bonus = level above 5, capped at 20.
+    // level bonus (matches binary): increase = level - min(level,5) for level<=19, else level-20.
     int nLevel = m_cLevel.m_nLevel;
-    int nClamp = nLevel; if (nClamp < 5) nClamp = 5; if (nClamp > 0x14) nClamp = 0x14;
-    char cBonus = (char)(nLevel - nClamp);
+    int ia = (nLevel <= 19) ? ((nLevel <= 4) ? nLevel : 5) : 20;
+    char cBonus = (char)(nLevel - ia);
 
     int nOverflow = 0;
     for (int i = 1; i <= 3; ++i)      // 3 main-faculty indices @ row[1..3]

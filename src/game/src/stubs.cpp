@@ -452,36 +452,31 @@ void CPlayer::SetConsume(CCSGameResult* /*pResult*/)
 // (self-consistent); the framing size is taken from the struct, not a count byte.
 int CPlayer::GetPlayerInfo(CPlayerInfo* pOut)
 {
+    // Live-client CM_PLAYER_INFO body (CPlayerInfo, 788 bytes; parser sub_4BD200).
+    // Zero-fill first so the record/block/item blocks default to safe (non-crashing)
+    // zeros; then populate the fields the client actually consumes for the lobby +
+    // scout-test gate. The level lands at wire 86 -> CObjPlayerInfo+612 (gate/exp-bar).
+    memset(pOut, 0, sizeof(CPlayerInfo));
+
     pOut->m_nPlayerSeq = m_nPlayerSeq;
-    pOut->m_nOperation = m_nOperation;                  // 0x4 - sent on the wire
-    memcpy(pOut->m_sName, m_sName, PLAYER_NAME_SIZE);
-    memcpy(pOut->m_sMent, m_sMent, PLAYER_MENT_SIZE);
+    pOut->m_nPosition  = (char)m_nPosition;             // 0x04 -> CObjPlayerInfo+402
+    memcpy(pOut->m_sName, m_sName, PLAYER_NAME_SIZE);   // 0x09 -> obj+415
+    memcpy(pOut->m_sMent, m_sMent, PLAYER_MENT_SIZE);   // 0x18 -> obj+430
 
-    pOut->m_cLevel.m_nLevel   = (short)m_cLevel.m_nLevel;
-    pOut->m_cLevel.m_nExp     = m_cLevel.m_nExp;
-    pOut->m_cLevel.m_nFaculty = m_cLevel.m_nFaculty;
-    pOut->m_cLevel.m_nSkill   = m_cLevel.m_nSkill;
+    pOut->m_cLevel.m_nLevel   = (short)m_cLevel.m_nLevel;   // 0x45 first byte -> obj+612 = gate level
+    pOut->m_cLevel.m_nExp     = m_cLevel.m_nExp;            // 0x49 -> obj+616
+    pOut->m_cLevel.m_nFaculty = m_cLevel.m_nFaculty;        // 0x4D -> obj+620 (low word)
+    pOut->m_cLevel.m_nSkill   = m_cLevel.m_nSkill;          // 0x4F -> obj+620 (high word)
 
-    // wire carries 3 faculties (no item faculty), matching the binary.
-    memcpy(pOut->m_cBaseFaculty.m_nFaculty,     m_cBaseFaculty.m_nFaculty, ARRAY_FACULTY_SIZE);
-    memcpy(pOut->m_cRaiseFaculty.m_nFaculty,    m_cRaiseFaculty.m_nFaculty,  ARRAY_FACULTY_SIZE);
-    memcpy(pOut->m_cTrainingFaculty.m_nFaculty, m_cItemFaculty.m_nFaculty,  ARRAY_FACULTY_SIZE);
+    // 0x51 equip-wear (4 ints): consumed by the model object (sub_51BE00[3..6]); slot
+    // order not yet verified against the live client, left zeroed (default appearance)
+    // so a wrong model code can't crash the lobby avatar load.
 
-    for (int i = 0; i < ARRAY_RECORD_SIZE; ++i)
-    {
-        pOut->m_cTotalRecord.m_nRecord[i]   = m_cTotalRecord.m_nRecord[i] + m_cCurrentRecord.m_nRecord[i];
-        pOut->m_cQuarterRecord.m_nRecord[i] = m_cQuarterRecord.m_nRecord[i] + m_cCurrentRecord.m_nRecord[i];
-    }
+    memcpy(pOut->m_cBaseFaculty.m_nFaculty,     m_cBaseFaculty.m_nFaculty,  ARRAY_FACULTY_SIZE);  // 0x61 -> obj+864
+    memcpy(pOut->m_cRaiseFaculty.m_nFaculty,    m_cRaiseFaculty.m_nFaculty, ARRAY_FACULTY_SIZE);  // 0x7A -> obj+889
+    memcpy(pOut->m_cTrainingFaculty.m_nFaculty, m_cItemFaculty.m_nFaculty,  ARRAY_FACULTY_SIZE);  // 0x93 -> obj+939
 
-    memset(pOut->m_cTotalRanking,   0, sizeof(pOut->m_cTotalRanking));
-    memset(pOut->m_cQuarterRanking, 0, sizeof(pOut->m_cQuarterRanking));
-    for (int i = 0; i < 25; ++i)
-    {
-        pOut->m_cTotalRanking[i]   = m_cTotalRanking[i];
-        pOut->m_cQuarterRanking[i] = m_cQuarterRanking[i];
-    }
-    memset(pOut->m_cItemOption, 0, sizeof(pOut->m_cItemOption));   // 0x194 option block (0 = no bonuses)
-    return 0x55;   // trailing-ranking count (full); caller sizes the body from the struct
+    return 0x55;   // caller sizes the body from the struct
 }
 
 // GetAthleteInfo @08088966 - fill the public CAthleteInfo wire body (identity,

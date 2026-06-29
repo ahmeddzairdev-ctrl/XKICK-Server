@@ -183,9 +183,10 @@ void readHeader(const ConnPtr& c)
         return;
     }
 
-    // Official client wire header is 16 bytes: short cmd@0, short size@2, int seq@4,
-    // 8 reserved@8. Translate into the internal 12-byte CHeadPacket so the rest of the
-    // pipeline (CSecure decode, dispatch, handlers) is unchanged; body lands at offset 12.
+    // The official live client speaks a 16-byte wire header to the GAME too (NOT the
+    // 12-byte header the older XKICK_Game1 binary used): short cmd@0, short size@2,
+    // int seq@4, 8 reserved@8. Translate into the internal 12-byte CHeadPacket so the
+    // rest of the pipeline (CSecure, dispatch, handlers) is unchanged; body lands @+12.
     auto wire = std::make_shared<std::vector<char>>(16);
     asio::async_read(c->socket, asio::buffer(wire->data(), 16),
         [c, wire](const asio::error_code& ec, std::size_t n)
@@ -278,13 +279,30 @@ void startUdpReceive()
         [](const asio::error_code& ec, std::size_t n)
         {
             // recvfrom < 1 is skipped in the binary; an error just re-arms.
-            if (!ec && (int)n >= (int)sizeof(CHeadPacket))
+            if (!ec && (int)n >= 16)
             {
                 CUDPAddress from;
                 snprintf(from.m_sIP, sizeof(from.m_sIP), "%s",
                          g_udpFrom.address().to_string().c_str());
                 from.m_nPort = g_udpFrom.port();
-                g_Process.PacketProcessUDP(&from, (CHeadPacket*)g_udpBuf);
+
+                // The live client wraps UDP datagrams in the same 16-byte wire header as
+                // its TCP packets (short cmd@0, short size@2, int seq@4, 8 reserved@8,
+                // body@16). Translate to the internal 12-byte CHeadPacket the UDP
+                // handlers expect (body @+12) before dispatch.
+                char udpIn[2048];
+                unsigned short wcmd = 0, wsize = 0; int wseq = 0;
+                memcpy(&wcmd,  g_udpBuf + 0, 2);
+                memcpy(&wsize, g_udpBuf + 2, 2);
+                memcpy(&wseq,  g_udpBuf + 4, 4);
+                int cmd = wcmd, size = wsize;
+                memcpy(udpIn + 0, &cmd,  4);
+                memcpy(udpIn + 4, &size, 4);
+                memcpy(udpIn + 8, &wseq, 4);
+                int bodyLen = (int)n - 16; if (bodyLen < 0) bodyLen = 0;
+                if (bodyLen > (int)sizeof(udpIn) - 12) bodyLen = (int)sizeof(udpIn) - 12;
+                if (bodyLen > 0) memcpy(udpIn + 12, g_udpBuf + 16, bodyLen);
+                g_Process.PacketProcessUDP(&from, (CHeadPacket*)udpIn);
             }
             startUdpReceive();
         });
@@ -347,7 +365,22 @@ void Net_SendUDP(const CUDPAddress* pTo, const void* pData, int nLen)
     udp::endpoint ep(asio::ip::make_address(pTo->m_sIP, ec),
                      (unsigned short)pTo->m_nPort);
     if (ec) return;
-    g_udp->send_to(asio::buffer(pData, nLen), ep, 0, ec);
+
+    // Translate the internal 12-byte CHeadPacket to the client's 16-byte UDP wire header
+    // (short cmd@0, short size@2, int seq@4, 8 reserved@8, body@16), mirroring TCP.
+    const char* in = (const char*)pData;
+    int cmd = 0, size = 0, seq = 0;
+    memcpy(&cmd,  in + 0, 4);
+    memcpy(&size, in + 4, 4);
+    memcpy(&seq,  in + 8, 4);
+    int bodyLen = nLen - 12; if (bodyLen < 0) bodyLen = 0;
+    std::vector<char> wire(16 + bodyLen, 0);
+    unsigned short wcmd = (unsigned short)cmd, wsize = (unsigned short)size;
+    memcpy(wire.data() + 0, &wcmd,  2);
+    memcpy(wire.data() + 2, &wsize, 2);
+    memcpy(wire.data() + 4, &seq,   4);
+    if (bodyLen > 0) memcpy(wire.data() + 16, in + 12, bodyLen);
+    g_udp->send_to(asio::buffer(wire.data(), wire.size()), ep, 0, ec);
 }
 
 // SendSTS @08082d2e: write a framed packet on the single STS uplink fd.

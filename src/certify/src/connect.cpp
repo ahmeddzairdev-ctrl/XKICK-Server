@@ -220,7 +220,17 @@ void Net_Send(int nFd, const void* pData, int nLen)
 void Net_Close(int nFd)
 {
     std::map<int, ConnPtr>::iterator it = g_conns.find(nFd);
-    if (it != g_conns.end()) { asio::error_code ec; it->second->socket.close(ec); g_conns.erase(it); }
+    if (it != g_conns.end())
+    {
+        asio::error_code ec;
+        // Graceful close: half-shutdown sends a FIN AFTER the OS flushes any queued TX,
+        // so a reply written immediately before the close (e.g. the CM_CERTIFY_EXIT ack
+        // that gates the client's hop to the game server) is delivered instead of being
+        // discarded by an abortive RST. The Linux original relied on this close semantics.
+        it->second->socket.shutdown(asio::ip::tcp::socket::shutdown_both, ec);
+        it->second->socket.close(ec);
+        g_conns.erase(it);
+    }
 }
 
 int Net_GetIP(int nFd, char* sIP)

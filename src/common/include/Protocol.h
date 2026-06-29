@@ -8,6 +8,7 @@
 // ComInclude.h/ComStructure.h that don't exist server-side).
 #include "Define.h"
 #include "Struct.h"
+#include <cstddef>   // offsetof
 
 #pragma pack(push,1)
 
@@ -405,23 +406,56 @@ class CSCNoticeList : public CHeadPacket
 // (only Base/Raise/Training), the two rankings are 25 shorts each (50 bytes -
 // the wire ranking count, independent of the wider internal CRanking), and the
 // 344-byte item-option block trails. GetPlayerInfo (stubs.cpp) fills it.
+// Rebuild: layout pinned to the LIVE client (XKick.exe sub_4BD200), which is a
+// CM_PLAYER_INFO body for the live client (XKick.exe). Reconstructed BYTE-FAITHFULLY
+// from the client's REAL parser sub_4BD200 (confirmed by a hardware write-breakpoint
+// on the local player's level byte landing at 0x4BD2DE). a1 is the wire packet base
+// (a1[0]=cmd word); CPlayerInfo starts at wire byte 17 (after the 16-byte header +
+// 1-byte m_nResponse). Each field below is annotated with the wire byte the client
+// reads it from and the CObjPlayerInfo dest offset it writes to:
+//   pos    wire 21  -> obj+402      cond  wire 22 -> obj+403   alias wire 23 -> obj+404
+//   word   wire 24  -> obj+598      name  wire 26 -> obj+415   ment  wire 41 -> obj+430
+//   level  wire 86  -> obj+612 (== +0x264, the gate/exp-bar level)
+//   exp    wire 90  -> obj+616      facsk wire 94 -> obj+620
+//   equip  wire 98..110 (4 dwords) -> model object (sub_51BE00) [3..6]
+//   baseF  wire 114 -> obj+864      raiseF wire 139 -> obj+889  trainF wire 164 -> obj+939
+//   rec    wire 189 -> obj+1340     rec2  wire 265 -> obj+1416
+//   blk    wire 341 -> obj+1492     blk2  wire 391 -> obj+1542
+//   items  wire 441 (364 bytes) -> obj+976
+// Total CPlayerInfo = 788 bytes (the 1193-byte sub_4C0890 layout was a dead code path).
 class CPlayerInfo
 { public:
-	int					m_nPlayerSeq;			// 0x00
-	char				m_nOperation;			// 0x04
-	char				m_sName[PLAYER_NAME_SIZE];	// 0x05  (15)
-	char				m_sMent[PLAYER_MENT_SIZE];	// 0x14  (45)
-	CLevel				m_cLevel;				// 0x41  (12)
-	CFaculty			m_cBaseFaculty;			// 0x4d  (25)
-	CFaculty			m_cRaiseFaculty;		// 0x66  (25)
-	CFaculty			m_cTrainingFaculty;		// 0x7f  (25)
-	CRecord				m_cTotalRecord;			// 0x98  (76)
-	CRecord				m_cQuarterRecord;		// 0xe4  (76)
-	short				m_cTotalRanking[25];	// 0x130 (50)
-	short				m_cQuarterRanking[25];	// 0x162 (50)
-	unsigned char		m_cItemOption[344];		// 0x194 (344, COption block)
+	int					m_nPlayerSeq;			// 0x000 (4)  wire 17
+	char				m_nPosition;			// 0x004 -> obj+402
+	char				m_nCondition;			// 0x005 -> obj+403
+	char				m_nAlias;				// 0x006 -> obj+404
+	short				m_nField07;				// 0x007 (2) -> obj+598 (word @ wire 24)
+	char				m_sName[PLAYER_NAME_SIZE];	// 0x009 (15) -> obj+415
+	char				m_sMent[PLAYER_MENT_SIZE];	// 0x018 (45) -> obj+430
+	CLevel				m_cLevel;				// 0x045 (12) first byte -> obj+612 = gate level
+	int					m_nEquipWear[4];		// 0x051 (16) -> model object [3..6]
+	CFaculty			m_cBaseFaculty;			// 0x061 (25) -> obj+864
+	CFaculty			m_cRaiseFaculty;		// 0x07A (25) -> obj+889
+	CFaculty			m_cTrainingFaculty;		// 0x093 (25) -> obj+939
+	char				m_cRecord[76];			// 0x0AC (76) -> obj+1340
+	char				m_cRecord2[76];			// 0x0F8 (76) -> obj+1416
+	char				m_cBlock[50];			// 0x144 (50) -> obj+1492
+	char				m_cBlock2[50];			// 0x176 (50) -> obj+1542
+	unsigned char		m_cItemOption[364];		// 0x1A8 (364) -> obj+976
 };
-static_assert(sizeof(CPlayerInfo) == 748, "CPlayerInfo must be 748 bytes (binary wire size)");
+static_assert(sizeof(CPlayerInfo) == 788, "CPlayerInfo must be 788 bytes (live-client sub_4BD200 wire size)");
+static_assert(offsetof(CPlayerInfo, m_sName)          == 0x009, "CPlayerInfo.m_sName offset");
+static_assert(offsetof(CPlayerInfo, m_sMent)          == 0x018, "CPlayerInfo.m_sMent offset");
+static_assert(offsetof(CPlayerInfo, m_cLevel)         == 0x045, "CPlayerInfo.m_cLevel offset (level wire 86)");
+static_assert(offsetof(CPlayerInfo, m_nEquipWear)     == 0x051, "CPlayerInfo.m_nEquipWear offset");
+static_assert(offsetof(CPlayerInfo, m_cBaseFaculty)   == 0x061, "CPlayerInfo.m_cBaseFaculty offset");
+static_assert(offsetof(CPlayerInfo, m_cRaiseFaculty)  == 0x07A, "CPlayerInfo.m_cRaiseFaculty offset");
+static_assert(offsetof(CPlayerInfo, m_cTrainingFaculty)== 0x093, "CPlayerInfo.m_cTrainingFaculty offset");
+static_assert(offsetof(CPlayerInfo, m_cRecord)        == 0x0AC, "CPlayerInfo.m_cRecord offset");
+static_assert(offsetof(CPlayerInfo, m_cRecord2)       == 0x0F8, "CPlayerInfo.m_cRecord2 offset");
+static_assert(offsetof(CPlayerInfo, m_cBlock)         == 0x144, "CPlayerInfo.m_cBlock offset");
+static_assert(offsetof(CPlayerInfo, m_cBlock2)        == 0x176, "CPlayerInfo.m_cBlock2 offset");
+static_assert(offsetof(CPlayerInfo, m_cItemOption)    == 0x1A8, "CPlayerInfo.m_cItemOption offset");
 
 class CCSPlayerInfo: public CHeadPacket
 { public:
@@ -430,7 +464,7 @@ class CCSPlayerInfo: public CHeadPacket
 
 class CSCPlayerInfo : public CHeadPacket
 { public:
-	CSCPlayerInfo() : CHeadPacket(CM_PLAYER_INFO) { m_nBodySize = 749; }
+	CSCPlayerInfo() : CHeadPacket(CM_PLAYER_INFO) { m_nBodySize = 789; }  // 1 + sizeof(CPlayerInfo)
 	char				m_nResponse;
 	CPlayerInfo			m_cPlayerInfo;
 };
@@ -1077,7 +1111,7 @@ class CCSGrowupCharacter : public CHeadPacket
 
 class CSCGrowupCharacter : public CHeadPacket
 { public:
-	CSCGrowupCharacter() : CHeadPacket(CM_GROWUP_CHARACTER) { m_nBodySize = 750; }
+	CSCGrowupCharacter() : CHeadPacket(CM_GROWUP_CHARACTER) { m_nBodySize = 790; }  // 2 + sizeof(CPlayerInfo)
 	char				m_nResponse;
 	char				m_nPosition;	// rebuild: binary CSCGrowupCharacter (offset 0x0d)
 	CPlayerInfo			m_cPlayerInfo;
@@ -1503,6 +1537,7 @@ class CSCMissionReward : public CHeadPacket
 class CCSStsLogin : public CHeadPacket
 { public:
 	short m_nServerCode;
+	CCSStsLogin() : CHeadPacket(CM_STS_LOGIN) { m_nBodySize = 2; }
 };
 
 class CSCStsLogin : public CHeadPacket

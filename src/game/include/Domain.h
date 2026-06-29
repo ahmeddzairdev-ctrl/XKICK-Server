@@ -161,11 +161,14 @@ class CQuestInfo
 public:
     CQuestInfo() : m_nCode(0), m_nSeq(0), m_nCount(0), m_nState(0) {}
 
-    int    m_nCode;           // 0x00  quest_code   [WIRE]
-    int    m_nSeq;            // 0x04  quest_seq    [WIRE]
-    short  m_nCount;          // 0x08  quest_count  [WIRE]
-    int    m_nState;          // 0x0a  runtime exec/state (loader zeroes) [WIRE]
-                              // 0x0e  end (size 0x0e)
+    // NOTE: this is the INTERNAL domain object; field order is NOT the wire order.
+    // The CM_QUEST_INFO wire row (Protocol.h CQuestRow) is seq@0, code@4, count@8,
+    // playdate@0xa -- PacketQuestInfo packs in that fixed order, do not assume these
+    // offsets map to the wire.
+    int    m_nCode;           // quest_code
+    int    m_nSeq;            // quest_seq
+    short  m_nCount;          // quest_count
+    int    m_nState;          // runtime exec/state (loader zeroes; wire carries playdate)
 };
 
 // -----------------------------------------------------------------------------

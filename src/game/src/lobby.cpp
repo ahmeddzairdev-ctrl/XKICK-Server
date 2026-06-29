@@ -273,8 +273,16 @@ void PacketLeaveRoom(CPlayer* pPlayer, int nKind)
     }
     if (pRoom->m_nRoomSeq < 1 || pRoom->m_nRoomSeq > 199)
     {
-        CLogManager log("lobby.cpp", 0x4c6, 0, pRoom, "PacketLeaveRoom: bad room no (%d)", (int)pRoom->m_nRoomSeq);
-        log.LogOut();
+        // Lobby (seq 0): the live client (newer than XKICK_Game1) sends CM_LEAVE_ROOM to
+        // exit the lobby for the tutorial / room-create flow and BLOCKS its UI transition
+        // on the ack (client handler sub_4BFF00 rebuilds the screen on the response). The
+        // old binary replied nothing for room 0, leaving the newer client stuck. Remove
+        // the player from the lobby stay-list and ack so the client proceeds.
+        g_RoomPool[0].DeletePlayerLobby(pPlayer);
+        pkt.m_nLeavePlayerSeq = pPlayer->m_nPlayerSeq;
+        pkt.m_nLeaveTeam      = pPlayer->GetPlayerTeam();
+        pkt.m_nResponse       = (char)nKind;
+        SendPlayer(pPlayer, &pkt, nKind);
         return;
     }
 

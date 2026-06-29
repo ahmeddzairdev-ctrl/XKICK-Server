@@ -166,11 +166,16 @@ void PacketQuestInfo(CPlayer* pPlayer)
     {
         CQuestInfo* q = pPlayer->m_vQuestList[i];
         if (q == 0) continue;
+        // CQuestRow wire layout (matches original PacketQuestInfo @08075ece and the
+        // shared Protocol.h CQuestRow): m_nQuestSeq@0, m_nCode@4, m_nAmount@8, m_nPlayDate@0xa.
+        // The rebuild's CQuestInfo domain object reorders these (code first); the WIRE
+        // order is fixed and MUST stay seq@0/code@4 or the client reads the quest code
+        // out of the seq field (drills never match -> never shown done -> scout-test stalls).
         char* r = base + 0xe + nCount * 14;
-        *(int*)(r + 0)   = q->m_nCode;
-        *(int*)(r + 4)   = q->m_nSeq;
-        *(short*)(r + 8) = q->m_nCount;
-        *(int*)(r + 0xa) = q->m_nState;
+        *(int*)(r + 0)   = q->m_nSeq;     // m_nQuestSeq
+        *(int*)(r + 4)   = q->m_nCode;    // m_nCode
+        *(short*)(r + 8) = q->m_nCount;   // m_nAmount
+        *(int*)(r + 0xa) = q->m_nState;   // m_nPlayDate (loader zeroes; original sent playdate)
         if (++nCount == 10)
         {
             sc.m_nBodySize = 0x8e;          // 0xe + 0x80

@@ -399,9 +399,14 @@ void PacketSendMessage(CPlayer* pPlayer, CHeadPacket* pPacket)
 // PacketChangeSetting @0807e2fc
 void PacketChangeSetting(CPlayer* pPlayer, CHeadPacket* pPacket)
 {
-    CCSChangeSetting* pIn = (CCSChangeSetting*)pPacket;
-    char     nInit  = pIn->m_nInitSetting;
-    CSetting* pInSet = &pIn->m_cChangeSetting;
+    // Incoming body layout (matches certify + the client send): initFlag@body+0,
+    // playerSeq@body+1, setting@body+5. CCSChangeSetting has no playerSeq field, so
+    // reading m_cChangeSetting (body+1) lands the setting 4 bytes early and shifts the
+    // 18-key array by 2 indices (up/down -> NONE, their values bleed into left/right).
+    // Read by raw offset to skip the 4-byte playerSeq, exactly like CSql/certify.
+    char*     sBody  = (char*)(pPacket + 1);
+    char      nInit  = sBody[0];
+    CSetting* pInSet = (CSetting*)(sBody + 5);
 
     CSCChangeSetting cOut;     // body 0x5a
     cOut.m_nResponse    = 0;
@@ -514,6 +519,14 @@ void PacketPlayerInfo(CPlayer* pPlayer, CHeadPacket* /*pPacket*/)
     cOut.m_nResponse = 0;
     pPlayer->GetPlayerInfo(&cOut.m_cPlayerInfo);
     cOut.m_nBodySize = (int)(sizeof(CSCPlayerInfo) - sizeof(CHeadPacket));
+    {   // TEMP DIAG - confirm the level lands at struct offset 0x45 (wire byte 86)
+        const CPlayerInfo& p = cOut.m_cPlayerInfo;
+        LOGOUT_ERROR("DIAG PInfo: seq=%d pos=%d lv=%d (off=0x%X) exp=%d fac=%d sk=%d\n",
+                     p.m_nPlayerSeq, (int)p.m_nPosition,
+                     (int)p.m_cLevel.m_nLevel,
+                     (unsigned)((const char*)&p.m_cLevel - (const char*)&p),
+                     p.m_cLevel.m_nExp, (int)p.m_cLevel.m_nFaculty, (int)p.m_cLevel.m_nSkill);
+    }
     SendPlayer(pPlayer, &cOut, 0);
 
     // chained sub-info (these handlers are domain-owned).

@@ -451,24 +451,24 @@ CREATE TABLE `tb_game_setting`  (
   `setting_invite` int NULL DEFAULT 0,
   `setting_whisper` int NULL DEFAULT 0,
   `setting_friend` int NULL DEFAULT 0,
-  `setting_up` int NULL DEFAULT 0,
-  `setting_down` int NULL DEFAULT 0,
-  `setting_left` int NULL DEFAULT 0,
-  `setting_right` int NULL DEFAULT 0,
-  `setting_leftshoot` int NULL DEFAULT 0,
-  `setting_rightshoot` int NULL DEFAULT 0,
-  `setting_longpass` int NULL DEFAULT 0,
-  `setting_shortpass` int NULL DEFAULT 0,
-  `setting_screen` int NULL DEFAULT 0,
-  `setting_tackle` int NULL DEFAULT 0,
-  `setting_steal` int NULL DEFAULT 0,
-  `setting_quick` int NULL DEFAULT 0,
-  `setting_quick2` int NULL DEFAULT 0,
-  `setting_skill1` int NULL DEFAULT 0,
-  `setting_skill2` int NULL DEFAULT 0,
-  `setting_skill3` int NULL DEFAULT 0,
-  `setting_skill4` int NULL DEFAULT 0,
-  `setting_skill5` int NULL DEFAULT 0,
+  `setting_up` int NULL DEFAULT 222,          -- UP    (dedicated arrow: scan 0x48-106; Table_Input 222=UP)
+  `setting_down` int NULL DEFAULT 230,        -- DOWN  (scan 0x50-106; Table_Input 230=DOWN)
+  `setting_left` int NULL DEFAULT 225,        -- LEFT  (scan 0x4B-106; Table_Input 225=LEFT)
+  `setting_right` int NULL DEFAULT 227,       -- RIGHT (scan 0x4D-106; Table_Input 227=RIGHT)
+  `setting_leftshoot` int NULL DEFAULT 30,    -- DIK_A (0x1E)
+  `setting_rightshoot` int NULL DEFAULT 31,   -- DIK_S (0x1F)
+  `setting_longpass` int NULL DEFAULT 32,     -- DIK_D (0x20)
+  `setting_shortpass` int NULL DEFAULT 33,    -- DIK_F (0x21)
+  `setting_screen` int NULL DEFAULT 44,       -- DIK_Z (0x2C)
+  `setting_tackle` int NULL DEFAULT 45,       -- DIK_X (0x2D)
+  `setting_steal` int NULL DEFAULT 46,        -- DIK_C (0x2E)
+  `setting_quick` int NULL DEFAULT 57,        -- DIK_SPACE    (0x39)
+  `setting_quick2` int NULL DEFAULT 29,       -- DIK_LCONTROL (0x1D)
+  `setting_skill1` int NULL DEFAULT 2,        -- DIK_1 (0x02)
+  `setting_skill2` int NULL DEFAULT 3,        -- DIK_2 (0x03)
+  `setting_skill3` int NULL DEFAULT 4,        -- DIK_3 (0x04)
+  `setting_skill4` int NULL DEFAULT 5,        -- DIK_4 (0x05)
+  `setting_skill5` int NULL DEFAULT 6,        -- DIK_5 (0x06)
   `setting_skill_attack1` int NULL DEFAULT 0,
   `setting_skill_attack2` int NULL DEFAULT 0,
   `setting_skill_attack3` int NULL DEFAULT 0,
@@ -651,8 +651,10 @@ CREATE TABLE `tb_mst_start`  (
 
 SET FOREIGN_KEY_CHECKS = 1;
 
-INSERT INTO `kicks2`.`tb_game_server` (`server_code`, `server_state`, `server_channel`, `server_name`, `server_match`, `server_job`, `server_free`, `server_slevel`, `server_elevel`, `server_max`, `server_current`, `server_exip`, `server_port`, `server_inip`) VALUES (1, 1, 0, 'Certify', 0, 0, 0, 0, 0, 0, 0, '127.0.0.1', 13301, '127.0.0.1');
-INSERT INTO `kicks2`.`tb_game_server` (`server_code`, `server_state`, `server_channel`, `server_name`, `server_match`, `server_job`, `server_free`, `server_slevel`, `server_elevel`, `server_max`, `server_current`, `server_exip`, `server_port`, `server_inip`) VALUES (101, 1, 0, 'Game101', 0, 0, 0, 0, 0, 1000, 0, '127.0.0.1', 14000, '127.0.0.1');
+INSERT INTO `kicks2`.`tb_game_server` (`server_code`, `server_state`, `server_channel`, `server_name`, `server_match`, `server_job`, `server_free`, `server_slevel`, `server_elevel`, `server_max`, `server_current`, `server_exip`, `server_port`, `server_inip`) VALUES (1, 0, 0, 'Certify', 0, 0, 0, 0, 0, 0, 0, '127.0.0.1', 13301, '127.0.0.1');
+INSERT INTO `kicks2`.`tb_game_server` (`server_code`, `server_state`, `server_channel`, `server_name`, `server_match`, `server_job`, `server_free`, `server_slevel`, `server_elevel`, `server_max`, `server_current`, `server_exip`, `server_port`, `server_inip`) VALUES (101, 2, 9, 'Game101', 0, 0, 0, 1, 6, 1000, 0, '127.0.0.1', 14000, '127.0.0.1');
+INSERT INTO `kicks2`.`tb_game_server` (`server_code`, `server_state`, `server_channel`, `server_name`, `server_match`, `server_job`, `server_free`, `server_slevel`, `server_elevel`, `server_max`, `server_current`, `server_exip`, `server_port`, `server_inip`) VALUES (102, 2, 9, 'Game102', 0, 0, 0, 7, 29, 1000, 0, '127.0.0.1', 14001, '127.0.0.1');
+INSERT INTO `kicks2`.`tb_game_server` (`server_code`, `server_state`, `server_channel`, `server_name`, `server_match`, `server_job`, `server_free`, `server_slevel`, `server_elevel`, `server_max`, `server_current`, `server_exip`, `server_port`, `server_inip`) VALUES (103, 2, 9, 'Game103', 0, 0, 0, 30, 999, 1000, 0, '127.0.0.1', 14002, '127.0.0.1');
 INSERT INTO `kicks2`.`tb_mst_start` (`start_yn`, `start_adminid`, `start_adminip`) VALUES ('Y', '', '');
-INSERT INTO `kicks2`.`tb_mst_member` (`member_seq`, `member_id`, `member_pass`, `member_state`, `member_partner`, `member_speed`, `member_register`, `member_createdate`, `member_logindate`, `member_deletedate`, `member_blockdate`, `member_releasedate`) VALUES (1, 'test', 'test1234', 1, '', 0, '0000-00-00 00:00:00', '2024-01-01 00:00:00', '2026-06-27 12:32:28', '2000-01-01 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `kicks2`.`tb_mst_member` (`member_seq`, `member_id`, `member_pass`, `member_state`, `member_partner`, `member_speed`, `member_register`, `member_createdate`, `member_logindate`, `member_deletedate`, `member_blockdate`, `member_releasedate`) VALUES (1, 'test', 'test1234', 1, '', 0, '2000-01-01 00:00:00', '2024-01-01 00:00:00', '2026-06-27 12:32:28', '2000-01-01 00:00:00', '2000-01-01 00:00:00', '2000-01-01 00:00:00');
 INSERT INTO `kicks2`.`tb_game_trio` (`member_seq`, `trio_server`, `trio_cash`, `trio_point`, `trio_credit`, `trio_lastseq`, `trio_count`, `trio_tutorial`, `trio_quest`, `trio_host`, `trio_version`, `trio_logindate`, `trio_deletedate`) VALUES (1, 1, 1000000, 1000000, 0, 0, 2, 0, 0, 0, '', '2026-06-27 19:56:33', '2000-01-01 00:00:00');
