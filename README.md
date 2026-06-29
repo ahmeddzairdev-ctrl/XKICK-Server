@@ -182,25 +182,41 @@ run/
 ├── Table/                # CSV game tables (Table_*.csv, maps, locales)
 ├── Log/                  # server log output
 ├── certify/              # working dir for XKICK_Certify
-│   ├── XKICK_Certify.exe  # self-contained (deps statically linked, no DLLs)
-│   └── ServerCode = 1     # this deployment's server code
-└── game/                 # working dir for XKICK_Game
-    ├── XKICK_Game.exe
-    └── ServerCode = 101
+│   ├── XKICK_Certify.exe # self-contained (deps statically linked, no DLLs)
+│   └── ServerCode = 1    # this deployment's server code
+├── game1/                 # working dir for XKICK_Game
+│   ├── XKICK_Game.exe / XKICK_Game on linux
+│   └── ServerCode = 101  
+├── game2/                # working dir for XKICK_Game (instance 2)
+│   ├── XKICK_Game.exe / XKICK_Game on linux
+│   └── ServerCode = 102  
+└── game3/                # working dir for XKICK_Game (instance 3)
+    ├── XKICK_Game.exe / XKICK_Game on linux
+    └── ServerCode = 103
+
 ```
 
 `run/config.ini`:
 ```ini
-DB_IP   = 127.0.0.1
+DB_IP = 127.0.0.1
 DB_User = root
-DB_Pass =
+DB_Pass = 
 DB_Main = kicks2
-DB_Log  = kicks2_log
+DB_Log = kicks2_log
 DB_Sample = kicks2
 Charset = cp1256
 Company = 200
-Nation  = 101
+Nation = 101
 HackCode = 0
+certify
+ServerCode = 1
+game1
+ServerCode = 101
+game2
+ServerCode = 102
+game3
+ServerCode = 103
+
 ```
 
 After a fresh build, copy the freshly built executables over the staged copies
@@ -219,13 +235,19 @@ Start MariaDB first, then each server **from its own working directory** (so
 ```powershell
 cd run\certify ;  .\XKICK_Certify.exe
 # in a second terminal:
-cd run\game ;     .\XKICK_Game.exe
+cd run\game1 ;     .\XKICK_Game.exe
+# another terminal:
+cd run\game2 ;     .\XKICK_Game.exe
+# another terminal:
+cd run\game3 ;     .\XKICK_Game.exe
 ```
 
 **Linux (bash):**
 ```bash
 ( cd run/certify && ./XKICK_Certify )
-( cd run/game    && ./XKICK_Game )
+( cd run/game1   && ./XKICK_Game )
+( cd run/game2   && ./XKICK_Game )
+( cd run/game3   && ./XKICK_Game )
 ```
 
 On startup each server prints its resolved `ServerCode` and listen ports. The
