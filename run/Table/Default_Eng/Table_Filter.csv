@@ -1,186 +1,453 @@
 Code,Word
-10000,fuck
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
-,
+10000,anal
+10001,ass
+10002,asshole
+10003,babo
+10004,babu
+10005,bastard
+10006,bitch
+10007,cock
+10008,cunt
+10009,damn
+10010,ddr
+10011,dildo
+10012,fuck
+10013,fucking
+10014,fucku
+10015,fuckyou
+10016,fuck-you
+10017,gay
+10018,horny
+10019,lesbian
+10020,motherfucker
+10021,nigimi
+10022,nimi
+10023,penis
+10024,porno
+10025,pussy
+10026,sex
+10027,shit
+10028,suck
+10029,Kiss my ass
+10030,Suck my dick
+10031,Suck your dick
+10032,Suck my mother fucking dick
+10033,Kiss my mother fucking ass
+10034,Cock sucking pig
+10035,Cock sucking bitch
+10036,Mother fucker
+10037,Bloody hell
+10038,Gay whore
+10039,Gay ass bitch
+10040,fucking homo
+10041,anus
+10042,anal
+10043,beaver
+10044,bitch
+10045,b!tch
+10046,biotch
+10047,bitty
+10048,biznatch
+10049,blowjob
+10050,boner
+10051,bong
+10052,boob
+10053,browneye
+10054,browntown
+10055,bulldager
+10056,bullhell
+10057,bullshit
+10058,bung
+10059,butch
+10060,callgirl
+10061,chink
+10062,cheesedick
+10063,circlejerk
+10064,clit
+10065,cobia
+10066,cock
+10067,cooter
+10068,crack
+10069,crotch
+10070,cum
+10071,cunnilingus
+10072,cunt
+10073,dick
+10074,dike
+10075,dildo
+10076,dilldoe
+10077,dilldos
+10078,dipshit
+10079,dong
+10080,doper
+10081,doobie
+10082,douche
+10083,dumbass
+10084,dyke
+10085,ejaculation
+10086,fag
+10087,fareskin
+10088,fatass
+10089,foreskin
+10090,fuck
+10091,fcuk
+10092,fuk
+10093,fvck
+10094,furburger
+10095,gazongers
+10096,goddam
+10097,goddammit
+10098,goddamn
+10099,gonads
+10100,hardon
+10101,homo
+10102,homosexual
+10103,honker
+10104,honkey
+10105,honky
+10106,hooker
+10107,horny
+10108,hussy
+10109,hymen
+10110,hyman
+10111,jackoff
+10112,jackass
+10113,jap
+10114,jew
+10115,j3w
+10116,j3w
+10117,jizz
+10118,kike
+10119,lesbian
+10120,lesbo
+10121,lessy
+10122,masterbate
+10123,masterbating
+10124,masturbating
+10125,masturbator
+10126,masterbator
+10127,muff
+10128,nigger
+10129,niggah
+10130,n!gger
+10131,nigga
+10132,penis
+10133,pimp
+10134,phuck
+10135,pothead
+10136,polack
+10137,poontang
+10138,prick
+10139,prostitute
+10140,puntang
+10141,pussy
+10142,pussydick
+10143,pussylips
+10144,queer
+10145,quefe
+10146,quief
+10147,reefer
+10148,retard
+10149,schlong
+10150,slackass
+10151,sleeze
+10152,slit
+10153,slut
+10154,slutty
+10155,snatch
+10156,stoned
+10157,sperm
+10158,strapon
+10159,sux
+10160,tits
+10161,titty
+10162,tramp
+10163,twat
+10164,vibrator
+10165,vagina
+10166,wang
+10167,wetback
+10168,whore
+10169,wigger
+10170,aclit
+10171,adick
+10172,anal intruder
+10173,anal invader
+10174,ANALICKER
+10175,Anus
+10176,ass bandit
+10177,ass clown
+10178,ass face
+10179,ass fucker
+10180,ass hole
+10181,ass load
+10182,ass munch
+10183,ass out
+10184,ass packer
+10185,ass reamer
+10186,ass whacker
+10187,ass wipe
+10188,assbandit
+10189,assclown
+10190,Asscrack
+10191,assed out
+10192,assface
+10193,assfucker
+10194,asshole
+10195,asslicker
+10196,assload
+10197,assmunch
+10198,assout
+10199,asspacker
+10200,assreamer
+10201,asswhacker
+10202,asswipe
+10203,baby batter
+10204,babybatter
+10205,bimbo
+10206,bitch
+10207,bite me
+10208,biteme
+10209,blood fart
+10210,bloodfart
+10211,blow job
+10212,blow me
+10213,blow my pole
+10214,blowjob
+10215,blowme
+10216,blue ball
+10217,blue balls
+10218,blueballs
+10219,boner
+10220,bull dike
+10221,bull shit
+10222,bulldike
+10223,bullshit
+10224,bung hole
+10225,bunghole
+10226,butt bandit
+10227,butt banger
+10228,butt buddy
+10229,butt crust
+10230,butt nugger
+10231,butt pirate
+10232,butt plug
+10233,buttbandit
+10234,buttbanger
+10235,Buttcrack
+10236,buttfuck
+10237,buttfucker
+10238,Butthump
+10239,buttnugger
+10240,buttpirate
+10241,buttplug
+10242,Buttporn
+10243,c0ck
+10244,Camel Jockey
+10245,camel toe
+10246,cameltoe
+10247,carpet eater
+10248,carpeteater
+10249,cherry popper
+10250,cherrypopper
+10251,choke my chicken
+10252,choking the chicken
+10253,cocaine
+10254,cock jockey
+10255,cock knocker
+10256,cock lord
+10257,cock ring
+10258,cock smoker
+10259,cock sucker
+10260,cock tease
+10261,cockass
+10262,cockblocker
+10263,cockjockey
+10264,cocklord
+10265,cocknocker
+10266,cockring
+10267,cocksmoker
+10268,cocksucker
+10269,cocktease
+10270,coochie
+10271,CRACKBITCH
+10272,cracker
+10273,Crackspacker
+10274,crackspackler
+10275,crakker
+10276,crap
+10277,crap face
+10278,crap head
+10279,crapface
+10280,craphead
+10281,Crapper
+10282,cum
+10283,cum belch
+10284,cum belcher
+10285,cum bubble
+10286,cum dumpster
+10287,cum guzzle
+10288,cum guzzler
+10289,cum lapper
+10290,cum licker
+10291,cum stain
+10292,cum sucker
+10293,cumbelch
+10294,Cumbelch
+10295,cumbelcher
+10296,Cumbelcher
+10297,cumbeltch
+10298,cumbeltcher
+10299,cumbubble
+10300,cumdumpster
+10301,cumguzzle
+10302,cumguzzler
+10303,cumlapper
+10304,cumlapper
+10305,cumlicker
+10306,cumm
+10307,cumm bubble
+10308,cumm dumpster
+10309,cumm guzzler
+10310,cumm stain
+10311,cumm sucker
+10312,cummbubble
+10313,cummdumpster
+10314,cummguzzler
+10315,cummstain
+10316,cummsucker
+10317,cumstain
+10318,cumsucker
+10319,cumsuker
+10320,cumwad
+10321,cunt
+10322,cunt hair
+10323,cunt whisker
+10324,cunthair
+10325,cuntwhisker
+10326,cuntwisker
+10327,cuze
+10328,D I C K
+10329,dikfiend
+10330,dikhead
+10331,dildo
+10332,dingelberry
+10333,dingleberry
+10334,dipstick
+10335,douche
+10336,douche bag
+10337,drain the lizard
+10338,earning red wings
+10339,eat me
+10340,eatme
+10341,flogging the bishop
+10342,fore skin
+10343,foreskin
+10344,fuck
+10345,fuck
+10346,fuck face
+10347,fucked
+10348,fucker
+10349,fuckers
+10350,fuckface
+10351,fucking
+10352,fucknut
+10353,fucknuts
+10354,fucks
+10355,fuckshit
+10356,fuckstick
+10357,fudge packer
+10358,fudgepacker
+10359,fuk
+10360,fuk you
+10361,Fuker
+10362,fukkhead
+10363,fur burger
+10364,furbuger
+10365,furry burger
+10366,fury burger
+10367,fvck
+10368,fvck you
+10369,fvcker
+10370,fvckface
+10371,fvcking
+10372,fvcknut
+10373,fvcknuts
+10374,kootch
+10375,kootchie
+10376,kootchy
+10377,kum
+10378,kumm
+10379,lesbo
+10380,lettuce picker
+10381,lettucepicker
+10382,lezbo
+10383,lick my nuts
+10384,lickcock
+10385,licknipple
+10386,limpdick
+10387,LIMPDICK
+10388,love canal
+10389,LSD
+10390,man whore
+10391,Psilocybin
+10392,pu55y
+10393,pussie
+10394,pussy
+10395,pussy juice
+10396,pussy juiced
+10397,pussy juicer
+10398,pussy juicing
+10399,pussy pounder
+10400,pussy pounding
+10401,pussy whipped
+10402,pussy whipper
+10403,pussy wiped
+10404,pussyjuice
+10405,pussyjuicer
+10406,pussywhipped
+10407,pussywhipper
+10408,pussywiped
+10409,shit
+10410,shit eater
+10411,shit face
+10412,shit faced
+10413,shit head
+10414,shit kicker
+10415,shit pusher
+10416,shit shover
+10417,shiteater
+10418,shitface
+10419,shitfaced
+10420,shitfucker
+10421,shithead
+10422,shithead
+10423,shitkicker
+10424,shitpusher
+10425,shitshover
+10426,slut
+10427,slut bag
+10428,slutbag
+10429,smegma
+10430,snog
+10431,sodomise
+10432,sodomised
+10433,sodomiser
+10434,sodomite
+10435,sodomize
+10436,sodomized
+10437,sodomizer
+10438,sodomy
+10439,spank the monkey
+10440,sphincter boy
+10441,sphincter face
+10442,sphincterboy
+10443,sphincterface
+10444,whore
+10445,wop
+10446,wrapping the weasel
+10447,yclit
+10448,absinthe
+10449,absynthe
+10450,acolyte
+10451,acrobate

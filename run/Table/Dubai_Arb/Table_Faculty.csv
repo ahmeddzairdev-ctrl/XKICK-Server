@@ -1,39 +1,39 @@
 Code,Adjust,Explain
-100,Running,Running
-101,Dribbling,Dribbling
-102,Agility,Agility
-103,Stamina,Stamina
-104,Jump,Jump
-105,Body check,Body check
-106,Crossing,Crossing
-107,Short pass,Short pass
-108,Long pass,Long pass
-109,Heading,Heading
-110,Short shots,Short shots
-111,Long shots,Long shots
-112,Ball control,Ball control
-113,Stealing,Stealing
-114,Tackling,Tackling
-115,Catching,Catching
-116,Punching,Punching
-117,Guard,Guard
-200,Attack power,Short shots+Long shots
-201,Defense power,Stealing+Tackling
-202,Control of the air,Jump+Heading
-203,Passing ability,Short pass + Long pass
-204,Moving ability,Running+Dribbling
-205,Physical strength,Agility+Stamina
-206,Break¡¤through ability,Body check+Ball control
-207,All stats,All stats
-208,All critical,All critical
-209,Decrease skill cooltime,All skill cooltime
-210,Critial Short shots ratio,Critical
-211,Fatal long shots ratio,Critical
-212,Fatal tackling ratio,Critical
-213,Fatal Stealing ratio,Critical
-214,Fatal tackling ratio,Critical
-215,Fatal Heading ratio,Critical
-216,Fatal Body check ratio,Critical
-300,Lucky,Increase item enchant probability
-301,EXP,Increase EXP
-302,Point,Increase point
+100,ÇáÌÑí,ÇáÌÑí
+101,ãÑÇæÛÉ,ãÑÇæÛÉ
+102,ÎİÉ ÇáÍÑßÉ,ÎİÉ ÇáÍÑßÉ
+103,ÇáŞÏÑÉ Úáì ÇáÊÍãá,ÇáŞÏÑÉ Úáì ÇáÊÍãá
+104,ŞİÒ,ŞİÒ
+105,ÇÎÊÑÇŞ,ÇÎÊÑÇŞ
+106,ÊŞÇØÚ,ÊŞÇØÚ
+107,ÊãÑíÑÉ ŞÕíÑÉ,ÊãÑíÑÉ ŞÕíÑÉ
+108,ÊãÑíÑÉ ØæíáÉ,ÊãÑíÑÉ ØæíáÉ
+109,ÑÃÓíÉ,ÑÃÓíÉ
+110,ÊÓÏíÏÉ ŞÕíÑÉ,ÊÓÏíÏÉ ŞÕíÑÉ
+111,ÊÓÏíÏÉ ØæíáÉ,ÊÓÏíÏÉ ØæíáÉ
+112,ÇáÊÍßã ÈÇáßÑÉ,ÇáÊÍßã ÈÇáßÑÉ
+113,ÇÎÊØÇİ,ÇÎÊØÇİ
+114,ÚÑŞáÉ,ÚÑŞáÉ
+115,ÇáÊŞÇØ,ÇáÊŞÇØ
+116,Çááßã,Çááßã
+117,ÍÑÇÓÉ,ÍÑÇÓÉ
+200,ŞæÉ ÇáåÌæã,ÊÓÏíÏÇÊ ŞÕíÑÉ+ÊÓÏíÏÇÊ ØæíáÉ
+201,ŞæÉ ÇáÏİÇÚ,ÎØİ+ÚÑŞáÉ
+202,äÌã ÇáåæÇÁ,ŞİÒ+ÑÃÓíÉ
+203,ŞÇÈáíÉ ÇáÊãÑíÑ,ÊãÑíÑÉ ŞÕíÑÉ+ÊãÑíÑÉ ØæíáÉ
+204,ÊäŞá,ÌÑí+ãÑÇæÛÉ
+205,ÑÔÇŞÉ ÇáİíÒíÇÆíÉ,ÎİÉ ÇáÍÑßÉ+ŞÏÑÉ ÇáÊÍãá
+206,ŞÏÑÉ ÇáÇÎÊÑÇŞ,ÇÎÊÑÇŞ+ÊÍßã ÈÇáßÑÉ
+207,ßÇİÉ ÇáÇÍÕÇÁÇÊ,ßÇİÉ ÇáÇÍÕÇÁÇÊ
+208,ßÇİÉ ÇáÖÑÈÇÊ ÇáÍÑÌÉ,ßÇİÉ ÇáÖÑÈÇÊ ÇáÍÑÌÉ
+209,ÊÎİíÖ Òãä ÇáÊÍãíÉ,Òãä ÊÍãíÉ ßÇİÉ ÇáãåÇÑÇÊ
+210,ãÚÏá ÎØÃ ÊÓÏíÏÇÊ ÇáŞÕíÑÉ,ÍÑÌÉ
+211,ãÚÏá ÎØÃ ÊÓÏíÏÇÊ ÇáØæíáÉ,ÍÑÌÉ
+212,ãÚÏá ÎØÃ ÇáÚÑŞáÉ,ÍÑÌÉ
+213,ãÚÏá ÎØÃ ÇáÇÎÊØÇİ,ÍÑÌÉ
+214,ãÚÏá ÎØÃ ÇáÚÑŞáÉ,ÍÑÌÉ
+215,ãÚÏá ÎØÃ ÇáÑÃÓíÉ,ÍÑÌÉ
+216,ãÚÏá ÇáÎØÃ ÇáÌÓÏí,ÍÑÌÉ
+300,ãÍÙæÙ,ÒíÇÏÉ ÇÍÊãÇá ÊØæíÑ ÇáÇÏÇÉ
+301,EXP,ÒíÇÏÉ ÇáÎÈÑÉ
+302,ÇáäŞÇØ,ÒíÇÏÉ ÇáäŞÇØ

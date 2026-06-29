@@ -1,6 +1,6 @@
 Code,DataFile,Language
 1001,Table_Sound.csv,0
-1002,Table_Ogg.csv,0
+1002,Table_Ogg.csv,1
 1003,Table_Msg.csv,1
 1004,Table_Item.csv,1
 1005,Table_Skill.csv,1
@@ -39,8 +39,15 @@ Code,DataFile,Language
 1038,Table_Fraction.csv,0
 1039,Table_Option.csv,1
 1040,Table_Situation.csv,1
-1041,Table_Enchant.csv,0
+1041,Table_Enchant.csv,1
 1042,Table_AI_Card.csv,1
 1043,Table_Filter.csv,1
 1044,Table_Company.csv,0
 1045,Table_AI_Name.csv,1
+1046,Table_Achieve.csv,1
+1047,Table_ChattingTip.csv,0
+1048,Table_SkillTree.csv,0
+1049,Table_Challenge.csv,0
+1050,Table_bgmsound.csv,1
+1051,Table_Mission.csv,1
+1052,Table_PlayTip.csv,1

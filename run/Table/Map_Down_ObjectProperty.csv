@@ -1,8 +1,8 @@
 ObjectName,AlphaProperty,AlphaValue,ZBufferWrite,ZBufferWriteValue,ZBufferTest,ZBufferTestValue
 op_wall_01,OK,1,OK,0,NO,1
-op_wall_02,OK,1,OK,0,NO,1
+op_wall_03,OK,1,OK,0,NO,1
 Ojbect190,OK,1,OK,0,NO,1
-Ojbect192,OK,1,OK,0,NO,1
+Ojbect195,OK,1,OK,0,NO,1
 Pannel_0:0,OK,0,NO,0,NO,1
 Pannel_0:1,OK,0,NO,0,NO,1
 Pannel_Wall:0,OK,0,NO,1,NO,1

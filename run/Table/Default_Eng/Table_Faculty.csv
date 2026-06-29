@@ -4,7 +4,7 @@ Code,Adjust,Explain
 102,Agility,Agility
 103,Stamina,Stamina
 104,Jump,Jump
-105,Body check,Body check
+105,Struggling,Struggling
 106,Crossing,Crossing
 107,Short pass,Short pass
 108,Long pass,Long pass
@@ -17,23 +17,23 @@ Code,Adjust,Explain
 115,Catching,Catching
 116,Punching,Punching
 117,Guard,Guard
-200,Attack power,Short shots+Long shots
-201,Defense power,Stealing+Tackling
-202,Control of the air,Jump+Heading
+200,Striking power,Short shots+Long shots
+201,Defensive power,Stealing+Tackling
+202,Win the air,Jump+Heading
 203,Passing ability,Short pass + Long pass
-204,Moving ability,Running+Dribbling
-205,Physical strength,Agility+Stamina
-206,Break¡¤through ability,Body check+Ball control
+204,Iocomotion,Running+Dribbling
+205,Physical fitness,Agility+Stamina
+206,Break¡¤through ability,Struggling+Ball control
 207,All stats,All stats
 208,All critical,All critical
-209,Decrease skill cooltime,All skill cooltime
-210,Critial Short shots ratio,Critical
+209,Decrease skill cool time,All skill cooltime
+210,Critial short shots ratio,Critical
 211,Fatal long shots ratio,Critical
 212,Fatal tackling ratio,Critical
-213,Fatal Stealing ratio,Critical
+213,Fatal stealing ratio,Critical
 214,Fatal tackling ratio,Critical
-215,Fatal Heading ratio,Critical
-216,Fatal Body check ratio,Critical
+215,Fatal heading ratio,Critical
+216,Fatal body check ratio,Critical
 300,Lucky,Increase item enchant probability
 301,EXP,Increase EXP
-302,Point,Increase point
+302,POINT,Increase POINT

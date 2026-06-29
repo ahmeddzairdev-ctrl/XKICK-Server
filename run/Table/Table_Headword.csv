@@ -1,8 +1,8 @@
 Code,EffectFile,SkillName,Text,Upper
 1,Miss,미쓰,Miss,MISS
 1011,Infront_Shoot,인프론트 슛,Infront shoot,INFRONT SHOOT
-1012,Powerful_Shoot,파워풀 슛,Powerful shoot,POWERFUL SHOOT
-1013,Rabona_Kick,라보나 킥,Rabona kick,RABONA KICK
+1012,Rabona_Kick,라보나 킥,Rabona kick,RABONA KICK
+1013,Powerful_Shoot,파워풀 슛,Powerful shoot,POWERFUL SHOOT
 1014,Turnround_Kick,턴 라운드 킥,Turnround kick,TURNROUND KICK
 1015,Rear_Shoot,리어 슛,Rear shoot,REAR SHOOT
 1016,Cannon_Shoot,캐논 슛,Cannon shoot,CANNON SHOOT
@@ -110,3 +110,6 @@ Code,EffectFile,SkillName,Text,Upper
 2111,Fake_Turnside,페이크 턴 사이드,Fake turnside,FAKE TURNSIDE
 2112,Fake_Rabona_Cross,페이크 라보나 크로스,Fake rabona cross,FAKE RABONA CROSS
 2113,Fake_Rear_Cross,페이크 리어 크로스,Fake rear cross,FAKE REAR CROSS
+8011,Long_Goal_Kick,롱 골킥,Long goal kick,LONG GOAL KICK
+8012,Target_Goal_Kick,타겟 골킥,Target goal kick,TARGET GOAL KICK
+8021,Perfect_Defence,퍼팩트 디펜스,Perfect defence,PERFECT DEFENCE

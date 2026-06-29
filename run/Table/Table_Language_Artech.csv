@@ -1,6 +1,6 @@
-Code,UiFile,Korean,Default_Eng
-10001,Font,굴림체,Arial
-10002,Size,12,14
+Code,UiFile,Korean,English
+10001,Font,나눔고딕 Bold,Arial
+10002,Size,13,14
 20001,Login.ui,로그인,LOGIN
 20002,Login.ui,아이디,Account
 20003,Login.ui,패스워드,Password
@@ -8,10 +8,10 @@ Code,UiFile,Korean,Default_Eng
 30002,ChoiceTrio.ui,게임종료,Quit
 30003,ChoiceTrio.ui,최종 삭제일,The latest deleted
 30004,ChoiceTrio.ui,최근 접속일,The latest connected
-30005,ChoiceTrio.ui,코인,Coins
+30005,ChoiceTrio.ui,코인,Credits
 30006,ChoiceTrio.ui,포인트,Points
 30007,ChoiceTrio.ui,크레딧,Credits
-30008,ChoiceTrio.ui,캐릭터를 삭제 하시겠습니니까?\주민번호 뒷자리(7자리)를 입력하여주세요,"Are you sure want to delete character? \ Please, Input the password."
+30008,ChoiceTrio.ui,캐릭터를 삭제 하시겠습니니까?\주민번호 뒷자리(7자리)를 입력하여주세요,"Are you sure want to delete character? \ Please, Enter the password."
 40001,Choice.ui,초대 하기,Invite
 40002,Choice.ui,메시지 입력,Message
 40003,Choice.ui,포지션,Position
@@ -23,11 +23,12 @@ Code,UiFile,Korean,Default_Eng
 50003,ChoiceClass.ui,Exp,EXP
 50004,ChoiceClass.ui,『%s』님 경기는 어땠나요?\옆에서 지켜보니 정말 멋있게 해내던데요!! 이제 전직을 해보도록 해요.\자신의 포지션과 특성을 결정하는 일이죠. 제가 지난 경기 분석을 가져왔어요.,"『%s』, How was the match?\You are doing well!! Let's select position. It's to decide the position and characteristic.\This is the analysis for your past match."
 50005,ChoiceClass.ui,『%s』님은 슛에 일가견이 있으시네요!\FW 포지션이 어떠신가요? 공격을 전담해서 골을 기록하는 포지션이죠. 멋지지 않나요?,"『%s』, What a nice shot!\Do you like FW position? It's the position to make the goal. Isn't nice?"
-50006,ChoiceClass.ui,『%s』님은 패스에 일가견이 있으시네요!\MF 포지션이 어떠신가요? 팀의 공격과 수비 모두에 관여하는 똑똑한 살림꾼 역할이죠?,"『%s』, What a nice pass!\Do you lke MF position? This position involved in both Striker & Defender positions."
+50006,ChoiceClass.ui,『%s』님은 패스에 일가견이 있으시네요!\MF 포지션이 어떠신가요? 팀의 공격과 수비 모두에 관여하는 똑똑한 살림꾼 역할이죠?,"『%s』, What a nice pass!\Do you like MF position? This position involved in both Striker & Defender positions."
 50007,ChoiceClass.ui,『%s』님은 수비 능력이 뛰어나세요!\DF 포지션이 어떠신가요? 팀을 실점의 위기에서 구해내는 포지션이죠. 신나지 않나요?,"『%s』, What a nice defense!\Do you like DF position? It's the position not to lose the goal. Isn't great?"
 50008,ChoiceClass.ui,슈팅,Shooting
-50009,ChoiceClass.ui,클리어,Ball clear
-50010,ChoiceClass.ui,2차 전직하기,2nd position growth
+50009,ChoiceClass.ui,클리어,Ball Clear
+50010,ChoiceClass.ui,2차 전직보기,2nd position growth
+50011,ChoiceClass.ui,1차 전직보기,1st position growth
 60001,ChoiceReplay.ui,리플레이,Replay
 60002,ChoiceReplay.ui,포지션,Position
 60003,ChoiceReplay.ui,캐릭터이름,Name
@@ -53,6 +54,20 @@ Code,UiFile,Korean,Default_Eng
 70017,ChoiceRoom.ui,럭키볼,Lucky Ball
 70018,ChoiceRoom.ui,시스템 ,System
 70019,ChoiceRoom.ui,스킬 인벤,Skill Inventory
+70020,ChoiceRoom.ui,가상의 AI 선수들과 연습을 할수 있는 모드입니다. 자신의 기량을 AI들을 상대로 연습할 수 있습니다. 해당 모드에서의 기록 DATA는 반영되지 않습니다.,This is single match with AI players. You can practise with AI players.  The record is not apply the data in practise mode.
+70021,ChoiceRoom.ui,자신이 보유하고 있는 AI카드와 AI선수들과 연습을 할수 있는 모드 입니다. 자신이 보유하고 있는 AI카드의 특성등을 파악해 보세요. \! 주의 - AI카드를 구입 후 장착해야 연습경기가 가능합니다.,"This is single match with your AI card. Figure out  the characteristic of your AI card. Warning: If you want to have a single match, you have to equip a AI card in your card inventory!"
+70022,ChoiceRoom.ui,추후 지원할 예정입니다.,Not in service
+70023,ChoiceRoom.ui,자신 AI선수와 다른 유저의 AI선수와 경기를 할 수 있는 모드 입니다. AI 선수들과의 호흡이 중요 합니다.\! 주의 - 참가하기 위해서는 AI카드를 먼저 등록하셔야 합니다. ,"This is single match with the other player.  Figure out  the characteristic of your AI card. Warning: If you want to have a single match, we have to equip a AI card in your card inventory!"
+70024,ChoiceRoom.ui,자신의 AI선수가 아닌 자동으로 밸런스가 맞춰진 AI선수들과 함께 경기를 할 수 있는 모드입니다. AI선수 밸런스는 자동으로 조정됩니다.,This is single match with balanced AI. The balance of AI player will be set automatically.
+70025,ChoiceRoom.ui,5명의 팀을 구성해 다른 팀과 경기를 할 수 있는 모드입니다.\선수가 부족한 경우에는 자동으로 AI 선수를 참가시켜 경기가 가능합니다.,"This is Multi match with other 5 players. If you need more player for having a match, AI player will be set  automatically"
+70026,ChoiceRoom.ui,AI상대연습 ,Practise with AI
+70027,ChoiceRoom.ui,AI카드 매치 연습 ,Practise with AI card
+70028,ChoiceRoom.ui,개인 퀘스트 ,Single Quest
+70029,ChoiceRoom.ui,AI카드매치 ,AI Card Match
+70030,ChoiceRoom.ui,1:1매치 ,1 vs 1
+70031,ChoiceRoom.ui,5:5매치 ,5 vs 5
+70032,ChoiceRoom.ui,다음,Next
+70033,ChoiceRoom.ui,친구 삭제,Delete
 80001,CreateCharacter.ui,스타일,Style
 80002,CreateCharacter.ui,성  별,Gender
 80003,CreateCharacter.ui,캐릭터 이름,Name
@@ -81,10 +96,10 @@ Code,UiFile,Korean,Default_Eng
 80026,CreateCharacter.ui,방  어,Defense
 80027,CreateCharacter.ui,능력치,Ability
 80028,CreateCharacter.ui,팀의 득점을 책임지는 포지션,The position to make the goals
-80029,CreateCharacter.ui,5 레벨시 전직가능,Possible to upgrade position at Lv 5
-80030,CreateCharacter.ui,20 레벨시 전직가능 포지션,Possible to upgrade position at Lv 20
-80031,CreateCharacter.ui,팀의 공/수에 관여하는 포지션,The position involved in both Striker & Defender positions
-80032,CreateCharacter.ui,팀의 실점을 방어하는 포지션,The position not to lose the goals
+80029,CreateCharacter.ui,5 레벨시 전직가능,Possible to upgrade position at Lv. 5
+80030,CreateCharacter.ui,20 레벨시 전직가능 포지션,Possible to upgrade position at Lv. 20
+80031,CreateCharacter.ui,팀의 공/수에 관여하는 포지션,The position playes the role of both Striker & Defender at the same time
+80032,CreateCharacter.ui,팀의 실점을 방어하는 포지션,The position playes a role to prevent the opposition from attacking
 80033,CreateCharacter.ui,헤딩슛과 골 결정력이 좋은 포지션,The position for heading & high ball
 80034,CreateCharacter.ui,드리블과 필드골이 뛰어난 포지션,The position for dribbling & field goal
 80035,CreateCharacter.ui,빠른 드리블과 크로스가 가능한 포지션,The position for fast dribble & crossing
@@ -103,22 +118,22 @@ Code,UiFile,Korean,Default_Eng
 80048,CreateCharacter.ui,안녕? 반가워요\난 아르미 라고 해요.\여러분이 X-KICK 에서 멋진 선수가 될 때까지\항상 옆에서 도와줄 매니져랍니다.\앞으로 잘 부탁해요.\그럼 우선 캐릭터부터 생성해볼까요?,"Hi! Nice to meet you.\I am ARUMI\I am the manager and will be with\you until you become great player.\Let's get along.\Now, let's create character"
 80049,CreateCharacter.ui,원하는 스타일을 결정하도록 하죠.\앞으로 X-KICK 에서\자신을 대신하는 캐릭터가 되는 것이니\신중하게 선택하도록 해요.,"Decide with your style.\This character will play\the match instead of you in X-KICK\So, select with care."
 80050,CreateCharacter.ui,지금 『%s』님이 가지고 있는 능력치에요.\지금은 아주 낮고 모든 능력치가 같지만\튜토리얼 이후에 전직을 하게 되면\당신에게 맞는 능력치로 변하게 될 꺼에요.,"It's the current ability of. 『%s』\All the abilities now is very low,\but once you grow after tutorial\the abilities will be suitable for you."
-80051,CreateCharacter.ui,"드리블, 단거리 슛, 키핑","Dribbling, Short shots, Ball control"
-80052,CreateCharacter.ui,"순발력, 중거리 슛, 스틸","Agility, Long shots, Stealing"
-80053,CreateCharacter.ui,"근력, 스틸, 태클","Stamina, Stealing, Tackling"
+80051,CreateCharacter.ui,드리블 단거리 슛 키핑,"Dribbling, Short shots, Ball control"
+80052,CreateCharacter.ui,순발력 중거리 슛 스틸,"Agility, Long shots, Stealing"
+80053,CreateCharacter.ui,근력 스틸 태클,"Stamina, Stealing, Tackling"
 80054,CreateCharacter.ui,팀의 공격을 맡아 득점을 책임지는 포지션,The position for scoring the goals
 80055,CreateCharacter.ui,공/수 양면 모두 참여하여 팀원을 돕는 멀티 포지션,The position involved in both Attacking &\Defending positions
 80056,CreateCharacter.ui,팀의 최후방에서 실점을 막고 상대의 공격을 방해하는 포지션,The position not to lose the goals and obstructthe opponent players
-80057,CreateCharacter.ui,"득점력과 뛰어난 제공권 등을 바탕으로 팀의 모든 공격을 마무리 하는 포지션\항상 골대에 매우 가깝게 위치하며 상대 수비를 따돌리거나 무너뜨리는 역할 수행에도 적합하다.\누구보다 많은 헤딩 스킬은 ST를 더욱 돋보이게 한다.\클로제, 반 니스텔루이, 트레제게와 같은 킬러 본능이 있는 당신에게 최적의 포지션.","1. Striker, having good heading & catching highball abilities\2. Overcome the weakness of agility & speed\by making goal ability."
-80058,CreateCharacter.ui,"상대 수비 빈 공간을 파고 들어가 다이렉트로 슈팅을 연결하거나\공을 소유한 상태로 안정적인 드리블로 상대 수비를 돌파하는 중앙 공격수.\누구보다 강력한 슈팅 능력 및 스킬은 부족한 어시스트 능력을 채우기에 충분하다.\루니, 테베즈, 다비드 비야 등. 더 이상 무슨 설명이 필요할까?","1. Center Forward, having good dribbling skill &field goals\2. The best goal-scorer, having a ball."
-80059,CreateCharacter.ui,"빠르고 다양한 드리블 스킬과 수준 높은 크로스, 약간의 득점력을 겸비한 포지션.\측면 미드필더보다 공격에 더 중점을 두어 크로스가 1차적인 목표이지만\때때로 득점을 노리기도 한다.\크리스티아누 호날두와 같은 빠른 스피드로 상대를 공략하며,\아르옌 로벤과 같은 득점력을 겸비했다면 이미 경계 대상 1호.","1. Wing Forward, having the fasted dribbling\skill & crossing from side\2. Good scorer."
-80060,CreateCharacter.ui,"최고의 테크닉과 센스 있는 득점력을 갖춘 “공격수와 미드필더를 오가는” 포지션.\다른 포지션에 비해 활동량은 적지만,\언제 어디서든 득점이 가능하고 정확한 어시스트까지 가능하여 상대방에게 가장 위협적인 공격수.\지단이나 토티, 베르캄프 등 유명한 스타 플레이어가 가장 많은 포지션.","1. Shadow Striker, possible to make a goal fromanywhere\2. Good assistor & scorer but low dribbling skill &ball control."
-80061,CreateCharacter.ui,"폭 넓은 시야와 빠른 판단력으로 팀 공격의 주축이 되는 포지션.\능숙한 볼 터치와 빼어난 중거리 슛, 어시스트 등 기술적인 능력은 물론이고\상대 수비를 붕괴하는 과감한 패스 능력으로 직, 간접적 찬스 메이커라 할 수 있는 미드필더.\카카, 이니에스타 등 팀에서 간판 선수라 내세울 수 있는 공격적인 포지션.","1. Attacking Midfielder, delivering a ball to\forward also having the long shot\2. Good dribbler but low defensive ability."
-80062,CreateCharacter.ui,"팀에 따라 여러 가지 역할을 수행할 수 있어야 하는 유틸리티한 포지션.\공격과 수비를 연결하며, 상대가 볼을 소유하고 있을 시에는 수비도 해야 한다.\경기장 전체를 둘러볼 수 있고, 팀의 경기를 주도하는 사령관 역할을 하는 경우가 많다.\챠비, 피를로 등과 같이 패스 능력과 함께 힘과 수비 능력을 적절히 갖춘 균형 잡힌 선수이다.","1. Center Midfielder, controlling of game speedfor Attacking & Defending the both\2. The best passing player."
-80063,CreateCharacter.ui,"정확도 높은 크로스를 구사하는 것으로 유명한 데이비드 베컴이 대표적인 SM이다.\돌파보다는 상대적으로 먼 거리에서도 빠르고 정확하게 크로스를 하는 것이 주요 임무이며\사이드 라인의 이점을 살린 공격 작업 이외에도, 측면 수비를 돕는 역할을 수행한다.","1. Side Midfielder, having good dribbling &\crossing\2. The speed is lower than WF, but the\Defending ability is higher."
-80064,CreateCharacter.ui,"상대 공격의 흐름을 일차적으로 차단하여 수비를 더욱 탄탄하게 만들어 주면서\같은 편 선수들의 수비 부담을 줄여주는 포지션.\김남일, 로이 킨, 비에이라와 같은 강한 카리스마는\그가 있다는 사실만으로도 상대에게 압박을 주기에 충분하다.\스틸, 태클 등의 수비 능력이 준수한 수비수에 가까운 포지션","1. Defensive Midfielder, having good stealing &tackling\2. Close to Defender, not to make a goal easy\but having good defensive skills."
-80065,CreateCharacter.ui,"팀의 최후방에서 상대 편의 볼을 쓸어내는 역할을 맡으며\일반적으로 다른 수비수보다 수비 능력이 뛰어나 대부분 수비 지향적인 플레이를 펼친다.\네스타, 홍명보와 같이 수비뿐만 아니라 팀의 정신적인 지주가 되어보자.","1. Sweeper, the last player covering the wholearea behind a line of defenders\2. Good defender, but slow player."
-80066,CreateCharacter.ui,"상대적으로 빠른 스피드로 특정 지역을 전담하는 지역 방어에 유리한 포지션.\헤딩과 태클에 능하여 크로스 차단 뿐만 아니라, 상대의 돌파도 방어해낼 수 있다.\칸나바로, 존 테리처럼 든든한 벽이 될 자신이 있는 당신에게 적합한 포지션.","1. Center back, the center of defense blockingthe opponent players with high speed\2. Good for high ball and tackling."
+80057,CreateCharacter.ui,득점력과 뛰어난 제공권 등을 바탕으로 팀의 모든 공격을 마무리 하는 포지션\항상 골대에 매우 가깝게 위치하며 상대 수비를 따돌리거나 무너뜨리는 역할 수행에도 적합하다.\누구보다 많은 헤딩 스킬은 ST를 더욱 돋보이게 한다.\클로제 반 니스텔루이 트레제게와 같은 킬러 본능이 있는 당신에게 최적의 포지션.,"1. Striker, having good heading & catching highball abilities\2. Overcome the weakness of agility & speed\by making goal ability."
+80058,CreateCharacter.ui,상대 수비 빈 공간을 파고 들어가 다이렉트로 슈팅을 연결하거나\공을 소유한 상태로 안정적인 드리블로 상대 수비를 돌파하는 중앙 공격수.\누구보다 강력한 슈팅 능력 및 스킬은 부족한 어시스트 능력을 채우기에 충분하다.\루니 테베즈 다비드 비야 등. 더 이상 무슨 설명이 필요할까?,"1. Center Forward, having good dribbling skill &field goals\2. The best goal-scorer, having a ball."
+80059,CreateCharacter.ui,빠르고 다양한 드리블 스킬과 수준 높은 크로스 약간의 득점력을 겸비한 포지션.\측면 미드필더보다 공격에 더 중점을 두어 크로스가 1차적인 목표이지만\때때로 득점을 노리기도 한다.\크리스티아누 호날두와 같은 빠른 스피드로 상대를 공략하며\아르옌 로벤과 같은 득점력을 겸비했다면 이미 경계 대상 1호.,"1. Wing Forward, having the fasted dribbling\skill & crossing from side\2. Good scorer."
+80060,CreateCharacter.ui,최고의 테크닉과 센스 있는 득점력을 갖춘 “공격수와 미드필더를 오가는” 포지션.\다른 포지션에 비해 활동량은 적지만\언제 어디서든 득점이 가능하고 정확한 어시스트까지 가능하여 상대방에게 가장 위협적인 공격수.\지단이나 토티 베르캄프 등 유명한 스타 플레이어가 가장 많은 포지션.,"1. Shadow Striker, possible to make a goal fromanywhere\2. Good assistor & scorer but low dribbling skill &ball control."
+80061,CreateCharacter.ui,폭 넓은 시야와 빠른 판단력으로 팀 공격의 주축이 되는 포지션.\능숙한 볼 터치와 빼어난 중거리 슛 어시스트 등 기술적인 능력은 물론이고\상대 수비를 붕괴하는 과감한 패스 능력으로 직 간접적 찬스 메이커라 할 수 있는 미드필더.\카카 이니에스타 등 팀에서 간판 선수라 내세울 수 있는 공격적인 포지션.,"1. Attacking Midfielder, delivering a ball to\forward also having the long shot\2. Good dribbler but low defensive ability."
+80062,CreateCharacter.ui,팀에 따라 여러 가지 역할을 수행할 수 있어야 하는 유틸리티한 포지션.\공격과 수비를 연결하며 상대가 볼을 소유하고 있을 시에는 수비도 해야 한다.\경기장 전체를 둘러볼 수 있고 팀의 경기를 주도하는 사령관 역할을 하는 경우가 많다.\챠비 피를로 등과 같이 패스 능력과 함께 힘과 수비 능력을 적절히 갖춘 균형 잡힌 선수이다.,"1. Center Midfielder, controlling of game speedfor Attacking & Defending the both\2. The best passing player."
+80063,CreateCharacter.ui,정확도 높은 크로스를 구사하는 것으로 유명한 데이비드 베컴이 대표적인 SM이다.\돌파보다는 상대적으로 먼 거리에서도 빠르고 정확하게 크로스를 하는 것이 주요 임무이며\사이드 라인의 이점을 살린 공격 작업 이외에도 측면 수비를 돕는 역할을 수행한다.,"1. Side Midfielder, having good dribbling &\crossing\2. The speed is lower than WF, but the\Defending ability is higher."
+80064,CreateCharacter.ui,상대 공격의 흐름을 일차적으로 차단하여 수비를 더욱 탄탄하게 만들어 주면서\같은 편 선수들의 수비 부담을 줄여주는 포지션.\김남일 로이 킨 비에이라와 같은 강한 카리스마는\그가 있다는 사실만으로도 상대에게 압박을 주기에 충분하다.\스틸 태클 등의 수비 능력이 준수한 수비수에 가까운 포지션,"1. Defensive Midfielder, having good stealing &tackling\2. Close to Defender, not to make a goal easy\but having good defensive skills."
+80065,CreateCharacter.ui,팀의 최후방에서 상대 편의 볼을 쓸어내는 역할을 맡으며\일반적으로 다른 수비수보다 수비 능력이 뛰어나 대부분 수비 지향적인 플레이를 펼친다.\네스타 홍명보와 같이 수비뿐만 아니라 팀의 정신적인 지주가 되어보자.,"1. Sweeper, the last player covering the wholearea behind a line of defenders\2. Good defender, but slow player."
+80066,CreateCharacter.ui,상대적으로 빠른 스피드로 특정 지역을 전담하는 지역 방어에 유리한 포지션.\헤딩과 태클에 능하여 크로스 차단 뿐만 아니라 상대의 돌파도 방어해낼 수 있다.\칸나바로 존 테리처럼 든든한 벽이 될 자신이 있는 당신에게 적합한 포지션.,"1. Center back, the center of defense blockingthe opponent players with high speed\2. Good for high ball and tackling."
 80067,CreateCharacter.ui,Stopper의 약자로 상대방 돌파를 저지하는 역할을 주로 수행하는 대인 방어에 특화된 포지션.\상대를 방어하기에 충분한 많은 수비 능력과 함께 오버랩 하기에 충분한 피지컬은 \SP 포지션만의 장점이라 할 수 있겠다.\수비만 해서 답답하다고 생각되는 당신에게는 공격 작업까지 할 수 있는 최적의 포지션.,"1. Stopper, having good man to man defense\ability\2. Low ability taking high ball but having a\special heading shot at the counter attack."
 80068,CreateCharacter.ui,1. 경기 중 유일하게 손을 쓸 수 있는 포지션\2. 골키퍼 보호구역을 벗어나면 다른 필드플레이어에 비해 운동 능력치는 떨어진다,"1. Goalkeeper, possible to catch the ball in thegoalkeeper to prevent the opposition from\scoring\2. The lowest field player at the out of\goalkeeper area."
 80069,CreateCharacter.ui,님의 경기 결과에요,s match result
@@ -139,8 +154,8 @@ Code,UiFile,Korean,Default_Eng
 90010,CreateQuest.ui,반복여부 :,Repetition :
 90011,CreateQuest.ui,비밀번호 설정,Password
 90012,CreateQuest.ui,정렬,Order
-90013,CreateQuest.ui,미완료,Not yet
-90014,CreateQuest.ui,완료,Done
+90013,CreateQuest.ui,미완료,Incompleted
+90014,CreateQuest.ui,완료,Completed
 90015,CreateQuest.ui,레벨 제한,Level
 90016,CreateQuest.ui,참여 인원,Player
 90017,CreateQuest.ui,반복 여부,Repetition
@@ -210,6 +225,9 @@ Code,UiFile,Korean,Default_Eng
 110002,GameLoading.ui,관전자 2,Observer 2
 110003,GameLoading.ui,관전자 3,Observer 3
 110004,GameLoading.ui,관전자 4,Observer 4
+110005,GameLoading.ui,동등,Equality
+110006,GameLoading.ui,강세,Dominance
+110007,GameLoading.ui,약세,Recessiveness
 120001,GamePlay.ui,+ 100 포인트,+ 100 Points
 120002,GamePlay.ui,경기에서 승리하라!,Be sure to Win!
 120003,GamePlay.ui,승리를 지켜라!,Keep the victiory!
@@ -230,6 +248,11 @@ Code,UiFile,Korean,Default_Eng
 130013,GameResult.ui,퀘스트 설명,Quest Description
 130014,GameResult.ui,축하합니다.!\레벨 10을 달성 하였습니다.\전직창으로 이동합니다.,Congratulations!\Achieve Lv.10\Move to the page for upgrading your character.
 130015,GameResult.ui,게임결과,GameResult
+130016,GameResult.ui,획득 경험치 및 포인트,Acquired Points and EXP
+130017,GameResult.ui,획득 경험치,Acquired EXP
+130018,GameResult.ui,획득 포인트,Acquired Points
+130019,GameResult.ui,보상 내역,Reward List
+130020,GameResult.ui,미  션,Mission
 140001,GameResult_open.ui,결과보기,Game Result
 150001,ItemBag.ui,브랜드,Brand
 150002,ItemBag.ui,히트,Hit
@@ -287,6 +310,7 @@ Code,UiFile,Korean,Default_Eng
 150054,ItemBag.ui,전직카드,Position
 150055,ItemBag.ui,되팔기,Resell
 150056,ItemBag.ui,강화 아이템 슬롯,Enchant Item Slot
+150057,ItemBag.ui,수리,Repair
 160001,ItemDialog.ui,아이템 구매,Buy Item
 160002,ItemDialog.ui,P,P
 160003,ItemDialog.ui,C,C
@@ -324,7 +348,10 @@ Code,UiFile,Korean,Default_Eng
 170019,ItemShop.ui,영구사용,Permanent
 170020,ItemShop.ui,기능성,Functionality
 170021,ItemShop.ui,소모성,Expendability
+170022,ItemShop.ui,새 상품보기 %d 회 사용 가능,Refresh %d New items 
+170023,ItemShop.ui,새상품보기,New items
 180001,MessageBox.ui,메시지,Message
+180002,MessageBox.ui,사용키를 지정해 주십시오,"Please, set the key"
 190001,Option.ui,게임 옵션,Game Option
 190002,Option.ui,카메라,Camera
 190003,Option.ui,줌인 / 아웃,Zoom
@@ -419,7 +446,7 @@ Code,UiFile,Korean,Default_Eng
 210002,PlayerInformation.ui,통산,Total
 210003,PlayerInformation.ui,월별,Monthly
 210004,PlayerInformation.ui,출전,Matches
-210005,PlayerInformation.ui,횟수,N of Times
+210005,PlayerInformation.ui,횟수,No. of Times
 210006,PlayerInformation.ui,순위,Ranking
 210007,PlayerInformation.ui,수상내역,My trophies
 210008,PlayerInformation.ui,기본정보,Play Info.
@@ -456,7 +483,7 @@ Code,UiFile,Korean,Default_Eng
 210039,PlayerInformation.ui,부클럽장,Vice captain
 210040,PlayerInformation.ui,클럽포인트,Club Point
 210041,PlayerInformation.ui,평균평점,Avg. Vote
-210042,PlayerInformation.ui,랭킹,Rnaking
+210042,PlayerInformation.ui,랭킹,Ranking
 210043,PlayerInformation.ui,경기수,Match(es)
 210044,PlayerInformation.ui,출전시간,Playing Time
 210045,PlayerInformation.ui,클럽,Club
@@ -558,9 +585,9 @@ Code,UiFile,Korean,Default_Eng
 300010,TutorialGuide.ui,빠른 이동의 지속 능력,Increase the time to use 'Agility' 
 300011,TutorialGuide.ui,공에 대한 선점 능력,Prior occupation for high ball
 300012,TutorialGuide.ui,상대와 부딪혀 이길 능력,Struggling against opponent player to have the ball
-300013,TutorialGuide.ui,크로스의 세기 + 해당 공을 슛팅 성공 가능성,Controlling the power of ball crossing
-300014,TutorialGuide.ui,숏 패스의 세기 + 해당 공을 슛팅 성공 가능성,Controlling the power of passing
-300015,TutorialGuide.ui,롱 패스의 세기 + 해당 공을 슛팅 성공 가능성,Controlling the power of long passing
+300013,TutorialGuide.ui,크로스의 세기 + 슛팅 성공 가능성,Controlling the power of ball crossing
+300014,TutorialGuide.ui,숏 패스의 세기 + 슛팅 성공 가능성,Controlling the power of passing
+300015,TutorialGuide.ui,롱 패스의 세기 + 슛팅 성공 가능성,Controlling the power of long passing
 300016,TutorialGuide.ui,공 소유 능력,Keeping the ball
 300017,TutorialGuide.ui,빠르게 공을 빼앗는 능력,Taking the ball from a opponent player
 300018,TutorialGuide.ui,강력하게 공을 빼앗는 능력,Taking the ball from a opponent player by tackling
@@ -578,9 +605,26 @@ Code,UiFile,Korean,Default_Eng
 310002,InvenDialog.ui,엔트리 2,Entry 2
 310003,InvenDialog.ui,엔트리 3,Entry 3
 320001,CardDialog.ui,카드 구매 결과,Card purchasing result
+320002,CardDialog.ui,카드 조합 결과,Card mix result
 330001,ReadyRoom.ui,자동,Auto
 330002,ReadyRoom.ui,새벽,Dawn
 330003,ReadyRoom.ui,낮,Daylight
 330004,ReadyRoom.ui,저녁,Sunset
 330005,ReadyRoom.ui,밤,Night
 330006,ReadyRoom.ui,랜덤,Random
+340001,TeamReadyRoom.ui,매칭 시도중… %d초 후 매칭초기화,Searching… ..Matching initialization after %d sec.
+340002,TeamReadyRoom.ui,팀원수 및 레벨에 맞는 매칭룸이 존재하지 않습니다. 잠시후 다시 시도해 주십시요.,"The rooms doesn't exist, Please try again. "
+350001,AchieveProcess.ui,업적,Achievement
+350002,AchieveProcess.ui,보상 : 포인트  +%s,Bonus : Point  +%s
+350003,AchieveProcess.ui,보상 : 아이템  %s,Bonus : Item  %s
+350004,AchieveProcess.ui,보상 : 경험치  +%s,Bonus : EXP  +%s
+350005,AchieveProcess.ui,업적리스트,Achievement List
+350006,AchieveProcess.ui,업적 정렬,Sort
+350007,AchieveProcess.ui,전체 업적,All achievement
+350008,AchieveProcess.ui,완료된 업적,Achive
+350009,AchieveProcess.ui,일일업적,Daily Achievement
+360001,ScoutTestProcess.ui,입단 테스트,Tryout
+360002,ScoutTestProcess.ui,승급 테스트,Promotion Test
+360003,ScoutTestProcess.ui,%s 님의 튜토리얼 완료를 축하드립니다. 이제 자신에게 맞는 포지션을 선택해야 할 차례입니다. 포지션 결정 경기를 진행 한 후 %s 님에게 맞는 포지션을 추천해 드릴께요. 그리고 경기 후 신발 등 아이템도 지급할 예정입니다.,"%s, Congratulate you to complete the Tutorial. Now, it is the time to select the position which you want to be. %s, I would like to suggest you the best position based on the result of the tutorial result. After match, the reward will be given."
+360004,ScoutTestProcess.ui,1차 전직을 %s 포지션으로 하셨네요. 이번엔 리그승격을 위한 경기를 진행 합니다. 이 경기 이후 초보리그에 접속이 가능합니다. 또한 경기가 끝난 후에 제가 몇가지 스킬과 아이템을 지급 할 예정입니다. 경기 이후에 꼭 확인해 보세요.,"%s is chosen. You will play the matches for the channel promotion. From now on, you can enter the Newbie Channel. After each match, the skill or item will be rewarded. Please check your inventory after match."
+360005,ScoutTestProcess.ui,리그 승격 경기가 끝났습니다. 이제부터는 다른 선수들과 경쟁을 하는 초보리그 입장이 가능 합니다.,Channel Promotion match has completed. Now you can enter the Newbie Channel which can play with other players.

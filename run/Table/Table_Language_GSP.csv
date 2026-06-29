@@ -1,4 +1,4 @@
-Code,UiFile,Default_Eng
+Code,UiFile,English
 10001,Font,Arial
 10002,Size,14
 20001,Login.ui,LOGIN
@@ -8,10 +8,10 @@ Code,UiFile,Default_Eng
 30002,ChoiceTrio.ui,Quit
 30003,ChoiceTrio.ui,The latest deleted
 30004,ChoiceTrio.ui,The latest connected
-30005,ChoiceTrio.ui,Coins
+30005,ChoiceTrio.ui,Credits
 30006,ChoiceTrio.ui,Points
 30007,ChoiceTrio.ui,Credits
-30008,ChoiceTrio.ui,"Are you sure want to delete character? \ Please, Input the password."
+30008,ChoiceTrio.ui,"Are you sure want to delete character? \ Please, Enter the password."
 40001,Choice.ui,Invite
 40002,Choice.ui,Message
 40003,Choice.ui,Position
@@ -23,11 +23,12 @@ Code,UiFile,Default_Eng
 50003,ChoiceClass.ui,EXP
 50004,ChoiceClass.ui,"¡º%s¡», How was the match?\You are doing well!! Let's select position. It's to decide the position and characteristic.\This is the analysis for your past match."
 50005,ChoiceClass.ui,"¡º%s¡», What a nice shot!\Do you like FW position? It's the position to make the goal. Isn't nice?"
-50006,ChoiceClass.ui,"¡º%s¡», What a nice pass!\Do you lke MF position? This position involved in both Striker & Defender positions."
+50006,ChoiceClass.ui,"¡º%s¡», What a nice pass!\Do you like MF position? This position involved in both Striker & Defender positions."
 50007,ChoiceClass.ui,"¡º%s¡», What a nice defense!\Do you like DF position? It's the position not to lose the goal. Isn't great?"
 50008,ChoiceClass.ui,Shooting
-50009,ChoiceClass.ui,Ball clear
+50009,ChoiceClass.ui,Ball Clear
 50010,ChoiceClass.ui,2nd position growth
+50011,ChoiceClass.ui,1st position growth
 60001,ChoiceReplay.ui,Replay
 60002,ChoiceReplay.ui,Position
 60003,ChoiceReplay.ui,Name
@@ -53,6 +54,20 @@ Code,UiFile,Default_Eng
 70017,ChoiceRoom.ui,Lucky Ball
 70018,ChoiceRoom.ui,System
 70019,ChoiceRoom.ui,Skill Inventory
+70020,ChoiceRoom.ui,This is single match with AI players. You can practise with AI players.  The record is not apply the data in practise mode.
+70021,ChoiceRoom.ui,"This is single match with your AI card. Figure out  the characteristic of your AI card. Warning: If you want to have a single match, you have to equip a AI card in your card inventory!"
+70022,ChoiceRoom.ui,Not in service
+70023,ChoiceRoom.ui,"This is single match with the other player.  Figure out  the characteristic of your AI card. Warning: If you want to have a single match, we have to equip a AI card in your card inventory!"
+70024,ChoiceRoom.ui,This is single match with balanced AI. The balance of AI player will be set automatically.
+70025,ChoiceRoom.ui,"This is Multi match with other 5 players. If you need more player for having a match, AI player will be set  automatically"
+70026,ChoiceRoom.ui,Practise with AI
+70027,ChoiceRoom.ui,Practise with AI card
+70028,ChoiceRoom.ui,Single Quest
+70029,ChoiceRoom.ui,AI Card Match
+70030,ChoiceRoom.ui,1 vs 1
+70031,ChoiceRoom.ui,5 vs 5
+70032,ChoiceRoom.ui,Next
+70033,ChoiceRoom.ui,Delete
 80001,CreateCharacter.ui,Style
 80002,CreateCharacter.ui,Gender
 80003,CreateCharacter.ui,Name
@@ -81,10 +96,10 @@ Code,UiFile,Default_Eng
 80026,CreateCharacter.ui,Defense
 80027,CreateCharacter.ui,Ability
 80028,CreateCharacter.ui,The position to make the goals
-80029,CreateCharacter.ui,Possible to upgrade position at Lv 5
-80030,CreateCharacter.ui,Possible to upgrade position at Lv 20
-80031,CreateCharacter.ui,The position involved in both Striker & Defender positions
-80032,CreateCharacter.ui,The position not to lose the goals
+80029,CreateCharacter.ui,Possible to upgrade position at Lv. 5
+80030,CreateCharacter.ui,Possible to upgrade position at Lv. 20
+80031,CreateCharacter.ui,The position playes the role of both Striker & Defender at the same time
+80032,CreateCharacter.ui,The position playes a role to prevent the opposition from attacking
 80033,CreateCharacter.ui,The position for heading & high ball
 80034,CreateCharacter.ui,The position for dribbling & field goal
 80035,CreateCharacter.ui,The position for fast dribble & crossing
@@ -139,8 +154,8 @@ Code,UiFile,Default_Eng
 90010,CreateQuest.ui,Repetition :
 90011,CreateQuest.ui,Password
 90012,CreateQuest.ui,Order
-90013,CreateQuest.ui,Not yet
-90014,CreateQuest.ui,Done
+90013,CreateQuest.ui,Incompleted
+90014,CreateQuest.ui,Completed
 90015,CreateQuest.ui,Level
 90016,CreateQuest.ui,Player
 90017,CreateQuest.ui,Repetition
@@ -210,6 +225,9 @@ Code,UiFile,Default_Eng
 110002,GameLoading.ui,Observer 2
 110003,GameLoading.ui,Observer 3
 110004,GameLoading.ui,Observer 4
+110005,GameLoading.ui,Equality
+110006,GameLoading.ui,Dominance
+110007,GameLoading.ui,Recessiveness
 120001,GamePlay.ui,+ 100 Points
 120002,GamePlay.ui,Be sure to Win!
 120003,GamePlay.ui,Keep the victiory!
@@ -230,6 +248,11 @@ Code,UiFile,Default_Eng
 130013,GameResult.ui,Quest Description
 130014,GameResult.ui,Congratulations!\Achieve Lv.10\Move to the page for upgrading your character.
 130015,GameResult.ui,GameResult
+130016,GameResult.ui,Acquired Points and EXP
+130017,GameResult.ui,Acquired EXP
+130018,GameResult.ui,Acquired Points
+130019,GameResult.ui,Reward List
+130020,GameResult.ui,Mission
 140001,GameResult_open.ui,Game Result
 150001,ItemBag.ui,Brand
 150002,ItemBag.ui,Hit
@@ -287,6 +310,7 @@ Code,UiFile,Default_Eng
 150054,ItemBag.ui,Position
 150055,ItemBag.ui,Resell
 150056,ItemBag.ui,Enchant Item Slot
+150057,ItemBag.ui,Repair
 160001,ItemDialog.ui,Buy Item
 160002,ItemDialog.ui,P
 160003,ItemDialog.ui,C
@@ -324,7 +348,10 @@ Code,UiFile,Default_Eng
 170019,ItemShop.ui,Permanent
 170020,ItemShop.ui,Functionality
 170021,ItemShop.ui,Expendability
+170022,ItemShop.ui,Refresh %d New items 
+170023,ItemShop.ui,New items
 180001,MessageBox.ui,Message
+180002,MessageBox.ui,"Please, set the key"
 190001,Option.ui,Game Option
 190002,Option.ui,Camera
 190003,Option.ui,Zoom
@@ -419,7 +446,7 @@ Code,UiFile,Default_Eng
 210002,PlayerInformation.ui,Total
 210003,PlayerInformation.ui,Monthly
 210004,PlayerInformation.ui,Matches
-210005,PlayerInformation.ui,N of Times
+210005,PlayerInformation.ui,No. of Times
 210006,PlayerInformation.ui,Ranking
 210007,PlayerInformation.ui,My trophies
 210008,PlayerInformation.ui,Play Info.
@@ -456,7 +483,7 @@ Code,UiFile,Default_Eng
 210039,PlayerInformation.ui,Vice captain
 210040,PlayerInformation.ui,Club Point
 210041,PlayerInformation.ui,Avg. Vote
-210042,PlayerInformation.ui,Rnaking
+210042,PlayerInformation.ui,Ranking
 210043,PlayerInformation.ui,Match(es)
 210044,PlayerInformation.ui,Playing Time
 210045,PlayerInformation.ui,Club
@@ -578,9 +605,26 @@ Code,UiFile,Default_Eng
 310002,InvenDialog.ui,Entry 2
 310003,InvenDialog.ui,Entry 3
 320001,CardDialog.ui,Card purchasing result
+320002,CardDialog.ui,Card mix result
 330001,ReadyRoom.ui,Auto
 330002,ReadyRoom.ui,Dawn
 330003,ReadyRoom.ui,Daylight
 330004,ReadyRoom.ui,Sunset
 330005,ReadyRoom.ui,Night
 330006,ReadyRoom.ui,Random
+340001,TeamReadyRoom.ui,Searching¡¦ ..Matching initialization after %d sec.
+340002,TeamReadyRoom.ui,"The rooms doesn't exist, Please try again. "
+350001,AchieveProcess.ui,Achievement
+350002,AchieveProcess.ui,Bonus : Point  +%s
+350003,AchieveProcess.ui,Bonus : Item  %s
+350004,AchieveProcess.ui,Bonus : EXP  +%s
+350005,AchieveProcess.ui,Achievement List
+350006,AchieveProcess.ui,Sort
+350007,AchieveProcess.ui,All achievement
+350008,AchieveProcess.ui,Achive
+350009,AchieveProcess.ui,Daily Achievement
+360001,AchieveProcess.ui,Tryout
+360002,AchieveProcess.ui,Promotion Test
+360003,AchieveProcess.ui,"%s, Congratulate you to complete the Tutorial. Now, it is the time to select the position which you want to be. %s, I would like to suggest you the best position based on the result of the tutorial result. After match, the reward will be given."
+360004,AchieveProcess.ui,"%s is chosen. You will play the matches for the channel promotion. From now on, you can enter the Newbie Channel. After each match, the skill or item will be rewarded. Please check your inventory after match."
+360005,AchieveProcess.ui,Channel Promotion match has completed. Now you can enter the Newbie Channel which can play with other players.

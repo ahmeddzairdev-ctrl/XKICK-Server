@@ -49,26 +49,26 @@ Index,Code,Type,Limit,Value,Discount,Sell,Cash,Point,Name,LearnText,IconFile,Exp
 47,1408,14,40,8,100,2,3200,16000,Jump Training 8,Jump,Training_Elasticity,Jump Training 8
 48,1409,14,45,9,100,2,3600,18000,Jump Training 9,Jump,Training_Elasticity,Jump Training 9
 49,1410,14,50,10,100,2,4000,20000,Jump Training 10,Jump,Training_Elasticity,Jump Training 10
-50,1501,15,5,1,100,2,400,2000,Bodycheck Training 1,Bodycheck,Training_Bodycheck,Bodycheck Training 1
-51,1502,15,10,2,100,2,800,4000,Bodycheck Training 2,Bodycheck,Training_Bodycheck,Bodycheck Training 2
-52,1503,15,15,3,100,2,1200,6000,Bodycheck Training 3,Bodycheck,Training_Bodycheck,Bodycheck Training 3
-53,1504,15,20,4,100,2,1600,8000,Bodycheck Training 4,Bodycheck,Training_Bodycheck,Bodycheck Training 4
-54,1505,15,25,5,100,2,2000,10000,Bodycheck Training 5,Bodycheck,Training_Bodycheck,Bodycheck Training 5
-55,1506,15,30,6,100,2,2400,12000,Bodycheck Training 6,Bodycheck,Training_Bodycheck,Bodycheck Training 6
-56,1507,15,35,7,100,2,2800,14000,Bodycheck Training 7,Bodycheck,Training_Bodycheck,Bodycheck Training 7
-57,1508,15,40,8,100,2,3200,16000,Bodycheck Training 8,Bodycheck,Training_Bodycheck,Bodycheck Training 8
-58,1509,15,45,9,100,2,3600,18000,Bodycheck Training 9,Bodycheck,Training_Bodycheck,Bodycheck Training 9
-59,1510,15,50,10,100,2,4000,20000,Bodycheck Training 10,Bodycheck,Training_Bodycheck,Bodycheck Training 10
-60,1601,16,5,1,100,2,400,2000,Cross Training 1,Cross,Training_Cross,Cross Training 1
-61,1602,16,10,2,100,2,800,4000,Cross Training 2,Cross,Training_Cross,Cross Training 2
-62,1603,16,15,3,100,2,1200,6000,Cross Training 3,Cross,Training_Cross,Cross Training 3
-63,1604,16,20,4,100,2,1600,8000,Cross Training 4,Cross,Training_Cross,Cross Training 4
-64,1605,16,25,5,100,2,2000,10000,Cross Training 5,Cross,Training_Cross,Cross Training 5
-65,1606,16,30,6,100,2,2400,12000,Cross Training 6,Cross,Training_Cross,Cross Training 6
-66,1607,16,35,7,100,2,2800,14000,Cross Training 7,Cross,Training_Cross,Cross Training 7
-67,1608,16,40,8,100,2,3200,16000,Cross Training 8,Cross,Training_Cross,Cross Training 8
-68,1609,16,45,9,100,2,3600,18000,Cross Training 9,Cross,Training_Cross,Cross Training 9
-69,1610,16,50,10,100,2,4000,20000,Cross Training 10,Cross,Training_Cross,Cross Training 10
+50,1501,15,5,1,100,2,400,2000,Struggling Training 1,Struggling,Training_Bodycheck,Struggling Training 1
+51,1502,15,10,2,100,2,800,4000,Struggling Training 2,Struggling,Training_Bodycheck,Struggling Training 2
+52,1503,15,15,3,100,2,1200,6000,Struggling Training 3,Struggling,Training_Bodycheck,Struggling Training 3
+53,1504,15,20,4,100,2,1600,8000,Struggling Training 4,Struggling,Training_Bodycheck,Struggling Training 4
+54,1505,15,25,5,100,2,2000,10000,Struggling Training 5,Struggling,Training_Bodycheck,Struggling Training 5
+55,1506,15,30,6,100,2,2400,12000,Struggling Training 6,Struggling,Training_Bodycheck,Struggling Training 6
+56,1507,15,35,7,100,2,2800,14000,Struggling Training 7,Struggling,Training_Bodycheck,Struggling Training 7
+57,1508,15,40,8,100,2,3200,16000,Struggling Training 8,Struggling,Training_Bodycheck,Struggling Training 8
+58,1509,15,45,9,100,2,3600,18000,Struggling Training 9,Struggling,Training_Bodycheck,Struggling Training 9
+59,1510,15,50,10,100,2,4000,20000,Struggling Training 10,Struggling,Training_Bodycheck,Struggling Training 10
+60,1601,16,5,1,100,2,400,2000,Crossing Training 1,Crossing,Training_Cross,Crossing Training 1
+61,1602,16,10,2,100,2,800,4000,Crossing Training 2,Crossing,Training_Cross,Crossing Training 2
+62,1603,16,15,3,100,2,1200,6000,Crossing Training 3,Crossing,Training_Cross,Crossing Training 3
+63,1604,16,20,4,100,2,1600,8000,Crossing Training 4,Crossing,Training_Cross,Crossing Training 4
+64,1605,16,25,5,100,2,2000,10000,Crossing Training 5,Crossing,Training_Cross,Crossing Training 5
+65,1606,16,30,6,100,2,2400,12000,Crossing Training 6,Crossing,Training_Cross,Crossing Training 6
+66,1607,16,35,7,100,2,2800,14000,Crossing Training 7,Crossing,Training_Cross,Crossing Training 7
+67,1608,16,40,8,100,2,3200,16000,Crossing Training 8,Crossing,Training_Cross,Crossing Training 8
+68,1609,16,45,9,100,2,3600,18000,Crossing Training 9,Crossing,Training_Cross,Crossing Training 9
+69,1610,16,50,10,100,2,4000,20000,Crossing Training 10,Crossing,Training_Cross,Crossing Training 10
 70,1701,17,5,1,100,2,400,2000,Short pass Training 1,Short Pass,Training_Shortpass,Short pass Training 1
 71,1702,17,10,2,100,2,800,4000,Short pass Training 2,Short Pass,Training_Shortpass,Short pass Training 2
 72,1703,17,15,3,100,2,1200,6000,Short pass Training 3,Short Pass,Training_Shortpass,Short pass Training 3
@@ -119,33 +119,33 @@ Index,Code,Type,Limit,Value,Discount,Sell,Cash,Point,Name,LearnText,IconFile,Exp
 117,2108,21,40,8,100,2,3200,16000,Long shots Training 8,Long Shots,Training_Longshoot,Long shots Training 8
 118,2109,21,45,9,100,2,3600,18000,Long shots Training 9,Long Shots,Training_Longshoot,Long shots Training 9
 119,2110,21,50,10,100,2,4000,20000,Long shots Training 10,Long Shots,Training_Longshoot,Long shots Training 10
-120,2201,22,5,1,100,2,400,2000,Ball control Training 1,Ball Ctrl,Training_Keeping,Ball control Training 1
-121,2202,22,10,2,100,2,800,4000,Ball control Training 2,Ball Ctrl,Training_Keeping,Ball control Training 2
-122,2203,22,15,3,100,2,1200,6000,Ball control Training 3,Ball Ctrl,Training_Keeping,Ball control Training 3
-123,2204,22,20,4,100,2,1600,8000,Ball control Training 4,Ball Ctrl,Training_Keeping,Ball control Training 4
-124,2205,22,25,5,100,2,2000,10000,Ball control Training 5,Ball Ctrl,Training_Keeping,Ball control Training 5
-125,2206,22,30,6,100,2,2400,12000,Ball control Training 6,Ball Ctrl,Training_Keeping,Ball control Training 6
-126,2207,22,35,7,100,2,2800,14000,Ball control Training 7,Ball Ctrl,Training_Keeping,Ball control Training 7
-127,2208,22,40,8,100,2,3200,16000,Ball control Training 8,Ball Ctrl,Training_Keeping,Ball control Training 8
-128,2209,22,45,9,100,2,3600,18000,Ball control Training 9,Ball Ctrl,Training_Keeping,Ball control Training 9
-129,2210,22,50,10,100,2,4000,20000,Ball control Training 10,Ball Ctrl,Training_Keeping,Ball control Training 10
-130,2301,23,5,1,100,2,400,2000,Steal Training 1,Steal,Training_Steal,Steal Training 1
-131,2302,23,10,2,100,2,800,4000,Steal Training 2,Steal,Training_Steal,Steal Training 2
-132,2303,23,15,3,100,2,1200,6000,Steal Training 3,Steal,Training_Steal,Steal Training 3
-133,2304,23,20,4,100,2,1600,8000,Steal Training 4,Steal,Training_Steal,Steal Training 4
-134,2305,23,25,5,100,2,2000,10000,Steal Training 5,Steal,Training_Steal,Steal Training 5
-135,2306,23,30,6,100,2,2400,12000,Steal Training 6,Steal,Training_Steal,Steal Training 6
-136,2307,23,35,7,100,2,2800,14000,Steal Training 7,Steal,Training_Steal,Steal Training 7
-137,2308,23,40,8,100,2,3200,16000,Steal Training 8,Steal,Training_Steal,Steal Training 8
-138,2309,23,45,9,100,2,3600,18000,Steal Training 9,Steal,Training_Steal,Steal Training 9
-139,2310,23,50,10,100,2,4000,20000,Steal Training 10,Steal,Training_Steal,Steal Training 10
-140,2401,24,5,1,100,2,400,2000,Tackle Training 1,Tackle,Training_Tackle,Tackle Training 1
-141,2402,24,10,2,100,2,800,4000,Tackle Training 2,Tackle,Training_Tackle,Tackle Training 2
-142,2403,24,15,3,100,2,1200,6000,Tackle Training 3,Tackle,Training_Tackle,Tackle Training 3
-143,2404,24,20,4,100,2,1600,8000,Tackle Training 4,Tackle,Training_Tackle,Tackle Training 4
-144,2405,24,25,5,100,2,2000,10000,Tackle Training 5,Tackle,Training_Tackle,Tackle Training 5
-145,2406,24,30,6,100,2,2400,12000,Tackle Training 6,Tackle,Training_Tackle,Tackle Training 6
-146,2407,24,35,7,100,2,2800,14000,Tackle Training 7,Tackle,Training_Tackle,Tackle Training 7
-147,2408,24,40,8,100,2,3200,16000,Tackle Training 8,Tackle,Training_Tackle,Tackle Training 8
-148,2409,24,45,9,100,2,3600,18000,Tackle Training 9,Tackle,Training_Tackle,Tackle Training 9
-149,2410,24,50,10,100,2,4000,20000,Tackle Training 10,Tackle,Training_Tackle,Tackle Training 10
+120,2201,22,5,1,100,2,400,2000,Ball control Training 1,Ball Ctrl.,Training_Keeping,Ball control Training 1
+121,2202,22,10,2,100,2,800,4000,Ball control Training 2,Ball Ctrl.,Training_Keeping,Ball control Training 2
+122,2203,22,15,3,100,2,1200,6000,Ball control Training 3,Ball Ctrl.,Training_Keeping,Ball control Training 3
+123,2204,22,20,4,100,2,1600,8000,Ball control Training 4,Ball Ctrl.,Training_Keeping,Ball control Training 4
+124,2205,22,25,5,100,2,2000,10000,Ball control Training 5,Ball Ctrl.,Training_Keeping,Ball control Training 5
+125,2206,22,30,6,100,2,2400,12000,Ball control Training 6,Ball Ctrl.,Training_Keeping,Ball control Training 6
+126,2207,22,35,7,100,2,2800,14000,Ball control Training 7,Ball Ctrl.,Training_Keeping,Ball control Training 7
+127,2208,22,40,8,100,2,3200,16000,Ball control Training 8,Ball Ctrl.,Training_Keeping,Ball control Training 8
+128,2209,22,45,9,100,2,3600,18000,Ball control Training 9,Ball Ctrl.,Training_Keeping,Ball control Training 9
+129,2210,22,50,10,100,2,4000,20000,Ball control Training 10,Ball Ctrl.,Training_Keeping,Ball control Training 10
+130,2301,23,5,1,100,2,400,2000,Stealing Training 1,Stealing,Training_Steal,Stealing Training 1
+131,2302,23,10,2,100,2,800,4000,Stealing Training 2,Stealing,Training_Steal,Stealing Training 2
+132,2303,23,15,3,100,2,1200,6000,Stealing Training 3,Stealing,Training_Steal,Stealing Training 3
+133,2304,23,20,4,100,2,1600,8000,Stealing Training 4,Stealing,Training_Steal,Stealing Training 4
+134,2305,23,25,5,100,2,2000,10000,Stealing Training 5,Stealing,Training_Steal,Stealing Training 5
+135,2306,23,30,6,100,2,2400,12000,Stealing Training 6,Stealing,Training_Steal,Stealing Training 6
+136,2307,23,35,7,100,2,2800,14000,Stealing Training 7,Stealing,Training_Steal,Stealing Training 7
+137,2308,23,40,8,100,2,3200,16000,Stealing Training 8,Stealing,Training_Steal,Stealing Training 8
+138,2309,23,45,9,100,2,3600,18000,Stealing Training 9,Stealing,Training_Steal,Stealing Training 9
+139,2310,23,50,10,100,2,4000,20000,Stealing Training 10,Stealing,Training_Steal,Stealing Training 10
+140,2401,24,5,1,100,2,400,2000,Tackling Training 1,Tackling,Training_Tackle,Tackling Training 1
+141,2402,24,10,2,100,2,800,4000,Tackling Training 2,Tackling,Training_Tackle,Tackling Training 2
+142,2403,24,15,3,100,2,1200,6000,Tackling Training 3,Tackling,Training_Tackle,Tackling Training 3
+143,2404,24,20,4,100,2,1600,8000,Tackling Training 4,Tackling,Training_Tackle,Tackling Training 4
+144,2405,24,25,5,100,2,2000,10000,Tackling Training 5,Tackling,Training_Tackle,Tackling Training 5
+145,2406,24,30,6,100,2,2400,12000,Tackling Training 6,Tackling,Training_Tackle,Tackling Training 6
+146,2407,24,35,7,100,2,2800,14000,Tackling Training 7,Tackling,Training_Tackle,Tackling Training 7
+147,2408,24,40,8,100,2,3200,16000,Tackling Training 8,Tackling,Training_Tackle,Tackling Training 8
+148,2409,24,45,9,100,2,3600,18000,Tackling Training 9,Tackling,Training_Tackle,Tackling Training 9
+149,2410,24,50,10,100,2,4000,20000,Tackling Training 10,Tackling,Training_Tackle,Tackling Training 10
