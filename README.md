@@ -265,6 +265,11 @@ hands the client off to the game server.
 | Server binds random high ports (54xxx) | MySQL is down or `tb_game_server` is empty. Start MySQL and load the schema. |
 | Linker `LNK2038` *RuntimeLibrary mismatch* | Your objects and the vcpkg libs disagree on the CRT. The `x86-windows-static` triplet needs the static CRT — keep `CMAKE_MSVC_RUNTIME_LIBRARY` = `MultiThreaded…` (set in the root `CMakeLists.txt`) and reconfigure a clean build dir. |
 | Wrong Visual Studio version | Edit the `generator` field in `CMakePresets.json`. |
+| `Permission denied` running `./XKICK_Certify` or `./XKICK_Game` | Binaries extracted from an archive lack the execute bit. Fix: `chmod +x run/certify/XKICK_Certify run/game*/XKICK_Game` |
+| `ERROR 1698 (28000): Access denied for user 'root'@'localhost'` | MariaDB root is using `unix_socket` auth — only works with `sudo`, not with a plain TCP connection (which is what the server uses). Fix: `sudo mysql` then run `ALTER USER 'root'@'localhost' IDENTIFIED VIA mysql_native_password USING PASSWORD(''); FLUSH PRIVILEGES;` |
+| `SHOW TABLES` returns empty after importing `.sql` files | The `CREATE DATABASE` step was skipped or failed silently due to auth errors. Fix: ensure auth is working first, then run `CREATE DATABASE kicks2; CREATE DATABASE kicks2_log;` before re-importing. |
+| INSERT errors on AUTO_INCREMENT columns (strict mode) | MariaDB strict mode rejects `''` for integer AUTO_INCREMENT columns. Fix: in `src/certify/src/sql.cpp` and `src/game/src/sql.cpp`, replace every `''` used as an AUTO_INCREMENT placeholder with `NULL`. |
+| Clients can't reach the game server despite it running | `tb_game_server` still has `127.0.0.1` as the advertised IP. Fix: `mysql -u root kicks2 -e "UPDATE tb_game_server SET server_ip = '<your-LAN-IP>';"` — use the actual LAN IP of the machine running the server (e.g. `192.168.x.x`), not loopback. |
 
 ---
 
